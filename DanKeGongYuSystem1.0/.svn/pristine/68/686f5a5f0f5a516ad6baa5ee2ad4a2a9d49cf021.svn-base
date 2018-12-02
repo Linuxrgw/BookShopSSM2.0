@@ -1,0 +1,19 @@
+/**  
+* <p>Title: UserDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+/**  
+ * @Title: UserDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:44
+ */
+public class UserDao {
+
+}

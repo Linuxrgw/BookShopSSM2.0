@@ -1,0 +1,43 @@
+/**  
+* <p>Title: UserDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+/**  
+ * @Title: UserDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:44
+ */
+public class UserDao extends BaseDao{
+
+	/**
+	 * 修改资料
+	 * @throws Exception 
+	 */
+	public boolean updateInfo(String username,String phone,String sex) throws Exception {
+		// 1.打开连接
+		openConnection();
+		//2.创建预编译对象
+		String sql ="update user set username = ?,sex = ? where phone = ?";
+		PreparedStatement pst = conn.prepareStatement(sql);
+		pst.setString(1, username);
+		pst.setString(2, sex);
+		pst.setString(3, phone);
+		int count = pst.executeUpdate(); // 运行
+		boolean flag = false;
+		if (count>0){
+			flag = true;
+		}
+		return flag;
+	}
+
+}

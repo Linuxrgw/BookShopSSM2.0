@@ -1,0 +1,51 @@
+html{height:100%}
+body{position:relative;min-height:100%;padding-bottom:116px;background:#f5f6ef}
+.copy-right{position:absolute;bottom:0;left:0;width:100%}
+button,input[type=button]{border:none}
+.floatingLayer,.footer,.right-fixed{display:none!important}
+.w1035{width:1035px;margin:0 auto}
+:after,:before{background-image:url(../img/public-20180120-FqPLZ050lNV8ehOfZsbfjYZCW705.png)/*tpa=https://public.wutongwan.org/public-20180120-FqPLZ050lNV8ehOfZsbfjYZCW705*/;background-position:-10000px -10000px;background-repeat:no-repeat}
+.layer-code{width:300px;padding:0 20px;background:#fff;text-align:center;border-radius:8px}
+.layer-code .pop-tit{padding-top:25px;font-size:15px;text-align:center}
+.layer-code .pop-cont{padding-top:20px;text-align:center}
+.layer-code .pop-cont .img-code{display:inline-block;width:200px;height:70px;background:#f8f8f8}
+.layer-code .pop-cont .img-code img{width:200px}
+.layer-code .ipt-img-code{width:190px;height:40px;padding:10px 15px;margin-top:15px;font-size:14px;line-height:20px;border:1px solid #e8e8e8;color:#666;text-align:center}
+.layer-code .pop-btn{padding-bottom:20px;margin-top:10px}
+.layer-code .pop-btn .onlyOne{display:block;width:100%;height:50px;font-size:16px;line-height:50px;text-align:center;color:#fff;border-radius:4px;background:#20b2aa}
+.layer-code .pop-btn .button[disabled]{opacity:.6}
+.layer-code .img-err{width:190px;height:25px;margin:0 auto;font-size:0;line-height:25px;color:#fa998a}
+.layer-code.notpass .img-err{font-size:12px}
+.layer-pay-plan{width:600px;padding:60px 0 90px;overflow:hidden}
+.layer-pay-plan .close{display:block;position:absolute;right:10px;top:10px;width:30px;height:30px;background:url(public-20180205-FmSuZn83XDqV1AfZjIwvSrtSCOHe.png)/*tpa=https://public.wutongwan.org/public-20180205-FmSuZn83XDqV1AfZjIwvSrtSCOHe*/ no-repeat center;opacity:.5}
+.layer-pay-plan .close:hover{opacity:1}
+.layer-pay-plan .tit{padding:0 40px 20px}
+.layer-pay-plan .ctt-code{font-size:16px}
+.layer-pay-plan .ctt-ads{margin-top:10px;font-size:20px}
+.layer-pay-plan .scroll{padding:0 40px;height:100%}
+.layer-pay-plan ul{padding:20px 0;border-top:1px solid #e2e2e2}
+.layer-pay-plan ul li{line-height:24px;font-size:16px}
+.login-wrap{background:#f5f6ef}
+.login-banner{height:560px;background:url(../img/public-20180212-FjCiZFw85zK6oa0F423KTTADWiqo.png)/*tpa=https://public.wutongwan.org/public-20180212-FjCiZFw85zK6oa0F423KTTADWiqo*/ no-repeat 20px 50px}
+.login-form{float:right;width:400px;padding:0 25px 25px;margin-top:70px;border-radius:4px;background:#fff}
+.login-name{position:relative;margin-top:30px;text-align:center}
+.login-name:after{content:"";position:absolute;top:50%;left:10%;width:80%;height:2px;margin-top:-1px;background:#e6e6e6}
+.login-name span{position:relative;z-index:2;display:inline-block;padding:0 28px;font-size:24px;color:#51c3cc;background:#fff}
+.login-ipt{position:relative;width:100%;height:40px;padding-top:4px;margin-top:20px;font-size:0;border:1px solid #cdcdcd;border-radius:4px;overflow:hidden}
+.login-ipt input{height:30px;padding-left:35px;font-size:16px;line-height:28px;border:none;background:0 0}
+.login-ipt input[type=button]{padding-left:0}
+.login-ipt .ipt-phone{width:100%}
+.login-ipt .ipt-code{width:228px}
+.login-ipt .code-btn{width:116px;text-align:center;color:#3dbcc6}
+.login-ipt .code-btn[disabled]{color:#ccc;cursor:no-drop}
+.login-ipt .code-img{display:inline-block;width:116px;text-align:center;vertical-align:top;cursor:pointer}
+.login-ipt.code-line:after{content:"";position:absolute;right:116px;top:50%;height:20px;width:1px;margin-top:-10px;background:#ccc}
+.login-ipt.type-img-code{display:none}
+.login-ipt.type-code:before,.login-ipt.type-img-code:before,.login-ipt.type-phone:before{content:'';position:absolute;left:7px;top:50%;width:26px;height:26px;margin-top:-13px;background-position:-28px 4px}
+.login-ipt.type-code:before,.login-ipt.type-img-code:before{background-position:4px 4px}
+.ipt-err{position:relative;height:20px;padding-left:30px;margin-top:10px;font-size:0;color:#fa998a}.notpass .error{border-color:#f76953}.notpass .ipt-err{font-size:14px}.notpass .ipt-err:after{content:"";position:absolute;left:10px;top:50%;width:14px;height:14px;margin-top:-7px;background-position:-68px 0}.login-clause{position:relative;margin-top:12px;font-size:14px;text-align:center;color:#999}.login-clause label{display:inline-block;line-height:20px}.login-clause label input{width:14px;height:14px;vertical-align:top;margin-top:3px}.login-clause a{color:#999}.login-clause a:hover{text-decoration:underline}.clause-err{position:relative;position:absolute;left:44px;bottom:100%;display:none;padding:0 10px;margin-bottom:8px;font-size:12px;line-height:24px;border-radius:4px;color:#fff;background:#000}
+.clause-err:after{content:"";position:absolute;top:100%;left:50%;margin-left:-4px;border:4px solid transparent;border-top:4px solid #000}
+.login-btn{margin-top:20px}
+.login-btn input{display:block;width:350px;height:50px;font-size:18px;line-height:50px;text-align:center;border-radius:4px;color:#fff;background:#3dbcc6;transition:.1s linear;-webkit-transition:.1s linear}
+.login-btn input:hover{background:#68dadd;transition:.1s linear;-webkit-transition:.1s linear}
+.login-btn input:active{background:#36a8b1;transition:.1s linear;-webkit-transition:.1s linear}

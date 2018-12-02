@@ -1,0 +1,58 @@
+package com.icss.dkgy.servlet.front;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.icss.dkgy.biz.RoomBiz;
+import com.icss.dkgy.entity.RoomEntity;
+
+/**
+ * Servlet implementation class SearchTextSvl
+ * 根据搜索框内容查询房源信息
+ */
+public class SearchTextSvl extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public SearchTextSvl() {
+        super();
+        
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String text = request.getParameter("text");
+		System.out.println("输出文本框信息");
+		System.out.println(text);
+		RoomBiz biz = new RoomBiz();
+		ArrayList<RoomEntity> rooms = biz.searchText(text);
+		request.setAttribute("rooms", rooms);
+		System.out.println("room"+rooms);
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+	}
+
+
+	/**  
+	 * @Title: String
+	 * @Description:
+	 * @author 任广伟
+	 * @param text
+	 * @return  
+	 * @date 2018年10月30日下午3:26:26
+	 */
+	private Object String(String text) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

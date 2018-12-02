@@ -1,0 +1,85 @@
+/**  
+* <p>Title: RoomDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+import java.security.Timestamp;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.icss.dkgy.entity.RoomEntity;
+import com.mysql.jdbc.PreparedStatement;
+
+/**  
+ * @Title: RoomDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:16
+ */
+public class RoomDao extends BaseDao{
+
+	/**  
+	 * @Title: searchText
+	 * @Description:
+	 * @author 任广伟
+	 * @param text
+	 * @return  
+	 * @date 2018年10月30日下午4:52:43
+	 */
+	public ArrayList<RoomEntity> searchText(String text)throws Exception {
+				//1打开连接
+				openConnection();
+				//2创建预编译对象
+				String sql = "select *from room where comment like ?";
+				
+				PreparedStatement pst = (PreparedStatement) conn.prepareStatement(sql);
+				pst.setString(1,"%"+text+"%");
+				
+				//3执行操作，并拿到结果集conn.prepareStatement(sql);
+				ResultSet rs = pst.executeQuery();
+				//4处理结果集
+				ArrayList<RoomEntity> rooms = new ArrayList<RoomEntity>();//创建集合对象，用来存储图书信息
+				RoomEntity room = null;
+				while (rs.next()) {
+					room =new RoomEntity();
+					room.setRoomnum(rs.getInt("roomnum"));
+					room.setAdress(rs.getString("address"));
+					room.setPrice(rs.getDouble("price"));
+					room.setArea(rs.getDouble("area"));
+					room.setTypeid(rs.getInt("typeid"));
+					room.setPaymethod(rs.getString("paymethod"));
+					room.setStatus(rs.getString("status"));
+					room.setSubway(rs.getString("subway"));
+					room.setImgpath(rs.getString("imgpath"));
+					room.setOwnerid(rs.getString("ownerid"));
+					//room.setRentdate(rs.getTimestamp("rentdate"));
+					room.setComment(rs.getString("comment"));
+					rooms.add(room);
+					 //不能将数据添加进去
+					for (RoomEntity roomEntity : rooms) {
+						System.out.println("1"+roomEntity);
+					}
+					
+				}
+				return rooms;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

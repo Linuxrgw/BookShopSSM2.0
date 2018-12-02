@@ -1,0 +1,2218 @@
+.intro {
+	line-height: 50px;
+	overflow: hidden
+}
+
+.container {
+	padding: 0;
+	color: #999
+}
+
+.container a {
+	color: #333
+}
+
+.zf_c_box {
+	display: block;
+	position: relative;
+	z-index: 1
+}
+
+.zf_ban_t {
+	height: 40px;
+	border-bottom: 1px solid #e6e6e6;
+	background: #f5f5f5
+}
+
+.zf_c_box .zf_ban_ta {
+	background: #fff;
+	line-height: 49px;
+	font-size: 14px;
+	color: #333;
+	position: absolute;
+	font-weight: 700;
+	width: 110px;
+	text-align: center;
+	top: -1px;
+	left: 0;
+	border-top: 3px solid #f60
+}
+
+.zf_map_ta {
+	float: left;
+	border-right: 1px solid #e6e6e6;
+	width: 110px;
+	line-height: 40px
+}
+
+.zf_map_ta.on {
+	float: left;
+	position: relative
+}
+
+.zf_map_ta.on em {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	background: #3dbcc6;
+	color: #fff;
+	font-size: 14px
+}
+
+.zf_map_ta.on a {
+	background: 0 0;
+	text-indent: 0;
+	text-align: center
+}
+
+.zf_map_ta.on.active {
+	border-top: 3px solid #3dbcc6;
+	background: #fff;
+	line-height: 37px;
+	font-weight: 700
+}
+
+.zf_map_ta a {
+	display: block;
+	font-size: 14px;
+	color: #333;
+	text-indent: 34px;
+	background: url(public-20171225-FvR-UwFri9UZGMuxhyRcCA-wYRYo.png)
+		/*tpa=https://public.wutongwan.org/public-20171225-FvR-UwFri9UZGMuxhyRcCA-wYRYo*/
+		 no-repeat 18px center
+}
+
+.zf_sebox {
+	height: 136px;
+	background-color: #f0f0f0;
+	padding: 20px 0 0 10px;
+	margin-top: 20px
+}
+
+.sear_menu {
+	height: 60px;
+	width: 100%;
+	position: relative
+}
+
+.sear_input {
+	border: none;
+	height: 60px;
+	width: 879px;
+	text-indent: 12px;
+	font-size: 16px;
+	padding-left: 30px;
+	background-color: #fff;
+	border-radius: 5px 0 0 5px
+}
+
+.map_btn, .search_btn {
+	border: none;
+	background-color: #00a4ac;
+	height: 60px;
+	width: 130px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	line-height: 60px
+}
+
+.search_btn {
+	border-radius: 0 5px 5px 0
+}
+
+.map_btn {
+	padding: 17.5px 33px;
+	margin-left: 15px;
+	border-radius: 5px
+}
+
+.map_btn:hover, .search_btn:hover {
+	color: #fff;
+	background: #68dadd
+}
+
+.map_btn:active, .map_btn:hover, .map_btn:link, .map_btn:visited {
+	text-decoration: none;
+	color: #fff
+}
+
+.sear_menu strong {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	right: 300px;
+	top: 7px;
+	width: 50px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333;
+	line-height: 40px;
+	cursor: pointer
+}
+
+.sear_more {
+	float: left;
+	line-height: 36px;
+	padding-left: 40px;
+	color: #999;
+	font-size: 16px;
+	clear: both;
+	margin-top: 8px
+}
+
+.sear_more a {
+	color: #999;
+	padding-right: 8px
+}
+
+.sear_more a:hover {
+	color: #f30
+}
+
+.filter_options {
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	padding: 15px 0 15px;
+	margin: 0 auto;
+	position: relative
+}
+
+.dl_lst {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	padding-left: 20px
+}
+
+.dl_lst.last {
+	display: none
+}
+
+.dl_lst dt {
+	float: left;
+	width: 50px;
+	line-height: 24px;
+	padding-bottom: 12px;
+	font-size: 14px;
+	color: #666
+}
+
+.list {
+	padding-left: 70px
+}
+
+.differentbox {
+	border-bottom: #929193 1px solid
+}
+
+.option_list {
+	float: left;
+	line-height: 36px
+}
+
+.option_list a {
+	display: block;
+	line-height: 24px;
+	font-size: 14px;
+	height: 24px;
+	padding: 0 18px;
+	float: left;
+	color: #333
+}
+
+.option_list a:hover {
+	color: #3dbcc6
+}
+
+.option_list .onlist {
+	border-radius: 6px;
+	background: #3dbcc6;
+	color: #fff
+}
+
+.option_list .onlist:hover {
+	color: #fff
+}
+
+.sub_option_list {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: -18px;
+	background: #fff;
+	padding: 6px 12px;
+	border: 1px solid #ddd;
+	line-height: 20px;
+	float: left;
+	clear: both;
+	width: 920px;
+	border-radius: 3px;
+	margin-left: 90px;
+	display: none;
+	-webkit-box-shadow: 0 2px 3px #dfdedc;
+	-moz-box-shadow: 0 2px 3px #dfdedc;
+	box-shadow: 0 2px 3px #dfdedc
+}
+
+.filter_options .sub_option_list {
+	width: 1100px
+}
+
+.sub_option_list span {
+	color: #4bb4bb;
+	margin-right: 2px;
+	margin-left: 17px;
+	font-weight: 700
+}
+
+.sub_option_list a {
+	float: left;
+	line-height: 24px;
+	padding: 0 8px;
+	display: inline-block;
+	color: #333;
+	font-size: 14px
+}
+
+.sub_option_list a.on {
+	color: #3dbcc6
+}
+
+.sub_option_list a:hover {
+	color: #3dbcc6
+}
+
+.dlul a {
+	color: #333;
+	font-size: 14px;
+	display: inline-block;
+	padding: 0 12px 0 0;
+	line-height: 24px;
+	vertical-align: middle
+}
+
+.dlul a:hover {
+	color: #3dbcc6
+}
+
+.dlul a i {
+	background: url(public-20180606-FqGo5Tvjf1IIqFWjajTyo_7n-5It)
+		/*tpa=https://public.wutongwan.org/public-20180606-FqGo5Tvjf1IIqFWjajTyo_7n-5It*/
+		 no-repeat center;
+	background-size: 14px 14px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 5px 0 10px;
+	position: relative;
+	vertical-align: middle
+}
+
+.dlul a.check_on i {
+	background: url(public-20180606-Fszwp3kfDnwcI2YF2r5i24oVpmJP)
+		/*tpa=https://public.wutongwan.org/public-20180606-Fszwp3kfDnwcI2YF2r5i24oVpmJP*/
+		 no-repeat center;
+	background-size: 14px 14px
+}
+
+.sub_img {
+	width: 12px;
+	height: 15px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	background: url(public-20180606-FjCXdS_sIVXcuRUsnVikOdFOuFtY.png)
+		/*tpa=https://public.wutongwan.org/public-20180606-FjCXdS_sIVXcuRUsnVikOdFOuFtY*/
+		 no-repeat center;
+	background-size: 12px 15px
+}
+
+.address_img {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	background: url(public-20180606-FpE90M8tAZssVWnrnC37G30m9RSe.png)
+		/*tpa=https://public.wutongwan.org/public-20180606-FpE90M8tAZssVWnrnC37G30m9RSe*/
+		 no-repeat center;
+	background-size: 12px 12px
+}
+
+.roomlist {
+	margin-top: 20px;
+	padding: 50px 0 0;
+	margin-bottom: 20px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px
+}
+
+.roomlist .r_ls {
+	padding: 0 0 30px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	border: 1px solid #efefef;
+	top: 0;
+	left: 0;
+	padding: 0;
+	background-color: #f8f8f8
+}
+
+.r_ls a {
+	display: block;
+	width: 120px;
+	height: 48px;
+	border-right: 1px solid #efefef;
+	text-align: center;
+	font-size: 16px;
+	line-height: 48px;
+	color: #999;
+	position: relative;
+	float: left;
+	background-color: #f8f8f8;
+	padding-right: 10px
+}
+
+.r_ls a i {
+	background: url(arrow_hx-1.png)
+		/*tpa=https://s1.wutongwan.org/build/img/list/arrow_hx.png*/ 
+		no-repeat;
+	width: 15px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	top: 16px;
+	left: 90px
+}
+
+.r_ls a.ck_on {
+	border-left: 1px solid #efefef;
+	color: #4bb4bb;
+	background: #fff
+}
+
+.r_ls a.ck_on.ck_down i {
+	background: url(public-20180521-FhlQ3mh8BA5mpx_Xm55drl6oda3Y.png)
+		/*tpa=https://public.wutongwan.org/public-20180521-FhlQ3mh8BA5mpx_Xm55drl6oda3Y*/
+		 no-repeat center
+}
+
+.r_ls a.ck_on.ck_up i {
+	background: url(public-20180521-FjmBvLThWronmoX1FblYroOZNvTy.png)
+		/*tpa=https://public.wutongwan.org/public-20180521-FjmBvLThWronmoX1FblYroOZNvTy*/
+		 no-repeat center
+}
+
+.r_ls a.ck_up i {
+	background: url(public-20180521-FjmBvLThWronmoX1FblYroOZNvTy.png)
+		/*tpa=https://public.wutongwan.org/public-20180521-FjmBvLThWronmoX1FblYroOZNvTy*/
+		 no-repeat center
+}
+
+.r_ls a.ck_down i {
+	background: url(public-20180521-FhlQ3mh8BA5mpx_Xm55drl6oda3Y.png)
+		/*tpa=https://public.wutongwan.org/public-20180521-FhlQ3mh8BA5mpx_Xm55drl6oda3Y*/
+		 no-repeat center
+}
+
+.px {
+	position: absolute;
+	left: 723px;
+	top: 48px
+}
+
+.list-wrapper {
+	overflow: hidden;
+	position: relative
+}
+
+.r_ls_box {
+	float: left;
+	min-height: 660px
+}
+
+.r_lbx {
+	border-bottom: 1px solid #e6e6e6;
+	padding: 30px 0;
+	overflow: hidden;
+	width: 770px;
+	position: relative
+}
+
+.r_lbx a.rimg {
+	position: relative
+}
+
+.r_lbx a b {
+	position: absolute;
+	width: 83px;
+	height: 24px;
+	top: 5px;
+	left: 5px;
+	background: url(public-20170905-FiZyOUIUOhbNoOrLUp__2_xDlCRn)
+		/*tpa=https://public.wutongwan.org/public-20170905-FiZyOUIUOhbNoOrLUp__2_xDlCRn*/
+		 no-repeat 0 0
+}
+
+.r_lbx a.rimg {
+	float: left;
+	width: 260px;
+	margin-right: 32px;
+	height: 173px;
+	overflow: hidden;
+	display: inline-block
+}
+
+.r_lbx a.rimg img {
+	vertical-align: top;
+	max-width: 100%;
+	vertical-align: middle;
+	transition: transform .5s ease-out
+}
+
+.r_lbx a.rimg img:hover {
+	transform: translate3d(0, -5px, 0) scale(1.2)
+}
+
+.r_lbx_cen {
+	float: left;
+	margin-right: 10px
+}
+
+.r_lbx_cen a {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 28px;
+	color: #333;
+	vertical-align: middle;
+	height: 28px
+}
+
+.r_lbx_cen .r_lbx_cena a {
+	overflow: hidden;
+	max-width: 320px;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.r_lbx_cen a:hover {
+	text-decoration: underline;
+	color: #f30
+}
+
+.r_lbx_cen img {
+	display: block;
+	margin: 26px 0 0
+}
+
+.r_lbx_cena {
+	font-size: 12px;
+	color: #666
+}
+
+.r_lbx_cena .r_lbx_cena {
+	margin-top: 20px
+}
+
+.r_lbx_cena span {
+	color: #f30;
+	font-weight: 700;
+	margin: 0 0 0 20px
+}
+
+.r_lbx_cena .location {
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+	font-size: 12px;
+	width: 17px;
+	height: 22px;
+	background-image: url(public-20180523-Fm5iKtPPcef3z39yBP9yhjVv7jpn.png)
+		/*tpa=https://public.wutongwan.org/public-20180523-Fm5iKtPPcef3z39yBP9yhjVv7jpn*/;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 18px
+}
+
+.r_lbx_cenb {
+	font-size: 12px;
+	color: #666;
+	margin-top: 12px
+}
+
+.r_lbx_cenb em, .r_lbx_cenb i {
+	display: inline-block;
+	background: #ff818a;
+	color: #fff;
+	line-height: 14px;
+	padding: 0 1px;
+	font-size: 12px;
+	text-align: center;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px
+}
+
+.r_lbx_cenb i {
+	background: #77d0d7
+}
+
+.r_lbx_cenc {
+	overflow: hidden;
+	padding-top: 10px
+}
+
+.r_lbx_cenc span {
+	font-size: 12px;
+	border: 1px solid #0096ff;
+	display: block;
+	line-height: 20px;
+	padding: 0 10px;
+	float: left;
+	margin-right: 5px;
+	color: #0096ff
+}
+
+.r_lbx_cenc span.color-e64d3d {
+	border: 1px solid #e64d3d;
+	color: #e64d3d
+}
+
+.r_lbx_cenc span.color-ffa000 {
+	border: 1px solid #ffa000;
+	color: #ffa000
+}
+
+.r_lbx_cenc span.color-01bd9c {
+	border: 1px solid #01bd9c;
+	color: #01bd9c
+}
+
+.r_lbx_money {
+	position: absolute;
+	right: 0;
+	top: 24px
+}
+
+.r_lbx_moneya {
+	position: relative;
+	text-align: right;
+	left: 0
+}
+
+.ty_a {
+	font-size: 28px;
+	font-weight: 700;
+	color: #f30
+}
+
+.ty_b {
+	font-size: 30px;
+	color: #ff7966;
+	letter-spacing: -1px
+}
+
+.ty_c {
+	font-size: 14px;
+	color: #000;
+	margin-left: 0
+}
+
+.ty_c.first-month {
+	color: #999;
+	background: #f8f8f8;
+	padding: 0 5px;
+	border-radius: 4px
+}
+
+.r_lbx a.lk_more {
+	border: 1px solid #999;
+	width: 118px;
+	display: block;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: #b4b4b4;
+	margin-top: 10px;
+	clear: both;
+	float: right;
+	background: #fff
+}
+
+.r_lbx a:hover.lk_more {
+	background: #ff7966;
+	color: #fff;
+	border: 1px solid #ff7966
+}
+
+.notext_box {
+	padding: 30px 0 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666
+}
+
+.notext_box strong {
+	font-size: 20px;
+	line-height: 70px;
+	display: inline-block
+}
+
+.newroom {
+	color: #f30;
+	font-weight: 700
+}
+
+.link_rent {
+	width: 1032px;
+	margin: 0 auto
+}
+
+.page {
+	margin-top: 30px;
+	padding-left: 300px
+}
+
+.page a {
+	display: inline-block;
+	padding: 0 10px;
+	height: 28px;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px
+}
+
+.page a.on {
+	background: #4bb4bb;
+	color: #fff
+}
+
+.page a:hover {
+	text-decoration: underline
+}
+
+.y_like_box {
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.lk_titl {
+	line-height: 85px;
+	margin-bottom: 30px;
+	color: #333;
+	font-size: 24px;
+	border-bottom: 1px solid #efefef
+}
+
+.lk_room_box {
+	width: 1190px
+}
+
+.lk_room_box dl {
+	float: left;
+	width: 290px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #d8d6d6
+}
+
+.lk_room_box dl dt a {
+	width: 290px;
+	height: 180px;
+	overflow: hidden;
+	display: block;
+	position: relative
+}
+
+.lk_room_box dl dt a img {
+	max-width: 100%;
+	vertical-align: middle;
+	transition: transform .5s ease-out
+}
+
+.lk_room_box dl dt a img:hover {
+	transform: translate3d(0, -5px, 0) scale(1.2)
+}
+
+.lk_room_box dl dt a .month_y {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	height: 24px;
+	line-height: 24px;
+	width: 50px;
+	background: url(public-20180328-Ft_7yTtwyq5xNhTg9H_paeIqsDzS.png)
+		/*tpa=https://public.wutongwan.org/public-20180328-Ft_7yTtwyq5xNhTg9H_paeIqsDzS*/
+		 no-repeat;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 0 0 0 10px
+}
+
+.lk_room_box dl dd a {
+	display: block;
+	font-size: 14px;
+	color: #333;
+	line-height: 18px;
+	height: 18px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 700
+}
+
+.lk_room_box dl dd a:hover {
+	color: #f30
+}
+
+.lk_room_box dl dd p {
+	display: block;
+	color: #333;
+	padding: 4px 0;
+	height: 25px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 20px;
+	text-overflow: ellipsis
+}
+
+.dlul {
+	float: left
+}
+
+.selectmodel {
+	float: left;
+	margin-left: 15px
+}
+
+.selectmodel button {
+	width: 85px;
+	height: 24px;
+	border-radius: 12px;
+	padding: 0
+}
+
+.selectmodel button.w98 {
+	width: 98px
+}
+
+.btn-default {
+	border-color: #3dbcc6
+}
+
+.caret {
+	color: #3dbcc6;
+	border-top: 10px solid;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent
+}
+
+.btn-default:hover {
+	color: #3dbcc6;
+	background-color: #fff;
+	border-color: #3dbcc6
+}
+
+.dropdown-menu {
+	border: 1px solid #3dbcc6
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default,
+	.open>.dropdown-toggle.btn-default:hover {
+	color: #3dbcc6;
+	background-color: #fff;
+	position: relative;
+	z-index: 10;
+	border-color: #3dbcc6
+}
+
+.btn-default.focus, .btn-default:focus {
+	color: #4bb4bb;
+	background-color: #fff;
+	border-color: #8c8c8c
+}
+
+.dropdown-menu {
+	min-width: 85px;
+	z-index: 4;
+	margin-top: -13px;
+	margin-left: 0;
+	border: 1px solid #3dbcc6;
+	padding-top: 15px
+}
+
+.dropdown-menu li a:hover {
+	background: #fff;
+	color: #3dbcc6
+}
+
+.mj {
+	width: 85px
+}
+
+.mj>li>a {
+	padding: 3px 10px
+}
+
+.dropdown-menu>li>a {
+	text-align: center
+}
+
+.gn {
+	width: 78px
+}
+
+.gn>li>a {
+	padding: 3px 10px
+}
+
+.area {
+	display: block
+}
+
+.subway {
+	display: none
+}
+
+.conditionbox {
+	display: block;
+	padding: 10px 0 10px 50px;
+	background: #f9f9f9
+}
+
+.cd_tit {
+	float: left;
+	line-height: 24px;
+	font-size: 14px
+}
+
+.cd_tions a.tions {
+	height: 24px;
+	line-height: 24px;
+	color: #555;
+	border: 1px solid #f6b07f;
+	background: #fff;
+	margin-left: 9px;
+	font-size: 0;
+	padding: 2px 2px 0 6px;
+	display: inline-block
+}
+
+.cd_tions a.tions:hover {
+	color: #f29c34
+}
+
+.cd_tions a.tions span {
+	max-width: 300px;
+	line-height: 18px;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block
+}
+
+.cd_tions a.tions span.del {
+	background: url(x_org-1.png)
+		/*tpa=https://s1.wutongwan.org/build/img/list/x_org.png*/ no-repeat
+		no-repeat;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin-left: 5px
+}
+
+.cd_tions a.tions:hover span.del {
+	opacity: .7
+}
+
+.tionsbox {
+	float: left;
+	padding-right: 16px
+}
+
+.del_all {
+	line-height: 24px;
+	color: #333;
+	text-decoration: underline;
+	display: inline-block;
+	font-size: 12px
+}
+
+.list-hot {
+	float: left;
+	width: 574px;
+	display: block;
+	overflow: hidden;
+	margin: 20px 0 0;
+	background: #75c5be;
+	padding: 0 70px 8px 30px
+}
+
+.list-hot.on {
+	float: right;
+	background: #8f0503
+}
+
+.list-hot.on .hot-select label {
+	color: #8f0503
+}
+
+.list-hot.on .hot-title {
+	border-bottom: 1px solid #800200
+}
+
+.list-hot.on .hot-select i {
+	border: 1px solid #8f0503
+}
+
+.list-hot.on .hot-select.on i {
+	background: url(cbox-select-red-1.png)
+		/*tpa=https://s1.wutongwan.org/build/img/room/cbox-select-red.png*/ 
+		no-repeat 0 0
+}
+
+.hot-title {
+	display: block;
+	padding: 20px 0 10px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 28px;
+	border-bottom: 1px solid #6db7b1
+}
+
+.clear {
+	clear: both;
+	display: block;
+	height: 1px
+}
+
+.hot-title em {
+	display: inline-block;
+	font-size: 14px
+}
+
+.hot-title label {
+	display: block
+}
+
+.hot-select {
+	display: block;
+	overflow: hidden;
+	float: left;
+	width: 190px;
+	margin: 10px 0 0;
+	background: #f4f4f4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
+}
+
+.hot-select i {
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin: 7px 6px 0 12px;
+	border: 1px solid #75c5be;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px
+}
+
+.hot-select.on i {
+	background: url(cbox-select-1.png)
+		/*tpa=https://s1.wutongwan.org/build/img/room/cbox-select.png*/ 
+		no-repeat 0 0
+}
+
+.hot-select label {
+	float: left;
+	line-height: 32px;
+	font-size: 16px;
+	color: #75c5be;
+	font-weight: 400;
+	padding: 0 20px 0 0;
+	cursor: pointer
+}
+
+.list-hot.lang {
+	float: none;
+	width: 100%
+}
+
+.list-hot.lang .hot-title {
+	overflow: hidden
+}
+
+.list-hot.lang .hot-title em, .list-hot.lang .hot-title label {
+	float: left
+}
+
+.aleady-select {
+	display: block;
+	overflow: hidden;
+	padding: 30px 0 0 20px
+}
+
+.aleady-select a, .aleady-select label {
+	float: left
+}
+
+.aleady-select label {
+	line-height: 20px;
+	font-size: 12px
+}
+
+.aleady-select a {
+	margin: 0 10px 0 0;
+	padding: 0 3px 0 0;
+	line-height: 18px;
+	border: 1px solid #4bb4bb;
+	color: #fff;
+	background: #4bb4bb
+}
+
+.aleady-select a em {
+	float: left;
+	padding: 0 8px;
+	margin: 0 3px 0 0;
+	background: #fff;
+	color: #333
+}
+
+.aleady-select a.all-delete {
+	background: 0 0;
+	color: #4bb4bb;
+	border: 0;
+	padding: 0 0 0 18px;
+	background: url(public-20180606-FuBIJigudJrWdYLqM-e5PhcTL-Qm.png)
+		/*tpa=https://public.wutongwan.org/public-20180606-FuBIJigudJrWdYLqM-e5PhcTL-Qm*/
+		 no-repeat left center;
+	background-size: 15px 18px
+}
+
+.short-room {
+	display: block;
+	overflow: hidden;
+	margin: 0 0 20px;
+	position: relative
+}
+
+.short-room img {
+	display: block;
+	width: 1920px;
+	height: 170px;
+	top: 0;
+	left: 50%;
+	margin-left: -960px;
+	position: absolute
+}
+
+.short-room p, .short-room span {
+	display: block;
+	text-align: center;
+	color: #010100
+}
+
+.short-room p {
+	padding: 35px 0 0;
+	line-height: 50px;
+	font-size: 28px
+}
+
+.short-room span {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 0 35px
+}
+
+.good_resonbox {
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #e6e6e6
+}
+
+.g_reson {
+	float: left;
+	width: 275px;
+	padding: 0 0 0 115px;
+	height: 160px;
+	margin: 0 70px 0 45px;
+	background-position: left top;
+	background-repeat: no-repeat
+}
+
+.g_reson label {
+	display: block;
+	padding: 20px 0 0;
+	line-height: 32px;
+	font-size: 18px
+}
+
+.g_reson em {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #888
+}
+
+.box1 {
+	background-image: url(public-20170815-Fh5X-f0QLZxuaVG4yDpLg2GTXAoA)
+		/*tpa=https://public.wutongwan.org/public-20170815-Fh5X-f0QLZxuaVG4yDpLg2GTXAoA*/
+}
+
+.box2 {
+	background-image: url(public-20170815-Fpi4oS4zJu-WJkj_8wFFSsNSQXSg)
+		/*tpa=https://public.wutongwan.org/public-20170815-Fpi4oS4zJu-WJkj_8wFFSsNSQXSg*/
+}
+
+.box3 {
+	background-image: url(public-20170815-FhsnY4NjKRPXLBhQjKnwfB7qAA_B)
+		/*tpa=https://public.wutongwan.org/public-20170815-FhsnY4NjKRPXLBhQjKnwfB7qAA_B*/
+}
+
+.box4 {
+	background-image: url(public-20170815-FtkzxxqVqpW8rKY0RI_5otWyGuPS)
+		/*tpa=https://public.wutongwan.org/public-20170815-FtkzxxqVqpW8rKY0RI_5otWyGuPS*/
+}
+
+.box5 {
+	background-image: url(public-20170815-FsGaHCL-z6hPPvCazVNKh3jdJoP8.png)
+		/*tpa=https://public.wutongwan.org/public-20170815-FsGaHCL-z6hPPvCazVNKh3jdJoP8*/
+}
+
+.box6 {
+	background-image: url(public-20170815-FjuUlHgv_qZT5ozoHJEJPurthAZJ.png)
+		/*tpa=https://public.wutongwan.org/public-20170815-FjuUlHgv_qZT5ozoHJEJPurthAZJ*/
+}
+
+.search-none {
+	display: block;
+	margin: 60px 0 50px;
+	padding: 110px 0 0;
+	background: url(public-20170815-FhGh5Puy38t6xO4yb0Ug_YGRzm2d.png)
+		/*tpa=https://public.wutongwan.org/public-20170815-FhGh5Puy38t6xO4yb0Ug_YGRzm2d*/
+		 no-repeat center top
+}
+
+.search-none p, .search-none span {
+	display: block;
+	text-align: center;
+	color: #666
+}
+
+.search-none p {
+	line-height: 48px;
+	font-size: 24px
+}
+
+.search-none span {
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0 0 20px
+}
+
+.search-none a {
+	display: block;
+	margin: 0 auto;
+	width: 168px;
+	line-height: 36px;
+	font-size: 14px;
+	border: 1px solid #09bcc5;
+	color: #09bcc5;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
+}
+
+.view-list-last {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 15px;
+	color: #333
+}
+
+.view-list-last b {
+	position: absolute;
+	top: 4px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 0 0 10px;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg)
+}
+
+.view-list-last b.on {
+	top: 9px;
+	transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg)
+}
+
+.view-list-last a {
+	display: block;
+	width: 100px;
+	line-height: 25px;
+	margin: 0 auto;
+	position: relative;
+	color: #333;
+	font-weight: 700
+}
+
+.room_price {
+	display: block;
+	overflow: hidden
+}
+
+.room_price span {
+	display: inline-block;
+	line-height: 35px;
+	color: #999;
+	font-size: 12px;
+	text-decoration: line-through
+}
+
+.room_price em {
+	display: inline-block;
+	line-height: 35px;
+	color: #999;
+	font-size: 18px;
+	text-decoration: line-through
+}
+
+.new-price-hot {
+	display: block;
+	padding-top: 5px
+}
+
+.new-price-link {
+	line-height: 26px;
+	color: #666;
+	font-size: 13px
+}
+
+.new-price-link em {
+	display: inline-block;
+	font-size: 13px;
+	padding: 4px 10px;
+	line-height: 16px;
+	color: #17a9b4;
+	margin: 0;
+	background: #defff9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px
+}
+
+.new-price-link i {
+	color: #000
+}
+
+.r_lbx_cen .new-price-link a {
+	display: inline-block;
+	color: #4bb4bb;
+	line-height: 26px;
+	height: 26px;
+	font-size: 14px;
+	padding: 0
+}
+
+.new-price-link img {
+	position: relative;
+	top: -45px;
+	left: 37px
+}
+
+#loadingDiv {
+	display: none
+}
+
+.sub-list-box {
+	float: left;
+	padding-bottom: 10px
+}
+
+.floatingLayer {
+	left: -100%
+}
+
+.floatingLayerBtn {
+	left: 0
+}
+
+.nearly-other-room {
+	overflow: hidden;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+	color: #3dbcc6;
+	background: #f2fcfc
+}
+
+.nearly-other-room b {
+	display: inline-block;
+	margin: 0 10px;
+	font-weight: 700
+}
+
+.nearly-other-room i {
+	display: inline-block;
+	width: 50px;
+	height: 45px;
+	background: url(public-20180328-FgLcXJ8oT5U3CIhdZ9F21-caIh0O.png)
+		/*tpa=https://public.wutongwan.org/public-20180328-FgLcXJ8oT5U3CIhdZ9F21-caIh0O*/
+		 no-repeat center center
+}
+
+.lk_room_box dl:nth-child(12), .lk_room_box dl:nth-child(4),
+	.lk_room_box dl:nth-child(8) {
+	margin-right: 0
+}
+
+.lk_room_box dd {
+	padding: 5px 10px
+}
+
+.new-list-price {
+	display: block;
+	line-height: 30px;
+	color: #ff7966;
+	font-size: 20px;
+	font-weight: 700
+}
+
+.new-list-price span {
+	font-size: 14px;
+	color: #b8b8b8;
+	font-weight: 400
+}
+
+.lk_titl a {
+	float: right;
+	line-height: 45px;
+	color: #63686a;
+	font-size: 16px;
+	margin: 30px 20px 0 0
+}
+
+.lk_titl a:hover {
+	text-decoration: underline
+}
+
+.new-list-price span.coupon-price-nearly {
+	text-decoration: line-through;
+	margin-left: 10px
+}
+
+.recommend-box {
+	display: none;
+	position: absolute;
+	left: 10px;
+	top: 80px;
+	width: 880px;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	z-index: 2
+}
+
+.recom-list {
+	display: block;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 10px;
+	cursor: pointer
+}
+
+.recom-list.on {
+	background: #eee
+}
+
+.recom-list span {
+	float: left;
+	padding-left: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #333;
+	background-repeat: no-repeat;
+	background-position: left center
+}
+
+.recom-list label {
+	float: right;
+	line-height: 28px;
+	font-size: 14px;
+	color: #999
+}
+
+.recom-list-none {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	line-height: 55px
+}
+
+.shade {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	z-index: 5
+}
+
+.search-header-wrapper {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	box-shadow: 0 0 10px 0 #aaa;
+	-webkit-box-shadow: 0 0 10px 0 #aaa;
+	display: none
+}
+
+.search-header {
+	background-color: #fff;
+	height: 60px;
+	width: 1190px;
+	margin: 0 auto
+}
+
+.search-header .logo-wrapper {
+	float: left;
+	padding: 17px 0 0 0
+}
+
+.search-header .nav-help {
+	margin: 18px 20px 0 20px
+}
+
+.screen-wrapper {
+	float: left;
+	margin-top: 18px;
+	position: relative
+}
+
+.screen-wrapper .default-btn {
+	width: 60px;
+	height: 25px;
+	border: 1px solid #999;
+	font-size: 14px;
+	color: #999;
+	line-height: 25px;
+	border-radius: 12.5px;
+	background-image: url(public-20180528-Fq0mzNaMNBV24QfuKo2hO81SDsnH.png)
+		/*tpa=https://public.wutongwan.org/public-20180528-Fq0mzNaMNBV24QfuKo2hO81SDsnH*/;
+	background-position: 45px center;
+	background-repeat: no-repeat;
+	padding-left: 10px
+}
+
+.screen-wrapper .hover-btn {
+	color: #3dbcc6;
+	border: 1px solid #3dbcc6;
+	background-image: url(public-20180528-FrdM57ryqvK1EaEBBRT4xDR5Zex8.png)
+		/*tpa=https://public.wutongwan.org/public-20180528-FrdM57ryqvK1EaEBBRT4xDR5Zex8*/
+}
+
+.screen-wrapper .btn-wrapper {
+	display: inline-block;
+	margin-right: 10px
+}
+
+.screen-wrapper .screen-item {
+	position: absolute;
+	padding-top: 10px;
+	left: 0;
+	top: 25px;
+	display: none
+}
+
+.screen-wrapper .screen-item .div {
+	width: 875px;
+	background-color: #fff;
+	border: 1px solid #3dbcc6;
+	zoom: 1
+}
+
+.screen-wrapper .screen-item .div::after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.screen-wrapper .screen-item .option_list {
+	padding: 15px 0 15px 10px
+}
+
+.screen-wrapper .screen-item .option_list .sub_option_list_wp {
+	position: absolute;
+	top: 50px;
+	left: -11px;
+	height: 88px
+}
+
+.screen-wrapper .screen-item .dl_lst {
+	padding: 0
+}
+
+.search-header .search-logo img {
+	width: 122px;
+	height: 27px
+}
+
+.search-header form {
+	float: right
+}
+
+.search-header .search-wrapper {
+	width: 664px;
+	height: 41px;
+	margin-top: 10px
+}
+
+.search-header .search-wrapper .search-input {
+	width: 420px;
+	height: 41px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	border-right: none;
+	border-radius: 5px 0 0 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+	padding-left: 25px
+}
+
+.search-header .search-wrapper .search-btn {
+	display: inline-block;
+	width: 115px;
+	height: 41px;
+	background-color: #00a4ac;
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	font-size: 16px;
+	border: none
+}
+
+.search-header .search-wrapper .map-btn {
+	text-align: center;
+	padding: 9.5px 27px;
+	background-color: #00a4ac;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	margin-left: 10px
+}
+
+.list-map-wrapper {
+	width: 380px;
+	height: 400px;
+	margin-top: 20px;
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.map-fixed {
+	position: fixed;
+	top: 60px;
+	right: 0;
+	z-index: 1;
+	cursor: pointer
+}
+
+.list-map-wrapper #list-map {
+	width: 380px;
+	height: 400px
+}
+
+.map-icon {
+	width: 25px;
+	height: 32px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	background-image: url(public-20180524-FvUdjFbF06JdgYdeyj2qZGA5mhtF.png)
+		/*tpa=https://public.wutongwan.org/public-20180524-FvUdjFbF06JdgYdeyj2qZGA5mhtF*/;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -4px;
+	left: -13px
+}
+
+@
+-webkit-keyframes shake { 0%{
+	-webkit-transform: translateY(-30px)
+}
+
+100%{
+-webkit-transform
+:translateY(0)
+}
+40%{
+-webkit-transform
+:translateY(-20px)
+}
+80%{
+-webkit-transform
+:translateY(-10px)
+}
+20%,60%{
+-webkit-transform
+:translateY(0)
+}
+90%{
+-webkit-transform
+:translateY(0)
+}
+95%{
+-webkit-transform
+:translateY(-5px)
+}
+}
+@
+-moz-keyframes shake { 0%{
+	-moz-transform: translateY(-30px)
+}
+
+100%{
+-moz-transform
+:translateY(0)
+}
+40%{
+-moz-transform
+:translateY(-20px)
+}
+80%{
+-moz-transform
+:translateY(-10px)
+}
+20%,60%{
+-moz-transform
+:translateY(0)
+}
+90%{
+-moz-transform
+:translateY(0)
+}
+95%{
+-moz-transform
+:translateY(-5px)
+}
+}
+@
+-ms-keyframes shake { 0%{
+	-ms-transform: translateY(-30px)
+}
+
+100%{
+-ms-transform
+:translateY(0)
+}
+40%{
+-ms-transform
+:translateY(-20px)
+}
+80%{
+-ms-transform
+:translateY(-10px)
+}
+20%,60%{
+-ms-transform
+:translateY(0)
+}
+90%{
+-ms-transform
+:translateY(0)
+}
+95%{
+-ms-transform
+:translateY(-5px)
+}
+}
+@
+keyframes shake { 0%{
+	transform: translateY(-30px)
+}
+
+100%{
+transform
+:translateY(0)
+}
+40%{
+transform
+:translateY(-20px)
+}
+80%{
+transform
+:translateY(-10px)
+}
+20%,60%{
+transform
+:translateY(0)
+}
+90%{
+transform
+:translateY(0)
+}
+95%{
+transform
+:translateY(-5px)
+}
+}
+.map-anm {
+	-webkit-animation: shake .5s ease;
+	-moz-animation: shake .5s ease;
+	-ms-animation: shake .5s ease;
+	animation: shake .5s ease
+}
+
+.map-icon-text {
+	width: 99px;
+	height: 24px;
+	font-size: 12px;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 0 12px 12px 0
+}
+
+.map-icon-text .map-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.map-icon-pop {
+	width: 368px;
+	height: 105px;
+	background-color: #fff;
+	position: absolute;
+	right: 115px;
+	top: -40px;
+	display: none;
+	z-index: 999;
+	border: 1px solid #f6f6f6;
+	-webkit-box-shadow: 0 2px 3px #dfdedc;
+	-moz-box-shadow: 0 2px 3px #dfdedc;
+	box-shadow: 0 2px 3px #dfdedc
+}
+
+.map-icon-pop img {
+	width: 138px;
+	height: 92px;
+	margin: 6px 10px 0 6px
+}
+
+.hot-room {
+	background-color: #fff;
+	width: 380px;
+	height: 233px;
+	margin-top: 25px;
+	overflow: hidden
+}
+
+.hot-room-title {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f0f0f0
+}
+
+.hot-room-title a {
+	color: #999
+}
+
+.hot-room-title a:hover {
+	color: #999
+}
+
+.hot-room-title a:visited {
+	color: #999
+}
+
+.hot-room-title h2 {
+	font-size: 16px;
+	color: #333;
+	float: left
+}
+
+.hot-room-title div {
+	font-size: 14px;
+	color: #999;
+	float: right
+}
+
+.hot-room-title .isthispage {
+	color: #3dbcc6
+}
+
+.hot-room-list {
+	width: 100%;
+	position: relative
+}
+
+.hot-room-list .hot-room-list-wp {
+	width: 800px;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.hot-room-list .hot-room-item {
+	width: 185px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-right: 6px
+}
+
+.hot-room-list .hot-room-item img {
+	width: 185px;
+	height: 125px
+}
+
+.hot-room-list .hot-room-content {
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	padding: 8px 0 5px 5px;
+	font-size: 12px;
+	color: #333
+}
+
+.hot-room-list .hot-room-content div {
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.hot-room-list .hot-room-content .hot-room-money {
+	color: #ff7966;
+	font-size: 14px
+}
+
+.hot-room-list .hot-room-content .hot-room-unit {
+	color: #999
+}
+
+.hot-room-list .hot-room-content .hot-room-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 175px
+}
+
+.shade-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 1000;
+	display: none
+}
+
+.shade-wrapper .shade-area {
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+	padding: 15px 0 0 15px
+}
+
+.shade-wrapper .shade-area .shade-close {
+	width: 54px;
+	height: 53px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(public-20180530-FulmQ9KwpVfkFxCg4einCKxpvXl-.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FulmQ9KwpVfkFxCg4einCKxpvXl-*/
+		 no-repeat center
+}
+
+.shade-img {
+	float: left
+}
+
+.shade-img .big-img {
+	width: 711px;
+	height: 472px
+}
+
+.shade-img .small-img {
+	width: 711px;
+	height: 88px;
+	margin-top: 10px;
+	font-size: 0
+}
+
+.shade-img .small-img div, .shade-img .small-img span {
+	float: left
+}
+
+.shade-img .small-img span {
+	height: 100%;
+	width: 35px
+}
+
+.shade-img .small-img .img-list-wrapper {
+	height: 100%;
+	width: 641px;
+	padding-left: 8.5px;
+	overflow: hidden;
+	position: relative
+}
+
+.shade-img .small-img .img-list-wrapper div {
+	white-space: nowrap;
+	position: absolute;
+	top: 0
+}
+
+.shade-img .small-img .small-img-pre {
+	background: #f0f0f0
+		url(public-20180530-Fjck1lH_SvDrwVckwTmn52h63sR4.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-Fjck1lH_SvDrwVckwTmn52h63sR4*/
+		 no-repeat center
+}
+
+.shade-img .small-img .small-img-nex {
+	background: #f0f0f0
+		url(public-20180530-FjXdevkqjmDXZoHalHI9vJSkOCQm.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FjXdevkqjmDXZoHalHI9vJSkOCQm*/
+		 no-repeat center
+}
+
+.shade-img .small-img .pre-can-click {
+	background: #d7d7d7
+		url(public-20180530-FmH3V4k0tSv8wm525Nm9RVE_lPz9.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FmH3V4k0tSv8wm525Nm9RVE_lPz9*/
+		 no-repeat center
+}
+
+.shade-img .small-img .nex-can-click {
+	background: #d7d7d7
+		url(public-20180530-FhzU-uFpqtbGL-vAmZ3MZsWSEyav.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FhzU-uFpqtbGL-vAmZ3MZsWSEyav*/
+		 no-repeat center
+}
+
+.shade-img .small-img .img-list-wrapper img {
+	height: 88px;
+	width: 118px;
+	margin-right: 8.5px
+}
+
+.info-wrapper {
+	width: 386px;
+	height: 456px;
+	float: left;
+	margin: 76px 0 0 30px
+}
+
+.info-wrapper .info-title {
+	font-size: 20px;
+	color: #333
+}
+
+.money-look {
+	width: 385px;
+	background-color: #f8f8f8;
+	padding: 20px 0 20px 16px;
+	margin: 38px 0
+}
+
+.money-num {
+	color: #ff7966;
+	font-size: 30px
+}
+
+.money-unit {
+	color: #333;
+	font-size: 12px
+}
+
+.look-btn {
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	width: 118px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #999;
+	margin-left: 100px
+}
+
+.look-btn:hover {
+	background: #ff7966;
+	color: #fff;
+	border: 1px solid #ff7966
+}
+
+.info-sub .info-pattern {
+	font-size: 14px;
+	color: #6666
+}
+
+.info-sub span {
+	background: url(public-20180530-FgroVdrOhBLf1YqGRFqS8TK7NOce.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FgroVdrOhBLf1YqGRFqS8TK7NOce*/
+		 no-repeat center;
+	display: inline-block;
+	width: 12px;
+	height: 15px;
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+.info-pattern span {
+	background: url(public-20180530-FsOc18BHC-Gs67S3w8bNJP9248hT.png)
+		/*tpa=https://public.wutongwan.org/public-20180530-FsOc18BHC-Gs67S3w8bNJP9248hT*/
+		 no-repeat center;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	margin-right: 5px
+}
+
+.subscribe-btn {
+	display: block;
+	width: 386px;
+	height: 60px;
+	font-size: 34px;
+	color: #fff;
+	background-color: #3dbcc6;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 45px
+}
+
+.subscribe-btn:hover {
+	color: #fff;
+	background-color: rgba(61, 188, 198, .9)
+}
+
+.subscribe-btn:visited {
+	color: #fff
+}
+
+.phone-subscribe {
+	width: 386px;
+	border: 1px solid #3dbcc6;
+	margin-top: 10px
+}
+
+.phone-subscribe .pnum {
+	font-size: 26px;
+	color: #3dbcc6;
+	width: 100%;
+	text-align: center
+}
+
+.phone-subscribe .tim {
+	font-size: 12px;
+	color: #999;
+	width: 100%;
+	text-align: center
+}
+
+.configuration {
+	margin-top: 20px
+}
+
+.configuration span {
+	display: inline-block;
+	width: 73px;
+	height: 24px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+	color: #0096ff;
+	border: 1px solid #0096ff;
+	margin-right: 5px
+}
+
+.configuration .red-color {
+	color: #e64d3d;
+	border: 1px solid #e64d3d
+}
+
+.configuration .green-color {
+	color: #01bd9c;
+	border: 1px solid #01bd9c
+}
+
+.configuration .yellow-color {
+	color: #ffa000;
+	border: 1px solid #ffa000
+}
+
+.img-hint {
+	position: absolute;
+	bottom: 5px;
+	right: 10px
+}
+
+.img-hint span {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%
+}
+
+.img-hint span:nth-child(1) {
+	background-color: rgba(1, 189, 156, .9)
+}
+
+.img-hint span:nth-child(2) {
+	background-color: rgba(153, 153, 153, .9)
+}
+
+.header-crumbs, .header-crumbs a {
+	font-size: 14px;
+	color: #999
+}
+
+.header-crumbs {
+	margin: 40px 0 10px 0
+}

@@ -1,0 +1,96 @@
+/**  
+* <p>Title: RoomDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+import java.security.Timestamp;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.icss.dkgy.entity.RoomEntity;
+import com.mysql.jdbc.PreparedStatement;
+
+/**  
+ * @Title: RoomDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:16
+ */
+public class RoomDao extends BaseDao{
+
+	/**  
+	 * @Title: searchText
+	 * @Description:
+	 * @author 任广伟
+	 * @param text
+	 * @return  
+	 * @date 2018年10月30日下午4:52:43
+	 */
+	public ArrayList<RoomEntity> searchText(Object text)throws Exception {
+				//1打开连接
+				openConnection();
+				//2创建预编译对象
+				String sql = "select *from room where comment like %?%";
+				
+				PreparedStatement pst = (PreparedStatement) conn.prepareStatement(sql);
+				//3执行操作，并拿到结果集conn.prepareStatement(sql);
+				ResultSet rs = pst.executeQuery();
+				//4处理结果集
+				ArrayList<RoomEntity>rooms = new ArrayList<RoomEntity>();//创建集合对象，用来存储图书信息
+				RoomEntity room = null;
+				while (rs.next()) {
+					room =new RoomEntity();
+					room.setRoomnum(rs.getInt("roomnun"));
+					room.setAdress(rs.getString("address"));
+					room.setPrice(rs.getDouble("price"));
+					room.setArea(rs.getDouble("area"));
+					room.setTypeid(rs.getInt("typeid"));
+					room.setPaymethod(rs.getString("paymethod"));
+					room.setStatus(rs.getString("status"));
+					room.setSubway(rs.getString("subway"));
+					room.setImgpath(rs.getString("imgpath"));
+					room.setOwnerid(rs.getString("ownerid"));
+					//room.setRentdate(rs.getTimestamp("rentdate"));
+					room.setComment(rs.getString("comment"));
+//					book.setBookid(rs.getInt("bookid"));
+//					book.setIsbn(rs.getString("isbn"));
+					
+					rooms.add(room);
+				}
+				return rooms;
+	}
+
+	private int roomnum ;   //房屋编号
+	private String adress;  //房屋地址
+	private double price;	//租金
+	private double area;	//面积
+	private int typeid;		//户型编号
+	private String paymethod;	//支付方式
+	private String status;	//房屋状态
+	private String subway;	//地铁
+	private String imgpath;	//图片
+	private String ownerid;	//	业主编号
+	private Timestamp rentdate;	//租期
+	private String comment;	 	//描述
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+/**  
+* <p>Title: UserDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.icss.dkgy.entity.UserEntity;
+
+/**  
+ * @Title: UserDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:44
+ */
+public class UserDao extends BaseDao{
+
+	/**
+	 * 修改资料
+	 * @throws Exception 
+	 */
+	public boolean updateInfo(String username,String phone,String sex) throws Exception {
+		// 1.打开连接
+		openConnection();
+		//2.创建预编译对象
+		String sql ="update user set username = ?,sex = ? where phone = ?";
+		PreparedStatement pst = conn.prepareStatement(sql);
+		pst.setString(1, username);
+		pst.setString(2, sex);
+		pst.setString(3, phone);
+		int count = pst.executeUpdate(); // 运行
+		boolean flag = false;
+		if (count>0){
+			flag = true;
+		}
+		return flag;
+	}
+
+	/**
+	 * 登录
+	 * @throws Exception 
+	 */
+	public UserEntity Login(String phone) throws Exception {
+		//1.打开连接
+		openConnection();
+		//2.创建预编译对象
+		String sql = "select * from user where phone = ?";
+		PreparedStatement pst = conn.prepareStatement(sql);
+		pst.setString(1, "phone");
+		ResultSet rs = pst.executeQuery(); // 运行
+		// 3.处理结果集
+		UserEntity user = null;
+		while (rs.next()) {
+			user = new UserEntity();
+			user.setUserid(rs.getInt(1));
+			user.setUsername(rs.getString(2));
+			user.setUserpwd(rs.getString(3));	
+			user.setSex(rs.getString(4));
+			user.setConstellation(rs.getString(5));
+			user.setPhone(rs.getString(6));
+			user.setStatus(rs.getString(7));
+			user.setEmail(rs.getString(8));
+			user.setRole(rs.getString(9));				
+		}
+		
+		return user;
+	}
+
+	/**
+	 * 注册
+	 * @throws Exception 
+	 */
+	public void Regist(String phone) throws Exception {
+		String sql = "insert into user (phone) values(?)";
+		PreparedStatement pst = conn.prepareStatement(sql);
+		pst.setString(1, "phone");
+		// 3、执行操作
+		pst.executeUpdate();
+		
+		
+	}
+
+}

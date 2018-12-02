@@ -1,0 +1,74 @@
+/**  
+* <p>Title: UserBiz.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月28日  
+* @version 1.0  
+*/
+package com.icss.dkgy.biz;
+
+import com.icss.dkgy.dao.UserDao;
+import com.icss.dkgy.entity.UserEntity;
+
+/**  
+ * @Title: UserBiz
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月28日下午3:07:51
+ */
+public class UserBiz {
+    UserDao dao = new UserDao();
+	/**  
+	 * @Title: login
+	 * @Description:
+	 * @author 任广伟
+	 * @param username
+	 * @param pwd
+	 * @return  
+	 * @date 2018年10月28日下午3:08:10
+	 */
+	public UserEntity login(String username, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/**
+	 * @param username
+	 * @return
+	 */
+	//修改资料
+	public boolean updateInfo(String username,String phone,String sex) {
+		boolean flag = false;
+		try {
+			flag = dao.updateInfo(username,phone,sex);		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+
+		
+		return flag;
+	}
+
+	/**
+	 * 登录
+	 */
+	public boolean Login(String phone) {
+		UserEntity userEntity = null;
+		boolean flag = false;
+		try {
+			userEntity = dao.Login(phone);
+			if(userEntity == null){
+				 dao.Regist(phone);			
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		return flag;
+	}
+
+}

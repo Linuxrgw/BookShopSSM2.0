@@ -1,0 +1,51 @@
+package com.icss.dkgy.entity;
+
+public class AdminEntity {
+	private int ad_id;  //用户id
+	private String ad_name;  //用户姓名
+	private String ad_pwd;  //用户密码
+	private String ad_phone; //用户电话
+	private String sex;		//性别
+	private String imgpath; //邮箱
+	public int getAd_id() {
+		return ad_id;
+	}
+	public void setAd_id(int ad_id) {
+		this.ad_id = ad_id;
+	}
+	public String getAd_name() {
+		return ad_name;
+	}
+	public void setAd_name(String ad_name) {
+		this.ad_name = ad_name;
+	}
+	public String getAd_pwd() {
+		return ad_pwd;
+	}
+	public void setAd_pwd(String ad_pwd) {
+		this.ad_pwd = ad_pwd;
+	}
+	public String getAd_phone() {
+		return ad_phone;
+	}
+	public void setAd_phone(String ad_phone) {
+		this.ad_phone = ad_phone;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	public String getImgpath() {
+		return imgpath;
+	}
+	public void setImgpath(String imgpath) {
+		this.imgpath = imgpath;
+	}
+	@Override
+	public String toString() {
+		return "AdminEntity []";
+	}
+	
+}

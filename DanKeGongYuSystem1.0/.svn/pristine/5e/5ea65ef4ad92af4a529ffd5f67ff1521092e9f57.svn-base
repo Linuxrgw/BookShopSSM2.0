@@ -1,0 +1,50 @@
+/**  
+* <p>Title: RoomBiz.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月30日  
+* @version 1.0  
+*/
+package com.icss.dkgy.biz;
+
+import java.util.ArrayList;
+
+import com.icss.dkgy.dao.RoomDao;
+import com.icss.dkgy.entity.RoomEntity;
+
+/**  
+ * @Title: RoomBiz
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月30日下午3:17:26
+ */
+public class RoomBiz {
+
+	
+	RoomDao dao = new RoomDao();
+	//通过搜索框查询房源信息
+	
+
+	/**  
+	 * @Title: searchText
+	 * @Description:
+	 * @author 任广伟
+	 * @param string
+	 * @return  
+	 * @date 2018年10月30日下午4:14:42
+	 */
+	public ArrayList<RoomEntity> searchText(String text) {
+		ArrayList<RoomEntity> rooms = null;
+		try {
+			rooms = dao.searchText(text); //调用dao层
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		
+		return null;
+	}
+
+}

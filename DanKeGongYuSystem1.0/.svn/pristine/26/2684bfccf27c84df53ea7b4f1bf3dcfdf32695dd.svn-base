@@ -1,0 +1,95 @@
+package com.icss.dkgy.entity;
+
+import java.security.Timestamp;
+
+public class RoomEntity {
+	private int roomnum ;   //房屋编号
+	private String adress;  //房屋地址
+	private double price;	//租金
+	private double area;	//面积
+	private int typeid;		//户型编号
+	private String paymethod;	//支付方式
+	private String status;	//房屋状态
+	private String subway;	//地铁
+	private String imgpath;	//图片
+	private String ownerid;	//	业主编号
+	private Timestamp rentdate;	//租期
+	private String comment;	 	//描述
+	public int getRoomnum() {
+		return roomnum;
+	}
+	public void setRoomnum(int roomnum) {
+		this.roomnum = roomnum;
+	}
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public double getArea() {
+		return area;
+	}
+	public void setArea(double area) {
+		this.area = area;
+	}
+	public int getTypeid() {
+		return typeid;
+	}
+	public void setTypeid(int typeid) {
+		this.typeid = typeid;
+	}
+	public String getPaymethod() {
+		return paymethod;
+	}
+	public void setPaymethod(String paymethod) {
+		this.paymethod = paymethod;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getSubway() {
+		return subway;
+	}
+	public void setSubway(String subway) {
+		this.subway = subway;
+	}
+	public String getImgpath() {
+		return imgpath;
+	}
+	public void setImgpath(String imgpath) {
+		this.imgpath = imgpath;
+	}
+	public String getOwnerid() {
+		return ownerid;
+	}
+	public void setOwnerid(String ownerid) {
+		this.ownerid = ownerid;
+	}
+	public Timestamp getRentdate() {
+		return rentdate;
+	}
+	public void setRentdate(Timestamp rentdate) {
+		this.rentdate = rentdate;
+	}
+	public String getComment() {
+		return comment;
+	}
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+	@Override
+	public String toString() {
+		return "RoomEntity []";
+	}
+
+}

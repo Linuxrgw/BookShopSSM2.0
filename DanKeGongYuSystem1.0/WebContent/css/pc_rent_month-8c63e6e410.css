@@ -1,0 +1,396 @@
+.rel {
+	position: relative
+}
+
+.abs {
+	position: absolute
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.w920 {
+	width: 920px;
+	margin: 0 auto
+}
+
+.w1032 {
+	width: 1032px;
+	margin: 0 auto
+}
+
+.mtop20 {
+	margin-top: 20px
+}
+
+.mtop25 {
+	margin-top: 25px
+}
+
+.mtop30 {
+	margin-top: 30px
+}
+
+.mtop35 {
+	margin-top: 35px
+}
+
+.mtop50 {
+	margin-top: 50px
+}
+
+.mtop70 {
+	margin-top: 70px
+}
+
+.mtop80 {
+	margin-top: 80px
+}
+
+.mtop100 {
+	margin-top: 100px
+}
+
+.dk-blue {
+	color: #06bcc7
+}
+
+.ele-btn a, .ele-btn button {
+	display: inline-block;
+	width: 220px;
+	height: 60px;
+	font-size: 18px;
+	line-height: 60px;
+	border: 1px solid #06bcc7;
+	border-radius: 110px;
+	color: #06bcc7;
+	text-align: center
+}
+
+.ele-btn a:hover, .ele-btn button:hover {
+	background: #f6ffff
+}
+
+.ele-btn .h50 {
+	height: 50px;
+	line-height: 50px
+}
+
+.ele-btn.center {
+	text-align: center
+}
+
+.dis-n {
+	display: none
+}
+
+.m-mode-ban {
+	height: 650px;
+	background: url(../img/public-20171228-Fg9oeTcD8S8hJ5mZ6sf41CmMApC2.png)
+		/*tpa=https://public.wutongwan.org/public-20171228-Fg9oeTcD8S8hJ5mZ6sf41CmMApC2*/
+		 50% 0 no-repeat fixed;
+}
+
+.ban-text {
+	padding-top: 190px;
+	line-height: 1
+}
+
+.ban-text span {
+	display: block;
+	margin-top: 25px;
+	color: #fff;
+	text-align: center
+}
+
+.ban-text .s1 {
+	font-size: 77px;
+	font-weight: 700
+}
+
+.ban-text .s2 {
+	font-size: 24px;
+	margin-top: 30px
+}
+
+.search {
+	width: 900px;
+	margin: 100px auto 0
+}
+
+.search-box {
+	float: left;
+	background: #fff
+}
+
+.search-select {
+	float: left;
+	width: 100px;
+	position: relative
+}
+
+.search-select span {
+	display: block;
+	line-height: 50px;
+	font-size: 18px;
+	color: #000;
+	background: #e6e6e6;
+	text-align: center;
+	cursor: pointer
+}
+
+.search-select-list {
+	display: none;
+	position: absolute;
+	top: 51px;
+	left: 2px;
+	width: 96px;
+	background: #fff;
+	box-shadow: 0 0 5px 0 #aaa;
+	-webkit-box-shadow: 0 0 5px 0 #aaa;
+	-moz-box-shadow: 0 0 5px 0 #aaa
+}
+
+.search-select-list label {
+	display: block;
+	line-height: 32px;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+	cursor: pointer
+}
+
+.search-select-list label:hover {
+	background: #e6e6e6
+}
+
+.search-box input {
+	float: left;
+	display: block;
+	height: 50px;
+	background: #fff;
+	padding: 15px 20px;
+	line-height: 20px;
+	border: 0;
+	font-size: 18px;
+	color: #000;
+	width: 505px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff
+}
+
+.search-btn, .search-map-btn {
+	width: 130px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	background: #3dbcc6;
+	text-align: center;
+	cursor: pointer
+}
+
+.search-btn {
+	float: left
+}
+
+.search-map-btn {
+	float: right
+}
+
+.searcht-text {
+	display: block;
+	clear: both;
+	padding-top: 17px
+}
+
+.searcht-text a, .searcht-text label {
+	float: left;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	margin-right: 20px
+}
+
+.search-map-btn:hover {
+	color: #fff
+}
+
+.searcht-text a:hover {
+	text-decoration: underline
+}
+
+.m-advage {
+	padding-bottom: 80px;
+	border-bottom: 1px solid #e6e6e6
+}
+
+.m-advage .advage-b {
+	position: relative;
+	float: left;
+	width: 33.333%;
+	height: 90px;
+	padding-left: 140px
+}
+
+.m-advage .advage-b .desc, .m-advage .advage-b .tit {
+	width: 155px;
+	line-height: 26px
+}
+
+.m-advage .advage-b .tit {
+	margin-top: 6px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #333
+}
+
+.m-advage .advage-b .desc {
+	font-size: 14px;
+	color: #666
+}
+
+.m-advage .advage-b:before {
+	content: "";
+	display: block;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: 20px;
+	top: 0
+}
+
+.advage-b.i1:before {
+	background: url(../img/public-20171228-FslkRaSzw3YS6Oa49dNQ8MRZECl4.png)
+		/*tpa=https://public.wutongwan.org/public-20171228-FslkRaSzw3YS6Oa49dNQ8MRZECl4*/
+		 no-repeat
+}
+
+.advage-b.i2:before {
+	background: url(../img/public-20171228-FuBctT_GpNI8dU0OTT0aGiWLX6Wg.png)
+		/*tpa=https://public.wutongwan.org/public-20171228-FuBctT_GpNI8dU0OTT0aGiWLX6Wg*/
+		 no-repeat 0 -1px
+}
+
+.advage-b.i3:before {
+	background: url(../img/public-20171228-Fqf_dAW7YYUr8ziZ2XL2ccRnEFlH.png)
+		/*tpa=https://public.wutongwan.org/public-20171228-Fqf_dAW7YYUr8ziZ2XL2ccRnEFlH*/
+		 no-repeat
+}
+
+.m-joint>* {
+	text-align: center
+}
+
+.m-joint .tit {
+	font-size: 38px
+}
+
+.m-joint .sub {
+	font-weight: 700
+}
+
+.m-joint p {
+	font-size: 16px;
+	line-height: 30px
+}
+
+.notext_box {
+	padding: 80px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666
+}
+
+.notext_box strong {
+	font-size: 20px;
+	line-height: 70px;
+	display: inline-block
+}
+
+.newroom {
+	color: #f30;
+	font-weight: 700
+}
+
+.m-room .room-list:nth-child(3n-2) {
+	margin-left: 0
+}
+
+.room-list {
+	float: left;
+	width: 330px;
+	margin: 0 0 20px 20px
+}
+
+.room-list .pic {
+	position: relative;
+	display: block;
+	overflow: hidden
+}
+
+.room-list .pic img {
+	width: 330px;
+	height: 240px;
+	transition: .3s linear;
+	-webkit-transition: .3s linear
+}
+
+.room-list .pic img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transition: .3s linear;
+	-webkit-transition: .3s linear
+}
+
+.room-list .txt {
+	display: block;
+	padding: 10px 10px 15px;
+	border: 1px solid #ddd;
+	border-top: none
+}
+
+.room-list .txt .price {
+	font-size: 24px;
+	color: #ff7966
+}
+
+.room-list .txt .price span {
+	padding-left: 5px;
+	font-size: 14px;
+	color: #999
+}
+
+.room-list .txt .tit {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.room-list .txt .ads {
+	color: #999;
+	margin-top: 3px;
+	height: 17px
+}
+
+.search-box a:active, .search-box a:hover, .search-box a:link,
+	.search-box a:visited {
+	color: #fff !important
+}
+
+@media \0screen\,screen\9 {
+	.m-room {
+		position: relative;
+		left: -10px;
+		width: 1050px
+	}
+}

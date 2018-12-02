@@ -1,0 +1,511 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>北京整租_北京整租房源信息_北京整租安逸-北京蛋壳公寓官网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name='keywords' content='北京整租,整租安逸,北京整租房源信息,北京整租房'>
+    <meta name="description"
+          content="北京蛋壳公寓官网为您提供北京市整租房源信息.找北京租房,合租房,整租房,整租安逸,就上蛋壳公寓.蛋壳公寓让租房变的简单快乐."/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" tppabs="https://s1.wutongwan.org/favicon.ico">
+    <!-- Set render engine for multi engine browser -->
+    <meta name="renderer" content="webkit">
+    <!-- Disable Baidu Siteapp -->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link media="all" type="text/css" rel="css/stylesheet" href="bootstrap-ec3bb52a00.min.css" tppabs="https://s1.wutongwan.org/build/bower/bootstrap/dist/css/bootstrap-ec3bb52a00.min.css">
+
+    <link media="all" type="text/css" rel="css/stylesheet" href="swiper-0b941af5db.min.css" tppabs="https://s2.wutongwan.org/build/css/swiper-0b941af5db.min.css">
+
+    <link media="all" type="text/css" rel="css/stylesheet" href="common-4ce4e00253.css" tppabs="https://s1.wutongwan.org/build/css/website/common-4ce4e00253.css">
+
+
+    <script src="jquery-888d4551b8.js" tppabs="https://s3.wutongwan.org/build/bower/jquery/dist/jquery-888d4551b8.js"></script>
+
+    <script src="bootstrap-5869c96cc8.min.js" tppabs="https://s2.wutongwan.org/build/bower/bootstrap/dist/js/bootstrap-5869c96cc8.min.js"></script>
+
+    <script src="swiper-3-cd2bffb7f2.3.1.min.js" tppabs="https://s1.wutongwan.org/build/js/pc_home/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+    <script src="md5-ea27c6f755.min.js" tppabs="https://s1.wutongwan.org/build/js/md5-ea27c6f755.min.js"></script>
+
+    <script src="city-b83380172d.js" tppabs="https://s1.wutongwan.org/build/js/pc_home/city-b83380172d.js"></script>
+
+    <script src="public-0fd418fb37.js" tppabs="https://s3.wutongwan.org/build/js/website/public-0fd418fb37.js"></script>
+
+    <script src="sa-56cab3188f.js" tppabs="https://s1.wutongwan.org/build/js/sensors-analytics/sa-56cab3188f.js"></script>
+
+    <script src="sa-method-b38d9d9979.js" tppabs="https://s3.wutongwan.org/build/js/sensors-analytics/sa-method-b38d9d9979.js"></script>
+
+    	<link media="all" type="text/css" rel="stylesheet" href="css/entire_rent-e7a4f66f18.css" tppabs="https://s2.wutongwan.org/build/css/website/entire_rent-e7a4f66f18.css">
+
+        <script>
+        var id = '';
+        $.ajax({
+            type: 'GET',
+            url: '/web-api/user/info',
+            async: false,
+            error: function(msg) {
+                console.log(msg)
+            },
+            success: function(data) {
+               id = data.data.mobile || '';
+            },
+        })
+
+        sa.register({
+            'platformType': 'PC',
+            'pid': 'dankegongyu_customer',
+            'cid': 'bj',
+            'ucid': id,
+            'uuid': id,
+            'ssid': id,
+            'lmei': '',
+            'android_id': '',
+            'idfa': '',
+            'idfv': '',
+            'mac_id': '',
+        });
+        $(function () {
+            $('.nav-owner').click(function () {
+                saMethod.ClickingHomepage('月租', $(this).attr('key') || '', '', '')
+            })
+        })
+
+        // sa.quick('autoTrack');
+
+       function GetUrlParam(paraName) {
+    　　　　var url = document.location.toString();
+    　　　　var arrObj = url.split("?");
+
+    　　　　if (arrObj.length > 1) {
+    　　　　　　var arrPara = arrObj[1].split("&");
+    　　　　　　var arr;
+
+    　　　　　　for (var i = 0; i < arrPara.length; i++) {
+    　　　　　　　　arr = arrPara[i].split("=");
+
+    　　　　　　　　if (arr != null && arr[0] == paraName) {
+    　　　　　　　　　　return arr[1];
+    　　　　　　　　}
+    　　　　　　}
+    　　　　　　return "";
+    　　　　}else {
+    　　　　　　return "";
+    　　　　}
+    　　}
+    </script>
+    </head>
+
+
+<!--[if lte IE 8]>
+<script src="html5shiv-0ce8f35589.js" tppabs="https://s2.wutongwan.org/build/js/pc_home/html5shiv-0ce8f35589.js"></script>
+
+<script src="respond-972b9d5576.min.js" tppabs="https://s2.wutongwan.org/build/js/pc_home/respond-972b9d5576.min.js"></script>
+
+<![endif]-->
+
+<!--[if lt IE 8]>
+<div class="alert-danger text-center">您正在使用<strong>过时</strong>的浏览器，本网站不能很好的支持。
+    <a href="javascript:if(confirm(%27http://browser.qq.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://browser.qq.com/%27" tppabs="http://browser.qq.com/" target="_blank">立即使用最新QQ浏览器</a> 获得更好的使用体验！
+</div>
+<![endif]-->
+
+<body>
+<!-- 导入头部文件 -->
+	<jsp:include page="/common/head.jsp"/>
+<div class="right-fixed">
+    <div class="fixed-wrapper">
+        <div class="scroll-to-top">
+            <a href="javascript:void(0)" target="_parent"></a>
+        </div>
+        <div class="scroll-to-app">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <span></span>
+                <img src="img/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH.png" tppabs="https://public.wutongwan.org/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH" style="width: 95px;height: 95px" alt="app下载">
+                <p>扫描下载蛋壳APP</p>
+            </div>
+        </div>
+        <div class="scroll-to-phone">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <img src="img/public-20180519-Fq8UiGCwbNXfmt4u4-DDZLkzBEQN.png" tppabs="https://public.wutongwan.org/public-20180519-Fq8UiGCwbNXfmt4u4-DDZLkzBEQN" alt="客服电话图片">
+                <span>400-110-1027</span>
+            </div>
+        </div>
+        <div class="scroll-to-xcx">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <span class="xcx-close"></span>
+                <span></span>
+                <img src="img/public-20180606-Fma_F2IgLSK0VW-TZVo5UokQpm6w.jpg" tppabs="https://public.wutongwan.org/public-20180606-Fma_F2IgLSK0VW-TZVo5UokQpm6w" style="width:95px;height:95px" alt="app下载">
+                <p>小程序找房更容易</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="website-main">
+        <div class="page-entire-rent">
+		  <div class="m-er-1">
+			   <div class="er-adorn J-adorn">
+					<span class="ele-1"></span>
+					<span class="ele-2"></span>
+					<span class="ele-3"></span>
+					<span class="ele-4"></span>
+				   
+				</div>
+				<img class="mainImg" src="img/public-20180310-FoKSmB8vU_acJgs9KO1PwyMcszGC.png" tppabs="https://public.wutongwan.org/public-20180310-FoKSmB8vU_acJgs9KO1PwyMcszGC" title="租房，整租" alt="逸居一居室整租图片">
+		  </div>
+
+		  <div class="m-er-2">
+			   <div class="sea-text">
+				    <p>衣帽间与书房融为一体，整体感更强，也充分利用了书桌上面的空间，增加储物功能，整个空间看起来更加通透。</p>
+					<p>起居室配置双人床和双人沙发，提升空间的舒适度，家具中增添了梳妆台 产品，阳台作为独立的就餐区增加了更具设计感的餐桌椅三件套，整体品质比”合居“产品有所提升。</p>
+			   </div>
+			   <img class="who-sea" src="img/public-20180627-FqbWXOyl_nQZ83hc6oip_ukIPgEk" tppabs="https://public.wutongwan.org/public-20180627-FqbWXOyl_nQZ83hc6oip_ukIPgEk" title="租房，整租" alt="蛋壳设计师图片">
+		  </div>
+
+		  <div class="m-er-3">
+			    <div id="er-slide" class="er-slide carousel slide" data-interval="5000" data-ride="carousel">
+					<ul class="slide-box carousel-inner">
+						
+						<li class="item active">
+							<img src="img/public-20180322-Ftm9d-X4SqxxS6KS9pfozBuDuybC.png" tppabs="https://public.wutongwan.org/public-20180322-Ftm9d-X4SqxxS6KS9pfozBuDuybC" title="租房，整租" alt="">
+							<div class="slide-info">
+								 <h3 class="none">为什么要选择逸·居？</h3>
+								 <p class="line"></p>
+								 <p class="desc none">逸，一般是指超凡脱俗，卓尔不群，也可以指安闲，安乐。<br/>
+									 蛋壳公寓整租产品，延续第三代产品风格，让租客身安逸乐。<br/>
+									 “逸·居”，我们逸如既往，打造良品公寓。</p>
+							</div>
+							<div class="after"></div>
+						</li>
+						<li class="item">
+							<img src="img/public-20180322-Fp42av5YAch9tSz_T84T3aqaZ0Yg.png" tppabs="https://public.wutongwan.org/public-20180322-Fp42av5YAch9tSz_T84T3aqaZ0Yg" title="租房，整租" alt="">
+							<div class="slide-info">
+								 <h3 class="none">为什么要选择逸·居？</h3>
+								 <p class="line"></p>
+								 <p class="desc none">住房不将就，独享优质格调房源，<br/>
+									 犒劳城市中奋斗的自己，<br/>
+									 拎包即住，随时随地租个家，<br/>
+									 蛋壳为您打造属于自己的空间！</p>
+							</div>
+							<div class="after"></div>
+						</li>
+					</ul>
+					<ol class="carousel-indicators">
+						<li data-target="#er-slide" data-slide-to="0" class="active"></li>
+						<li data-target="#er-slide" data-slide-to="1"></li>
+					</ol>
+					<div class="er-btn slide-prev" href="#er-slide" data-slide="prev"></div>
+					<div class="er-btn slide-next" href="#er-slide" data-slide="next"></div>
+				</div>
+		  </div>
+
+		  <div class="room-box">
+			  <div class="ele-title mtop40 dis-n J-tit-entire">
+				  <h1><strong>逸·居</strong>&ensp;精选房源</h1>
+				  <p class="sub">质感&emsp;简约&emsp;自然&emsp;给您空间自主权</p>
+			  </div>
+			  <div class="m-room w1032 mtop50 clearfix J-room-entire"></div>
+			  <div class="ele-btn center mtop20 dis-n J-btn-entire">
+				  <a class="gdt-lr-01">更多整租房源</a>
+			  </div>
+		  </div>
+	</div>
+	<!-- page end -->
+</div>
+<div class="footer">
+    <div class="website-help">
+        <div class="wibsite-center">
+            <div class="website-f-list">
+                <span>用户帮助</span>
+                <p><a href="notice.html" tppabs="https://www.dankegongyu.com/about/notice.html" target="_blank">入住指南</a></p>
+                <p><a href="20180111lifeHacks.htm" tppabs="https://www.dankegongyu.com/zhuanti/20180111lifeHacks" target="_blank">生活常识</a></p>
+                <p><a href="problem.html" tppabs="https://www.dankegongyu.com/about/problem.html" target="_blank">租房问题</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>商务合作</span>
+                <p><a href="20171219Styleforum.htm" tppabs="https://www.dankegongyu.com/zhuanti/20171219Styleforum" target="_blank">商务合作</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>公司信息</span>
+                <p><a href="aboutus.html" tppabs="https://www.dankegongyu.com/about/aboutus.html" target="_blank">关于蛋壳</a></p>
+                <p><a href="contact.html" tppabs="https://www.dankegongyu.com/about/contact.html" target="_blank">联系蛋壳</a></p>
+                <p><a href="join.html" tppabs="https://www.dankegongyu.com/about/join.html" target="_blank">加入蛋壳</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>客服热线</span>
+                <p>4001-551-551</p>
+                <p class="time">工作日 09:00-21:00</p>
+            </div>
+            <div class="website-f-right">
+                <div class="website-f-pic">
+                    <img src="public-20180702-FlfqqYRpjYyFKdRUiJMD8b6RO02m.png" tppabs="https://public.wutongwan.org/public-20180702-FlfqqYRpjYyFKdRUiJMD8b6RO02m" title="下载蛋壳公寓APP" alt="下载蛋壳公寓APP">
+                    <p>扫码小程序找房</p>
+                </div>
+                <div class="website-f-pic">
+                    <img src="public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH.png" tppabs="https://public.wutongwan.org/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH" style="padding:0;" title="下载蛋壳公寓APP" alt="下载蛋壳公寓APP">
+                    <p>下载蛋壳公寓APP</p>
+                </div>
+                <div class="website-f-pic">
+                    <img src="public-20180104-FuHnSFKo71wRSuJSK4Z0pt6l76zh.png" tppabs="https://public.wutongwan.org/public-20180104-FuHnSFKo71wRSuJSK4Z0pt6l76zh" title="关注蛋壳公寓官方微信" alt="关注蛋壳公寓官方微信">
+                    <p>关注微信公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="crumbs">
+        <div class="crumbs-classify">
+            <a class="crumbs-sel" code="city" href="javascript:;">城市租房</a>
+            <a href="javascript:;" code="dirc" >城区租房</a>
+            <a href="javascript:;" code="block">商圈租房</a>
+            <a href="javascript:;" code="plot">小区租房</a>
+        </div>
+        <div>
+            <div class="crumbs-list city">
+                
+            </div>
+            <div class="crumbs-list dirc" style="display:none">
+            
+            </div>
+            <div class="crumbs-list block" style="display:none">
+                
+            </div>
+            <div class="crumbs-list plot" style="display:none">
+                
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="wibsite-center">
+            <div class="footer-logo">
+                <a href="index.htm" tppabs="https://www.dankegongyu.com/">
+                    <img src="public-20180702-FkLmdf41L0FSNAktybhKBxCs7ztn.png" tppabs="https://public.wutongwan.org/public-20180702-FkLmdf41L0FSNAktybhKBxCs7ztn" alt="蛋壳公寓">
+                </a>
+            </div>
+            <div class="copy-right-text">
+                <div>© 2018 蛋壳公寓 京ICP备15009197号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001946号</div>
+                <div>紫梧桐（北京）资产管理有限公司&nbsp;&nbsp;|&nbsp;&nbsp;地址：北京市东城区朝阳门内大街8号朝阳首府2层212 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	  /*退出登录*/
+	
+	$(".dklogout").on("click",function(){
+        $.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': 'FDJseVBN5iOes3XlWCXJkMTnDQAlIwgIpdiubDAR'
+    },
+    cache: false,
+    async: false,
+});;
+        $.ajax({
+            url:'/web-api/user/logout',
+            type:"POST",
+            success:function(data){
+                location.reload()
+            },
+            error:function(err){
+                console.log(err);
+            }
+        })
+    })
+    
+    $('.dklogined-wrapper').hover(function () {
+        $('.dklogined-center').show()
+        $('.dklogined').css('background', 'url(https://public.wutongwan.org/public-20180519-FqitD4IbypL6rbHSVa_yq4iSsaQE)')
+    }, function () {
+        $('.dklogined-center').hide()
+        $('.dklogined').css('background', 'url(https://public.wutongwan.org/public-20180519-FtfmOHVmUq7-6Tzol_cyQBE9yt3y)')
+    })
+
+    $('.scroll-to-phone').hover(function () {
+        $('.scroll-to-phone div').show()
+        $('.scroll-to-xcx div').hide()
+        $('.xcx-close').hide()
+    }, function () {
+        $('.scroll-to-phone div').hide()
+    })
+
+    $('.scroll-to-app').hover(function () {
+        $('.scroll-to-app div').show()
+        $('.scroll-to-xcx div').hide()
+        $('.scroll-to-app a').css('background-color', '#3dbcc6')
+        $('.xcx-close').hide()
+    }, function () {
+        $('.scroll-to-app div').hide()
+        $('.scroll-to-app a').css('background-color', '#333333')
+    })
+
+    $('.scroll-to-xcx').hover(function () {
+        $('.scroll-to-xcx div').show()
+        $('.scroll-to-xcx a').css('background-color', '#3dbcc6')
+    }, function () {
+        $('.scroll-to-xcx div').hide()
+        $('.scroll-to-xcx a').css('background-color', '#333333')
+        $('.xcx-close').hide()
+    })
+
+    $('.xcx-close').on('click', function () {
+        $('.scroll-to-xcx div').hide()
+        $('.xcx-close').hide()
+    })
+
+    $('.crumbs-classify a').on('click', function () {
+        $(this).addClass('crumbs-sel')
+        $(this).siblings().removeClass('crumbs-sel')
+
+        var code = '.crumbs-list.' + $(this).attr('code')
+        $(code).show()
+        $(code).siblings().hide()
+    })
+
+    
+    getCityList('北京', 'bj')
+    getDircList('北京', 'bj', '')
+    getBlockList('北京', 'bj', '')
+    getPlotList('北京', 'bj', '')              
+
+</script>
+<!--APP推广层 end-->
+    <script type="text/javascript">
+		sa.quick('autoTrack', {
+			'page_type': '整租频道',
+			'house_positiontype': '',
+			'house_position': '',
+			'house_scope': '',
+			'house_price': '',
+			'house_type': '',
+			'business_circle': '',
+			'house_rentway': '',
+			'house_area': '',
+			'house_id': '',
+			'housedel_id': '',
+			'resblock_name': '',
+        });
+       var pageEntire = {
+      	 init:function(){
+			this.initCity();
+			this.slideExtend();
+			this.bannerAnimate();
+       	  },
+       	  dk:{
+       	  	cityCode:$('input[name="website-city-code"]').val(),
+       	  	cityId:1,
+       	  	api:"/web-api"
+       	  },
+       	  /**/
+       	  initCity:function(){
+       	  	var self = this;
+			    //加载城市ID
+			    $.get(self.dk.api+'/base-configure/city-list', function (data) {
+			        for (var i = 0; i < data.length; i++) {
+			            if (data[i].code == self.dk.cityCode) {
+							self.dk.cityId = data[i].id;
+							break ;
+			            }
+			        }
+			        //加载room列表
+			        self.roomList("entire","整租")
+			    });
+       	  },
+       	  /**
+       	   * 合租/整租列表
+       	   * params boxType {String} className 区分标签模块
+		   * params type 	{String} rent_type get
+		   * params style 	{String} style	   get
+       	   * */
+		   roomList:function(boxType,type,style){
+       	  	  var self = this;
+       	  	  $.ajax({
+       	  	  	url:self.dk.api+"/room/recommend-list",
+       	  	  	type:"GET",
+       	  	  	dataType:"json",
+       	  	  	data:{
+       	  	  		city_id:self.dk.cityId,
+					rent_type:type,
+       	  	  		limit:6
+       	  	  	},
+       	  	  	success:function(data){
+					
+       	  	  		//无数据直接返回
+       	  	  		if(!data.length){
+       	  	  			$(".J-room-"+boxType).html(['<div class="notext_box">',
+				                        '<strong>房源更新中...</strong><br>',
+				                        '您可调整搜索关键词查找周边房源，或者订阅相应区域房源，',
+				                        '<a class="newroom" href="javascript:void(0)" data-toggle="modal" data-target="#myroom">有新房源时及时通知我</a>',
+				                    '</div>'].join(""))	;
+       	  	  			return; 
+       	  	  		}
+       	  	  		//用array收集数据转化为标签
+       	  	  		var roomArr = [];
+       	  	  		$.each(data,function(i,e){
+   	  	  				roomArr.push(self.listHtml(e))
+       	  	  		})
+       	  	  		
+       	  	  		/*将html插入渲染到页面中并使其显示出来*/
+       	  	  		$(".J-room-"+boxType).html(roomArr.join("")).show();
+  	  			    $(".J-btn-"+boxType+",.J-tit-"+boxType).removeClass("dis-n")
+  	  			    .find("a").attr("href","/room/"+self.dk.cityCode+"/c"+type+".html" + '?from=all');
+       	  	  	},
+       	  	  	error:function(err){}
+       	  	  });
+       	  },
+       	  /**
+       	   * 整租拼接字符串
+       	   * param  {Object}
+       	   * return {String} 
+       	   * */
+       	  listHtml:function(ele){
+       	  	if(typeof ele != "object")return;
+        	 var html = ['<div class="room-list">',
+        	 	  '<a class="pic" target="_blank" href="',ele.url,'"><img width="330" height="240" src="',ele.major_image,'" title="'+ ele.name +'" alt="精选月租房源图片" /></a>',
+        	 	  '<div class="txt">',
+        	 	  	 ,'<p class="price">',ele.price,'<span>',ele.price_unit,'</span></p>',
+        	 	  	 '<a class="tit" href="',ele.url,'">',ele.name,'</a>',
+        	 	  	 '<div class="ads">',ele.nearest_subway_title,'</div>',
+        	 	  '</div>',
+        	 '</div>']
+       	  	 return html.join("")
+       	  },
+		  /*
+		  * 轮播图增加内容动画
+		  */
+		  slideExtend:function(){
+				$('#er-slide').on('slide.bs.carousel', function (e) {
+					$(".active.item .slide-info",this).addClass("none");
+				});
+				$('#er-slide').on('slid.bs.carousel', function () {
+					$(".active.item .slide-info",this).removeClass("none");
+				});
+		  },
+		  // banner 动画
+		  bannerAnimate:function(){
+			  var addAnimate = function(className,time){
+				setTimeout(function() {
+					$(className).addClass("show");
+				},time||0);
+			  }
+			  $(".J-adorn").fadeIn(800)
+			  addAnimate(".J-adorn .ele-1",1000);
+			  addAnimate(".J-adorn .ele-2",1500);
+			  addAnimate(".J-adorn .ele-3",2000);
+			  addAnimate(".J-adorn .ele-4",2500);
+			  
+		  }
+       };
+
+	   $(function(){
+			pageEntire.init();
+	   })
+	  
+    </script>
+</body>
+</html>
+

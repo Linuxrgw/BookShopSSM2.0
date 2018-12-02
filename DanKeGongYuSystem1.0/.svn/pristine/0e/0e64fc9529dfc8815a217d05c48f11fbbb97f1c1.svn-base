@@ -1,0 +1,1204 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>蛋壳公寓加入蛋壳_蛋壳公寓</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name='keywords' content='蛋壳公寓加入蛋壳,蛋壳公寓加入我们,蛋壳公寓招聘,蛋壳公寓'>
+    <meta name="description"
+          content="蛋壳公寓招聘，蛋壳公寓加入蛋壳，蛋壳公寓加入我们，了解更多蛋壳公寓招聘信息到蛋壳公寓与加入蛋壳"/>
+    <link rel="icon" type="image/x-icon" href="css/favicon.ico" tppabs="https://s1.wutongwan.org/favicon.ico">
+    <!-- Set render engine for multi engine browser -->
+    <meta name="renderer" content="webkit">
+    <!-- Disable Baidu Siteapp -->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-ec3bb52a00.min.css" tppabs="https://s1.wutongwan.org/build/bower/bootstrap/dist/css/bootstrap-ec3bb52a00.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/swiper-0b941af5db.min.css" tppabs="https://s2.wutongwan.org/build/css/swiper-0b941af5db.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/common-4ce4e00253.css" tppabs="https://s1.wutongwan.org/build/css/website/common-4ce4e00253.css">
+
+
+    <script src="jquery-888d4551b8.js" tppabs="https://s3.wutongwan.org/build/bower/jquery/dist/jquery-888d4551b8.js"></script>
+
+    <script src="bootstrap-5869c96cc8.min.js" tppabs="https://s2.wutongwan.org/build/bower/bootstrap/dist/js/bootstrap-5869c96cc8.min.js"></script>
+
+    <script src="swiper-3-cd2bffb7f2.3.1.min.js" tppabs="https://s1.wutongwan.org/build/js/pc_home/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+    <script src="md5-ea27c6f755.min.js" tppabs="https://s1.wutongwan.org/build/js/md5-ea27c6f755.min.js"></script>
+
+    <script src="city-b83380172d.js" tppabs="https://s1.wutongwan.org/build/js/pc_home/city-b83380172d.js"></script>
+
+    <script src="public-0fd418fb37.js" tppabs="https://s3.wutongwan.org/build/js/website/public-0fd418fb37.js"></script>
+
+    <script src="sa-56cab3188f.js" tppabs="https://s1.wutongwan.org/build/js/sensors-analytics/sa-56cab3188f.js"></script>
+
+    <script src="sa-method-b38d9d9979.js" tppabs="https://s3.wutongwan.org/build/js/sensors-analytics/sa-method-b38d9d9979.js"></script>
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/about-us-f0606812ee.css" tppabs="https://s1.wutongwan.org/build/css/about-us-f0606812ee.css">
+
+        <script>
+        var tracker = {
+            channel: '' || null,
+            platform: "pc",
+            city: "北京市"
+        };
+    </script>
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'analytics.js'/*tpa=https://www.google-analytics.com/analytics.js*/, 'ga');
+
+        ga('create', 'UA-67874461-1', 'auto');
+        ga('set', 'dimension1', tracker.platform);
+        ga('set', 'dimension2', tracker.channel);
+        ga('set', 'dimension3', tracker.city);
+        ga('send', 'pageview');
+    </script>
+    
+    <script type='text/javascript'>var TINGYUN=function(t,e,n){function r(t){var e=!!t&&"length"in t&&t.length,n=typeof t;return"function"!==n&&("array"===n||0===e||"number"==typeof e&&e>0&&e-1 in t)}function i(t,e){var n,i=0;if(t)if(r(t))for(n=t.length;i<n&&!1!==e.call(t[i],t[i],i);i++);else for(i in t)if(!1===e.call(t[i],t[i],i))break;return t}function o(t){return function(e){return"Array"===t&&Array.isArray?Array.isArray(e):Object.prototype.toString.call(e)==="[object "+t+"]"}}function a(t){switch(typeof t){case"object":if(!t)return null;if(t instanceof Array)return i(t,function(e,n){t[n]=a(e)}),"["+t.join(",")+"]";if(t instanceof Date)return t.getTime().toString();var e="";return i(t,function(t,n){At(t)||(e+=a(n)+":"+a(t)+",")}),e&&(e=e.substr(0,e.length-1)),"{"+e+"}";case"string":return Bt+t.replace(Mt,"\\$1").replace(jt,"\\n")+Bt;case"number":return isNaN(t)?null:t;case"boolean":return t;case"function":return a(t.toString());case"undefined":default:return'"undefined"'}}function u(t){return t&&qt(t)?Rt(t):t}function s(t,e,n,r){var i=function(){return Ft(t,e,i),n.apply(this,arguments)};return Dt(t,e,i,r)}function c(t,e){return Function.prototype.apply.apply(t,e)}function f(t,e){return function(){t.apply(e,arguments)}}function l(t){return Pt?Pt(t):t}function d(t){return arguments.length<2||!t?t:(i(Ut.call(arguments,1),function(e){i(e,function(e,n){t[n]=e})}),t)}function h(t,e){for(var n=-1,r=0,i=null==t?0:t.length,o=[];++n<i;){var a=t[n];e(a,n,t)&&(o[r++]=a)}return o}function p(t,e){return t?e?t.replace(/\{(\w+.?\w+)\}/g,function(t,n){return e[n]||""}).replace(/\{(\d+)\}/g,function(t,n){return e[n]||""}):t:""}function v(t){return setTimeout(t,0)}function g(){}function m(){return+new Date}function y(t){return function(){if(null!==t){var e=t;t=null,e.apply(this,arguments)}}}function b(t){return t?qt(t)?t.length:e.ArrayBuffer&&t instanceof ArrayBuffer?t.byteLength:e.Blob&&t instanceof Blob?t.size:t.length?t.length:0:0}function S(t){return Xt!==Gt&&/^https/i.test(t&&t.protocol||Xt)?"https:":Gt}function x(t,e,n,r){var o=null;return t&&e&&(o=S(r)+"//"+t+e,n&&(o+="?",i(n,function(t,e){var n=[l(e),"=",l(t),"&"];o+=n.join("")}),o+="__r="+m())),o}function _(){this.events={}}function w(t){return!(t in Vt)||Vt[t]}function E(t){var e=$t.cookie.match(new RegExp("(^|;\\s*)("+t+")=([^;]*)"));return e?e[3]:null}function T(t,e,n){var r=t+"="+e;if(n){var i=new Date;i.setTime(i.getTime()+1e3*n),r+=";expires="+i.toGMTString()}$t.cookie=r}function k(t,e,n){var r=$t.createElement(t);try{for(var i in e)r[i]=e[i]}catch(a){var o="<"+t;for(var i in e)o+=" "+i+'="'+e[i]+'"';o+=">",n||(o+="</"+t+">"),r=$t.createElement(o)}return r}function C(t,e,n,r){At(n)&&(r=n);var i=k("div",{style:we}),o=k("iframe",{name:"ty_form",width:0,height:0,style:we}),a=k("form",{style:we,action:t,enctype:"application/x-www-form-urlencoded",method:"post",target:"ty_form"}),u=k("input",{name:"data",type:"hidden"},!0);u.value=Nt(e),a.appendChild(u),i.appendChild(o),i.appendChild(a),$t.body.appendChild(i),a.submit(),o.onreadystatechange=function(){o.readyState!==ve&&4!==o.readyState||(r(null,o.innerHTML),$t.body.removeChild(i))}}function I(t,e,n){if(t&&n&&At(n)){var r=t[e];if(!r||!r._wrapped){var i=n(r);return i&&(i._wrapped=!0),t[e]=i,i}}}function R(t){ke&&t()}function N(t){return function(){ke&&t.apply(this,arguments)}}function q(){ke=!1}function O(){Ne.on(fe,y(function(){t();var e=m();R(function(){Ce.load=e}),Le.loadEventEnd=e})),i([fe,le,de,he],function(t){Dt(e,t,function(e){R(function(){(Ce.e[t]||(Ce.e[t]=[])).push(m())}),Ne.emit(t,e)})});var t=y(function(){var t=m();R(function(){Ce.end=t}),Le.domContentLoadedEventStart=t,$t.querySelectorAll&&(Re.resources=Re.resources||[],i($t.querySelectorAll("head>link,head>script"),function(t){var e;"LINK"==t.tagName?e=t.href:"SCRIPT"!=t.tagName||t.defer||t.async||(e=t.src),e&&Re.resources.push(e)}))});Dt($t,"DOMContentLoaded",t),Dt($t,pe,function(e){$t.readyState===ve&&t()});var n=y(function(){Le.touch=m()});i(["scroll","click","keypress"],function(t){s($t,t,n)});var r=e.requestAnimationFrame;!r||r.toString().indexOf("[native code]")<0||I(e,"requestAnimationFrame",function(t){return function(){if(!Le.firstPaint){var n=m();R(function(){Ce.an.count++,Ce.an.t=n}),Le.firstPaint=n,e.requestAnimationFrame=t}return t.apply(this,arguments)}})}function A(t){H(t,qe)}function L(t){H(t,Oe)}function H(t,e){var n="ok";if(!t)return n=e.length?e.join("\n"):n;e.push(t)}function B(){var t=this;t.xhrs={},t.errs=[],_.call(t)}function M(t,e){this.flags=0,At(t.create)&&(this.create=t.create,this.flags|=Fe),At(t.before)&&(this.before=t.before,this.flags|=Pe),At(t.after)&&(this.after=t.after,this.flags|=Ue),At(t.error)&&(this.error=t.error,this.flags|=Ye),this.data=e}function j(t,e){if(!Ge){if(!Lt(t)||!t)throw new TypeError("callbacks arguments must be an object");return Ge=new M(t,e)}}function z(t){var e=Ge.data;if(0!=(Ge.flags&Fe)){var n=Ge.create(Ge.data);n!==undefined&&(e=n)}return function __ty_aysncWrap__(){0!=(Ge.flags&Pe)&&Ge.before(this,e);var n=__ty_aysncWrap__;n._&&(n._=1);try{var r=t.apply(this,arguments)}catch(i){throw 0!=(Ge.flags&Ye)&&Ge.error(e,i),i}return 0!=(Ge.flags&Ue)&&Ge.after(this,e),r}}function D(t){return!Ge||Ge.flags<=0?t:z(t)}function F(){function t(t){return function(e){var n=Ut.call(arguments,0);At(e)&&(n[0]=D(e));var r=this;try{return t.apply(r,n)}catch(i){}return c(t,[r,n])}}I(e,"setTimeout",t),I(e,"setInterval",t)}function P(){this.id=null,this.active=null,this._set=[]}function U(){F();var t=new P;return t.id=j({create:function(){return t.active},before:function(e,n){n&&t.enter(n)},after:function(e,n){n&&t.exit(n)},error:function(e,n){if(e){try{n.moduleId=e.moduleId}catch(r){}t.exit(e)}}}),t}function Y(t){De&&console.warn(t||"Event key required!")}function X(t){t=t||{},this.key=t.key;var e=t.timeout||6e5;this.i=e?setTimeout(f(this.fail,this),e):null,this.status=1,this.remain=0,this.xhrs=[],this.s=m(),this.e=null,this.called=this.sent=!1}function G(){if(Object.defineProperty){var t=e[be];Object.defineProperty(e,be,{get:function(){return nn++>0&&e.console&&console.warn("window.%s is deprecated, use window.%s instead.",be,Se),t}})}}function W(t){try{return u(t)}catch(e){A(e&&e.message)}return null}function J(){return Le[sn]||Le._end}function $(){return Le.loadEventEnd||Le._end}function K(t){function r(e){return t[e]>0?t[e]-a:0}var o={},a=n;if(t){R(function(){var e=Ce.t={};i(t,function(t,n){At(t)||(e[n]=t)})}),a=t.navigationStart,o={f:r(rn),qs:r(on),rs:r(an),re:r(un),os:r(sn),oe:r(cn),oi:r(fn),oc:r(ln),ls:r(dn),le:r(hn),tus:r(pn),tue:r(vn)};var u=r(gn),s=r(mn),c=r(yn),f=r(bn),l=r(Sn),d=r(xn);if(d-l>0&&(o.cs=l,o.ce=d),s-u>0&&(o.ds=u,o.de=s),(f-c>0||f>0)&&(o.es=c,o.ee=f),0==o.le){var h=$();o.ue=h-a}Le._le=o.ue||o.le;var p,v;if(t.msFirstPaint)p=t.msFirstPaint,R(function(){Ce.fp="m_"+p});else if((v=e.chrome)&&v.loadTimes){var g=v.loadTimes();g&&g.firstPaintTime&&(p=1e3*g.firstPaintTime),R(function(){Ce.fp="c_"+g.firstPaintTime})}else Le.firstPaint&&(p=Le.firstPaint,R(function(){Ce.fp=p}));p&&(o.fp=Math.round(p-a),Le.fp=o.fp),t[_n]&&(o.sl=r(_n))}else o={t:a,os:J()-a,ls:$()-a};return o.je=Le.errs&&Le.errs.length||0,Le.ct&&(o.ct=Le.ct-a),Le.touch&&(o.fi=Le.touch-a),o}function Q(t,e){var r={tr:!1,tt:l($t.title),charset:$t.characterSet};Ie.resources&&d(r,Ie.resources),R(function(){r.debug=Ce}),q();var o=Le.errs;i(o,function(t,r){var i=t.toObject();i.o=i.o-e&&e.navigationStart||n,o[r]=i}),r.err=o;var a="getEntriesByType";return t[a]?(r.tr=!0,r.res=[],i(t[a]("resource"),function(t){function e(e){var n=t[e];return n>0?n:0}var n=t.initiatorType,i=t.name,o={o:e("startTime"),rt:n,n:i,f:e(rn),ds:e(gn),de:e(mn),cs:e(Sn),ce:e(xn),sl:e(_n),qs:e(on),rs:e(an),re:e(un),ts:t.transferSize||0,es:t.encodedBodySize||0};if("xmlhttprequest"===n){var a=V(i);a&&(o.aid=a.id,o.atd=a.trId,o.an=a.action,o.aq=a.time&&a.time.qu,o.as=a.time&&a.time.duration)}r.res.push(o)})):L(p(Me,[a])),r}function V(t){var e;return i(Le.xhrs,function(n,r){if(r&&r.indexOf(t)>-1)return e=n,!1}),e}function Z(t){var e={};return t&&(e.id=t.id,e.a=t.a,e.q=t.q,e.tid=t.tid,e.n=t.n),e}function tt(t){var e=0,n=t.timing;return n?t.getEntriesByName&&(e=n.domLoading,i(Re.resources,function(r){var i=t.getEntriesByName(r);if(1==i.length){var o=i[0].responseEnd+n.navigationStart;o>e&&(e=o)}}),e-=n.navigationStart):L("fp=0"),R(function(){Ce._fp=e}),Math.round(e)}function et(t,n,r,o){var a=r||0,u=Ie.firstScreenResources;if(u&&u.length&&t.getEntriesByName)return i(u,function(e){var n=t.getEntriesByName(e);if(n.length){var r=n[0].responseEnd;r>a&&(a=r)}}),o.fs_s=1,Math.round(a);if(!$t.createElement("img").getBoundingClientRect)return R(function(){Ce.fs=a}),a;if(t.getEntriesByName){var s=e.innerHeight,c=e.innerWidth,f=[];i($t.querySelectorAll("img"),function(t){t.src&&nt(rt(t),s,c)&&!it(t)&&f.push(t.src)});var l=(n.loadEventEnd||Le.loadEventEnd)-n.navigationStart;i(f,function(e){var n=t.getEntriesByName(e);if(n.length){var r=n[0],i=r.responseEnd;r.fetchStart<=l&&i>a&&(a=i)}})}return Math.round(a)}function nt(t,n,r){if(t){var i=e.pageYOffset;if(t.top+(0===i?0:i||$t.scrollTop||0)-($t.clientTop||0)>=n)return!1;var o=t.left;return o>=0&&o<r}return!1}function rt(t){return At(t.getBoundingClientRect)?t.getBoundingClientRect():undefined}function it(t){return oe.reliableHiddenOffsets()?t.offsetWidth<=0&&t.offsetHeight<=0&&!t.getClientRects().length:ot(t)}function ot(t){for(;t&&1===t.nodeType;){if("none"===at(t)||"hidden"===t.type)return!0;t=t.parentNode}return!1}function at(t){return t.style&&t.style.display}function ut(t){var e=n,r=0;return t&&(e=t.navigationStart||e,r=t[sn]||t.domInteractive||t.domLoading||r),(r=Le[sn]||r||Le._end)-e}function st(t){if(t){var e=t.fetchStart;if(e)return e-t.navigationStart}return undefined}function ct(t){return function __ty_aysncWrap__(e,n){var r=this,i=__ty_aysncWrap__;if(i._&&(i._=1),!r[_e]){var o=r[be]={};o.method=e,o.url=n,o.id=Rn++;var a=Je.get("event");a&&(o.key=a.key,a.remain++)}try{return t.apply(r,arguments)}catch(u){}return c(t,[r,arguments])}}function ft(t){return function __ty_aysncWrap__(e){var n=this,r=__ty_aysncWrap__;if(r._&&(r._=1),!n[_e]){var i=n[be];i&&(i.start=m(),i.reqSize=b(e)),lt(n),n.setRequestHeader&&Vt.id&&i&&On(i.url)&&(i.r=m()%1e9,n.setRequestHeader("X-Tingyun-Id",Vt.id+";r="+i.r))}try{return t.apply(n,arguments)}catch(o){}return c(t,[n,arguments])}}function lt(t){function e(e){return D(function __ty_aysncWrap__(){var n=__ty_aysncWrap__;n._&&(n._=1),dt(t);var r;if(At(e)){var i=t[be];if(i&&4==t.readyState)var o=m();r=e.apply(this,arguments),i&&4==t.readyState&&(i.cbTime=m()-o,t[be]=null)}return r})}function n(e){t[be]&&(t[be].errorCode=e)}if(t[qn])I(t,qn,e);else try{Dt(t,pe,D(function __ty_aysncWrap__(){var e=__ty_aysncWrap__;e._&&(e._=1),dt(t)})),i(Nn,function(e,r){Dt(t,r,function(){n(e)})})}catch(r){return void v(function(){i(Nn,function(e,r){var i="on"+r;t[i]?I(t,i,function(t){if(n(e),At(t))return t.apply(this,arguments)}):t[i]=function(){n(e)}}),I(t,qn,e)})}v(function(){I(t,qn,e)})}function dt(t){var e=t[be];if(e&&(e.end=m(),e.readyState=t.readyState,4==t.readyState)){e.status=t.status,e.resSize=ht(t);var n=Je.get("event");v(function(){var r=!1;if(i(In,function(t){if(t.id===e.id)return r=!0,!1}),!r){var o=pt(e,t);n&&n.key==e.key&&(n.xhrs.push(o),0==--n.remain&&n._end()),Le.xhrs&&(Cn(e),Le.xhrs[e.url]=o),In.push(o)}})}}function ht(t){var e=0;if(""==t.responseType||"text"==t.responseType)e=b(t.responseText);else if(t.response)e=b(t.response);else try{e=b(t.responseText)}catch(n){}return e}function pt(t,e){if(t){var n=t.status,r={id:t.id,req:t.method+" "+t.url,start:t.start,du:n>0?t.end-t.start:0,cb:t.cbTime||0,status:n,err:t.errorCode?t.errorCode:0,rec:t.resSize,send:t.reqSize};if(t.r){var i=gt(e,t);i&&(r.s_id=i.id,r.s_name=i.action,i.time&&(r.s_du=i.time.duration,r.s_qu=i.time.qu),r.t_id=i.trId)}return r}}function vt(t,e){if(t&&t.getResponseHeader)return t.getResponseHeader(e)}function gt(t,e){var n=W(vt(t,"X-Tingyun-Tx-Data"));return n&&n.r&&mt(n.r)===mt(e.r)?n:null}function mt(t){return t+""}function yt(){return setInterval(function(){if(In&&In.length){var t=[];i(In,function(e){t.push(e)});var n=null;Ie.ulabel&&(n={ulabel:Ie.ulabel}),Le.emit("send","/xhr1",n,{xhr:t},function(){In=h(In,function(e){return t.indexOf(e)<0})}),Yt()&&!e.XDomainRequest&&(In=[])}},Tn)}function bt(){var t=Kt&&Kt.prototype;return t?(I(t,"open",ct),I(t,"send",ft)):Kt&&(e.XMLHttpRequest=function(){var t=new Kt;return I(t,"open",ct),I(t,"send",ft),t}),yt()}function St(t){this.limit=t,this.reset()}function xt(t,e,n,r){return String(t)+String(e)+String(n)+String(r)}function _t(t,e,n,r,i,o,a){var u=this;u.id=t,u.time=m(),u.msg=e,u.lineno=r,u.colno=i,u.filename=n,u.count=1,u.stack=o&&o.stack||"",u.module=a,u.fix();var s=Bn[t];u.ep=s?0:1,Bn[t]=!0}function wt(t){var e=function(t){var e=[];return i(t,function(t){e.push(t.toObject())}),e}(Hn.c);if(!e||!e.length)return null;var r={fu:Ln||Ln++,os:parseInt((m()-(Re.pfStart||n))/1e3)};Ie.ulabel&&(r.ulabel=Ie.ulabel),Le.emit("send","/err1",r,{datas:e},f(Hn.reset,Hn))}function Et(t,e,n,r,o){if(e||!Zt){var a=!1;if(i(Qt.domains,function(t){if(a=t.test(e))return!1}),!a){var u=o&&o.moduleId,s=xt(t,n,r,u),c=Hn.get(s);c?c.increase():(c=new _t(s,t,e,n,r,o,u),Hn.add(s,c),Le.errs&&Le.errs.push(c))}}}function Tt(){var t=e.onerror;e.onerror=function(e,n,r,i,o){if(Et(e,n,r,i,o),At(t))return t.apply(this,arguments)},e.onerror._ty=!0}function kt(){var t=e.onerror;t&&t._ty||Tt()}function Ct(){var t=Yt();return t?Tt():Dt(e,ce,function(t){var n,r,i,o,a;(t instanceof e.Event||e.ErrorEvent&&t instanceof e.ErrorEvent)&&(n=t.message||t.error&&(t.error.message||t.error.constructor.name)||"",r=t.lineno||0,i=t.colno||0,(o=t.filename||t.error&&t.error.filename||t.target&&t.target.baseURI||"")==$t.URL&&(o="#"),a=t.error),Et(n,o,r,i,a)}),Ne.on([fe,le,de,he],function(t){wt()}).on(fe,function(){t&&v(kt)}),setInterval(wt,An)}function It(){var t=Array.prototype;t.indexOf||(t.indexOf=function(t,e){var n=this.length>>>0;if((e|=0)<0)e=Math.max(n-e,0);else if(e>=n)return-1;if(t===undefined){do{if(e in this&&this[e]===undefined)return e}while(++e!==n)}else do{if(this[e]===t)return e}while(++e!==n);return-1})}var Rt,Nt,qt=o("String"),Ot=o("Array"),At=o("Function"),Lt=o("Object"),Ht=o("Undefined"),Bt='"',Mt=/([\"\\])/g,jt=/\n/g,zt=e.JSON;zt&&zt.parse&&zt.stringify?(Rt=function(t){return JSON.parse(t)},Nt=function(t){return JSON.stringify(t)}):(Rt=function(t){return new Function("return "+t)()},Nt=a);var Dt,Ft;e.addEventListener?(Dt=function(t,e,n,r){return t.addEventListener(e,n,r)},Ft=function(t,e,n){return t.removeEventListener(e,n)}):(Dt=function(t,e,n){return t.attachEvent("on"+e,n)},Ft=function(t,e,n){return t.detachEvent("on"+e,n)});var Pt=e.encodeURIComponent,Ut=[].slice,Yt=new Function("return!+[1,]"),Xt=e.location.protocol,Gt="http:",Wt=function(){function t(t){return t<0?NaN:t<=30?0|Math.random()*(1<<t):t<=53?(0|Math.random()*(1<<30))+(0|Math.random()*(1<<t-30))*(1<<30):NaN}function e(t,e){for(var n=t.toString(16),r=e-n.length,i="0";r>0;r>>>=1,i+=i)1&r&&(n=i+n);return n}return function(){return e(t(32),8)+"-"+e(t(16),4)+"-"+e(16384|t(12),4)+"-"+e(32768|t(14),4)+"-"+e(t(48),12)}}();_.prototype={on:function(t,e){var n=this;return qt(t)?(n.events[t]||(n.events[t]=[])).push(e):Ot(t)&&i(t,function(t){n.on(t,e)}),n},off:function(t,e){var n=arguments.length,r=this;if(0===n)return r.events={},r;var i=r.events[t];if(!i)return r;if(1===n)return r.events[t]=null,r;for(var o=i.length;o--;)if(i[o]===e){i.splice(o,1);break}return r},emit:function(t){var e=[].slice.call(arguments,1),n=this.events[t];return n&&i(n,function(t){return t.apply(this,e)}),this},unshift:function(t,e){var n=this;return(n.events[t]||(n.events[t]=[])).unshift(e),n}};var Jt=e.Error,$t=e.document,Kt=e.XMLHttpRequest,Qt={};t(Qt);var Vt=Qt.server||{};Vt=d({fp_threshold:2e3,fs_threshold:4e3,dr_threshold:4e3},Vt);var Zt=w("ignore_err"),te=w("debug"),ee=e.location,ne=e.navigator,re=e.HTMLElement,ie=function(){try{var t=Wt();return e.localStorage.setItem(t,t),e.localStorage.removeItem(t),!0}catch(n){return!1}}(),oe={};oe.localStorage=ie,function(){function t(){var t,f,l=$t.documentElement;l.appendChild(s),c.style.cssText="-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;display:block;margin:auto;border:1px;padding:1px;top:1%;width:50%",n=i=u=!1,r=a=!0,e.getComputedStyle&&(f=e.getComputedStyle(c),n="1%"!==(f||{}).top,u="2px"===(f||{}).marginLeft,i="4px"===(f||{width:"4px"}).width,c.style.marginRight="50%",r="4px"===(f||{marginRight:"4px"}).marginRight,(t=c.appendChild($t.createElement("div"))).style.cssText=c.style.cssText="-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;display:block;margin:0;border:0;padding:0",t.style.marginRight=t.style.width="0",c.style.width="1px",a=!parseFloat((e.getComputedStyle(t)||{}).marginRight),c.removeChild(t)),c.style.display="none",(o=0===c.getClientRects().length)&&(c.style.display="",c.innerHTML="<table><tr><td></td><td>t</td></tr></table>",(t=c.getElementsByTagName("td"))[0].style.cssText="margin:0;border:0;padding:0;display:none",(o=0===t[0].offsetHeight)&&(t[0].style.display="",t[1].style.display="none",o=0===t[0].offsetHeight)),l.removeChild(s)}$t.documentElement;var n,r,i,o,a,u,s=$t.createElement("div"),c=$t.createElement("div");c.style&&(c.style.cssText="float:left;opacity:.5",oe.opacity="0.5"===c.style.opacity,oe.cssFloat=!!c.style.cssFloat,c.style.backgroundClip="content-box",c.cloneNode(!0).style.backgroundClip="",oe.clearCloneStyle="content-box"===c.style.backgroundClip,(s=$t.createElement("div")).style.cssText="border:0;width:8px;height:0;top:0;left:-9999px;padding:0;margin-top:1px;position:absolute",c.innerHTML="",s.appendChild(c),oe.boxSizing=""===c.style.boxSizing||""===c.style.MozBoxSizing||""===c.style.WebkitBoxSizing,oe.reliableHiddenOffsets=function(){return null==n&&t(),o})}();var ae,ue;oe.localStorage?(ae=function(t){return e.localStorage.getItem(t)},ue=function(t,n){return e.localStorage.setItem(t,n),n}):(ae=E,ue=T);var se,ce="error",fe="load",le="unload",de="beforeunload",he="pagehide",pe="readystatechange",ve="complete",ge="TY_DISTINCT_ID",me="TY_SESSION_ID",ye=86400,be="_ty_rum",Se="TINGYUN",xe=2,_e="__ign",we="display:none",Ee="POST",Te=function(t,e){e=e||g;var n=new Image;Dt(n,pe,function(){"loaded"!=n.readyState&&4!=n.readyState||e(null)},!1),Dt(n,fe,function(){e(null)},!1),Dt(n,ce,function(){e(ce)},!1),n.src=t};e.XDomainRequest?se=function(t,e,n,r){At(n)&&(r=n);var i=new XDomainRequest;i.open(Ee,t),i.onload=function(){r(null,i.responseText)},i.onerror=function(t){r(t)},i.send(Nt(e))}:Yt()?se=C:ne.sendBeacon?Te=se=function(t,e,n,r){At(n)&&(r=n,n=null),ne.sendBeacon(t,Nt(e))&&r&&r()}:se=function(t,e,n,r){At(n)&&(r=n,n=null);var i=y(r),o=new Kt;o[_e]=!0,o.overrideMimeType&&o.overrideMimeType("text/html"),o.onreadystatechange=function(){4==o.readyState&&200==o.status&&i(null,o.responseText)},o.onerror=i,e=Nt(e);try{o.open(Ee,t,!0)}catch(u){return C(t,e,i)}for(var a in n)o.setRequestHeader(a,n[a]);o.send(e)};var ke=te,Ce={start:n,e:{},an:{count:0},visible:[]},Ie={},Re={};!function(){if(te){var t,e,n="visibilitychange";Ht($t.hidden)?Ht($t.msHidden)?Ht($t.webkitHidden)||(t="webkitHidden",e="webkit"+n):(t="msHidden",e="ms"+n):(t="hidden",e=n),Ht($t.addEventListener)||Ht($t[t])||Dt($t,e,N(function(){Ce.visible.push([$t[t],m()])}))}}();var Ne=new _,qe=[],Oe=[],Ae=B.prototype;Ae.start=function(){if(!Vt.key)return A("missing config, agent disabled!"),!1;var t=e[be]||e[Se];return t&&t.server?(A("already loaded!"),!1):(O(),this)},d(Ae,_.prototype);var Le=new B;Le.on("send",function(t,e,n,r){var i=x(Vt.beacon,t,d({},He,e||{}));switch(r=r||g,t){case"/pf":n?se(i,n,function(){Le.xhrs=Le.errs=null,r()}):Te(i,r);break;default:se(i,n,r)}});var He={pvid:Wt(),ref:$t.URL,referrer:$t.referrer,key:Vt.key,v:"1.7.5",av:"1.7.5",did:function(){var t=ae(ge);return t||ue(ge,Wt(),ye)}(),sid:function(){var t=E(me);return t||(t=Wt(),T(me,t)),t}()},Be=re?function(t){return t instanceof re}:function(t){t&&"object"==typeof t&&1===t.nodeType&&qt(t.nodeName)},Me="{0} not support",je="illegal argument",ze={},De="undefined"!=typeof e.console,Fe=1,Pe=2,Ue=4,Ye=8,Xe=M.prototype;Xe.create=Xe.before=Xe.after=Xe.error=null;var Ge;P.prototype={createContext:function(){return Object.create?Object.create(this.active):U(this.active)},get:function(t){if(this.active)return this.active[t]},set:function(t,e){if(this.active)return this.active[t]=e},enter:function(t){if(!t)throw new Jt("context required!");this._set.push(this.active),this.active=t},exit:function(t){if(!t)throw new Jt("context required!");if(t!==this.active){var e=this._set.lastIndexOf(t);if(e<0)throw new Jt("context not currently entered!");this._set.splice(e,1)}else this.active=this._set.pop()},bind:function(t,e){e||(e=this.active?this.active:this.createContext());var n=this;return function(){n.enter(e);try{return t.apply(this,arguments)}catch(r){try{r.moduleId=e.moduleId}catch(i){}throw r}finally{n.exit(e)}}}};var We=!1,Je=(We||(Je=U(),We=!0),Je),$e=Y.prototype;$e.fail=$e.end=g;var Ke=X.prototype;Ke.end=Ke.finish=Ke.fail=null,Ke.send=function(t){var e=this;e.sent=!0;var n=t.event&&t.event.xhrs||[];i(n,function(t){t.start=t.start-e.s});var r={key:e.key,duration:e.e-e.s,status:e.status,xhrs:n};Le.emit("send","/spe",null,r,g)};var Qe={},Ve={},Ze=e.screen;Ze&&(Ve.sh=Ze.height,Ve.sw=Ze.width);var tn={host:"cshst",url:"csurl"},en={version:"1.7.5",config:function(t,e){var n;if(Lt(t))n=t;else{if(!qt(t)||e===undefined)throw new Jt(je);(n={})[t]=e}return i(n,function(t,e){e in tn?Ie[tn[e]]=t:Ie[e]=t}),this},DIAGNOSE_HREF:xe,diagnose:function(t){function e(t,e,r){var i=r||"log",o=n[t]||(n[t]={});o[i]=o[i]||"",o[i]+=e}var n={},r=A();if(e("Status",r,"ok"!==r),e("Debug",L()),i(ze,function(t,n){e("Timeline",n+": "+t.toString())}),!t&&De)console.log("[TingYun Agent Diagnosis]\n"),i(n,function(t,e){i(console[e],function(t,e){console[e](t)})});else{if(t!==xe)return Nt(n);ee.href=ee.href+"#"+Nt(n)}},createEvent:function(t){var e=(t=t||{}).key;if(!e)return new Y;if(Qe[e])return new Y("event "+e+" is executing");Qe[e]=!0;var n=Je.createContext();Je.enter(n);var r=new X(t);return Je.set("event",r),r._end=function(){var t=this;!t.sent&&0===t.remain&&t.called&&t.finish().send(n)},r.end=function(t){var e=this;e.called?De&&console.warn("Event "+this.key+"has ended or failed!"):(e.called=!0,Je.exit(n),e.status=arguments.length?t:1,e._end())},r.finish=function(t){var e=this;return e.e=m(),e.i&&clearTimeout(e.i),delete Qe[e.key],e},r.fail=function(){this.end(0)},r},logFirstScreen:function(t){if(t){var e=Ie.firstScreenResources=Ie.firstScreenResources||[];Ot(t)||(t=[t]),i(t,function(t){if(qt(t))e.push(t);else if(Be(t)){var n=t.src||t.href;n&&e.push(n)}})}},addExcludedDomain:function(t){Ot(t)||(t=[t]),i(t,function(t){if(t){if(!(t instanceof RegExp))throw new Jt("parameter's type requires RegExp");(Qt.domains||(Qt.domains=[])).push(t)}})}};e[be]=e[Se]=en;var nn=0,rn="fetchStart",on="requestStart",an="responseStart",un="responseEnd",sn="domContentLoadedEventStart",cn="domContentLoadedEventEnd",fn="domInteractive",ln="domComplete",dn="loadEventStart",hn="loadEventEnd",pn="unloadEventStart",vn="unloadEventEnd",gn="domainLookupStart",mn="domainLookupEnd",yn="redirectStart",bn="redirectEnd",Sn="connectStart",xn="connectEnd",_n="secureConnectionStart",wn=function(t){if(!t.agent){var n=e._ty_rum;if(n&&n.agent)t.agent=n.agent;else{var r=E("TINGYUN_DATA");if(r){try{t.agent=W(decodeURIComponent(r))}catch(i){A(i&&i.message)}T("TINGYUN_DATA","",-1e3)}}}return t.agent}(Qt);wn&&wn.ulabel&&(Ie.ulabel=wn.ulabel);var En=function(){var t=y(function(){function t(t){return t?"1":"0"}var r=e.performance,o=!!r;o||L(p(Me,["pf"]));var a=Z(wn),u=r&&r.timing,s=d(K(u),a,Ie),c=d({},Ve);Le.fp?(c.fp=Le.fp,o&&Le.fp>Le._le&&(L("fp>le"),c.fp=tt(r),c.__fp=2)):o?(c.fp=tt(r),c.__fp=1):c.fp=c.__fp=0,c.dr=ut(u),o?c.fs=et(r,u,c.fp,c):c.__fs=0;var f,l="";if(o){var h=Math.max(s.ls,0);h||(h=$()-u.navigationStart||n),c.trace=h;var v=st(u);i(["fp","fs","dr","trace"],function(e){l+=t((v?c[e]-v:c[e])>=Vt[e+"_threshold"])}),delete c.trace,l.indexOf("1")>-1&&(f=Q(r,u))}c.trflag=l||"0000",Re.pfStart=m(),delete s.firstScreenResources,delete s.resources,Le.emit("send","/pf",d(s,c),f,function(){L("pf sent!"),Le.xhrs=Le.errs=null})});return Ne.on(fe,function(){v(t)}).on([le,de,he],t)},Tn=2e3,kn=function(t){var e=[];return i(Vt.custom_urls,function(t){try{e.push(new RegExp(t))}catch(n){A(n&&n.message)}}),e}(),Cn=kn.length?function(t){var e=t.url;!Le.ct&&e&&i(kn,function(n){if(e.match(n))return Le.ct=t.end+t.cbTime,!1})}:g,In=[],Rn=0,Nn={error:990,abort:905,timeout:903},qn="on"+pe,On=function(){function t(t){var r=t;return e&&(n.setAttribute("href",r),r=n.href),n.setAttribute("href",r),{href:n.href,protocol:n.protocol?n.protocol.replace(/:$/,""):"",host:n.host,search:n.search?n.search.replace(/^\?/,""):"",hash:n.hash?n.hash.replace(/^#/,""):"",hostname:n.hostname,port:n.port,pathname:"/"===n.pathname.charAt(0)?n.pathname:"/"+n.pathname}}var e=/(msie|trident)/i.test(ne.userAgent),n=$t.createElement("a"),r=t(ee.href);return function(e){var n=t(e);return n.protocol===r.protocol&&n.host===r.host}}(),An=1e4,Ln=0;St.prototype={add:function(t,e){this.len>this.limit||this.get(t)||(this.c[t]=e,this.len++)},get:function(t){return this.c[t]},reset:function(){this.c={},this.len=0}};var Hn=new St(100),Bn={};return _t.prototype={increase:function(){this.count++},fix:function(){var t=this,e=t.stack;if(e&&qt(e)){var n=[];i(e=e.split(/\n/),function(t,e){-1==t.indexOf("__ty_aysncWrap__")&&n.push(t)}),t.stack=n.join("\n")}},toObject:function(){var t=this;return{o:t.time,e:t.msg,l:t.lineno,c:t.colno,r:t.filename,ec:t.count,s:t.stack,m:t.module,ep:t.ep}}},It(),Le.start()&&(En(),bt(),Ct()),Le._end=m(),R(function(){Ce._end=Le._end}),G(),en}(function(ty_rum){ty_rum.server = {id:'HfvUoHu3rrU',ignore_err : true,beacon:'https://www.dankegongyu.com/about/beacon.tingyun.com',beacon_err:'https://www.dankegongyu.com/about/beacon-err.tingyun.com',key:'oP0wFp2O-IU',trace_threshold:7000,fp_threshold:2000,fs_threshold:4000,dr_threshold:4000,custom_urls:[],sr:1.0};},window,+new Date);</script>
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "hm.js-814ef98ed9fc41dfe57d70d8a496561d"/*tpa=https://hm.baidu.com/hm.js?814ef98ed9fc41dfe57d70d8a496561d*/;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1271579284'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1271579284%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    <style>
+        [id^="cnzz_stat_icon_"] {
+            display: none;
+        }
+    </style>
+    <script> (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'push.js'/*tpa=https://zz.bdstatic.com/linksubmit/push.js*/;
+            }
+            else {
+                bp.src = 'push-1.js'/*tpa=http://push.zhanzhang.baidu.com/push.js*/;
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })(); </script>
+    <script>
+        var id = '';
+        $.ajax({
+            type: 'GET',
+            url: '/web-api/user/info',
+            async: false,
+            error: function(msg) {
+                console.log(msg)
+            },
+            success: function(data) {
+               id = data.data.mobile || '';
+            },
+        })
+
+        sa.register({
+            'platformType': 'PC',
+            'pid': 'dankegongyu_customer',
+            'cid': 'bj',
+            'ucid': id,
+            'uuid': id,
+            'ssid': id,
+            'lmei': '',
+            'android_id': '',
+            'idfa': '',
+            'idfv': '',
+            'mac_id': '',
+        });
+        $(function () {
+            $('.nav-owner').click(function () {
+                saMethod.ClickingHomepage('月租', $(this).attr('key') || '', '', '')
+            })
+        })
+
+        // sa.quick('autoTrack');
+
+       function GetUrlParam(paraName) {
+    　　　　var url = document.location.toString();
+    　　　　var arrObj = url.split("?");
+
+    　　　　if (arrObj.length > 1) {
+    　　　　　　var arrPara = arrObj[1].split("&");
+    　　　　　　var arr;
+
+    　　　　　　for (var i = 0; i < arrPara.length; i++) {
+    　　　　　　　　arr = arrPara[i].split("=");
+
+    　　　　　　　　if (arr != null && arr[0] == paraName) {
+    　　　　　　　　　　return arr[1];
+    　　　　　　　　}
+    　　　　　　}
+    　　　　　　return "";
+    　　　　}else {
+    　　　　　　return "";
+    　　　　}
+    　　}
+    </script>
+    </head>
+
+
+<!--[if lte IE 8]>
+<script src="html5shiv-0ce8f35589.js" tppabs="https://s2.wutongwan.org/build/js/pc_home/html5shiv-0ce8f35589.js"></script>
+
+<script src="respond-972b9d5576.min.js" tppabs="https://s2.wutongwan.org/build/js/pc_home/respond-972b9d5576.min.js"></script>
+
+<![endif]-->
+
+<!--[if lt IE 8]>
+<div class="alert-danger text-center">您正在使用<strong>过时</strong>的浏览器，本网站不能很好的支持。
+    <a href="javascript:if(confirm(%27http://browser.qq.com/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://browser.qq.com/%27" tppabs="http://browser.qq.com/" target="_blank">立即使用最新QQ浏览器</a> 获得更好的使用体验！
+</div>
+<![endif]-->
+
+<body>
+<input type="hidden" value="400-110-1027" id="zjhPhoneNumber">
+<input type="hidden" value="bj" name="website-city-code">
+<input type="hidden" value="关于" name="website-page-name">
+<div class="danke_header" id="topbar" data-spy="affix"  data-offset-top="32">
+    <div class="wibsite-center header-center">
+        <div class="logo fl">
+            <a href="index.htm" tppabs="https://www.dankegongyu.com/"><img src="img/public-20180112-FgKd1DNNCyC_3Jq8dqbMIX7oCLCA.png" tppabs="https://public.wutongwan.org/public-20180112-FgKd1DNNCyC_3Jq8dqbMIX7oCLCA" title="蛋壳公寓官网" alt="蛋壳公寓官网"></a>
+            <h2 style="display: none;">蛋壳公寓官网，租房，整租，合租</h2>
+        </div>
+        <div class="nav-help fl"></div>
+        <div class="fl dkcity hd-sprite-ab">
+            <span id="dropdownMenu1" data-toggle="dropdown"><i></i>北京</span>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="javascript:void(0)" rel="bj">北京市</a></li>
+                                    <li><a href="javascript:void(0)" rel="sz">深圳市</a></li>
+                                    <li><a href="javascript:void(0)" rel="sh">上海市</a></li>
+                                    <li><a href="javascript:void(0)" rel="hz">杭州市</a></li>
+                                    <li><a href="javascript:void(0)" rel="tj">天津市</a></li>
+                                    <li><a href="javascript:void(0)" rel="wh">武汉市</a></li>
+                                    <li><a href="javascript:void(0)" rel="nj">南京市</a></li>
+                                    <li><a href="javascript:void(0)" rel="gz">广州市</a></li>
+                                    <li><a href="javascript:void(0)" rel="cd">成都市</a></li>
+                            </ul>
+        </div>
+        <div class="nav fl">
+            <a href="index.htm" tppabs="https://www.dankegongyu.com/" data-subject="首页">首页</a>
+            <a href="bj.htm" tppabs="https://www.dankegongyu.com/room/bj" data-subject="找房">找房</a>
+            <a href="bj-rent_type=joint_rent.htm" tppabs="https://www.dankegongyu.com/recommend-list/bj?rent_type=joint_rent" data-subject="合租">合租</a>
+            <a href="bj-rent_type=entire_rent.htm" tppabs="https://www.dankegongyu.com/recommend-list/bj?rent_type=entire_rent" data-subject="整租">整租</a>
+            <a href="bj-rent_cycle=1.htm" tppabs="https://www.dankegongyu.com/rent-cycle-recommend/bj?rent_cycle=1" data-subject="月租" class="nav-owner">
+                月租
+                <img src="img/public-20181023-FrvoseweQ_uceNX0PxMSF5RVsd6M.png" tppabs="https://public.wutongwan.org/public-20181023-FrvoseweQ_uceNX0PxMSF5RVsd6M" alt="业主图标" class="owner-gray-icon">
+            </a>
+            <a href="yezhu.html" tppabs="https://www.dankegongyu.com/about/yezhu.html" data-subject="业主">业主</a>
+            <a href="aboutus.html" tppabs="https://www.dankegongyu.com/about/aboutus.html" data-subject="关于">关于</a>
+        </div>
+                    <a class="dklogin fr" href="login.html" tppabs="https://www.dankegongyu.com/user-center/login.html">登录</a>
+                <div class="dkphone fr">
+            <div class="serphoen fl hd-sprite-ab">
+                <label></label>
+                <span>服务时间：09:00 ~ 21:00</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="right-fixed">
+    <div class="fixed-wrapper">
+        <div class="scroll-to-top">
+            <a href="javascript:void(0)" target="_parent"></a>
+        </div>
+        <div class="scroll-to-app">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <span></span>
+                <img src="img/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH.png" tppabs="https://public.wutongwan.org/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH" style="width: 95px;height: 95px" alt="app下载">
+                <p>扫描下载蛋壳APP</p>
+            </div>
+        </div>
+        <div class="scroll-to-phone">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <img src="img/public-20180519-Fq8UiGCwbNXfmt4u4-DDZLkzBEQN.png" tppabs="https://public.wutongwan.org/public-20180519-Fq8UiGCwbNXfmt4u4-DDZLkzBEQN" alt="客服电话图片">
+                <span>400-110-1027</span>
+            </div>
+        </div>
+        <div class="scroll-to-xcx">
+            <a href="javascript:void(0)"></a>
+            <div>
+                <span class="xcx-close"></span>
+                <span></span>
+                <img src="img/public-20180606-Fma_F2IgLSK0VW-TZVo5UokQpm6w.jpg" tppabs="https://public.wutongwan.org/public-20180606-Fma_F2IgLSK0VW-TZVo5UokQpm6w" style="width:95px;height:95px" alt="app下载">
+                <p>小程序找房更容易</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="website-main">
+    
+        <!--header end-->
+<div class="wrapper">
+    <!--面包屑导航-->
+    <div class="intro">
+        <div class="fl container_n">
+            <a href="index.htm" tppabs="https://www.dankegongyu.com/">蛋壳公寓</a> > 联系蛋壳
+        </div>
+    </div>
+    <!--面包屑导航 end-->
+</div>
+<!--关于我们-->
+<div class="wrapper clearfix">
+    <div class="fl roomintro">
+        <div class="hp_usbox">
+    <ul>
+                    <li class="">
+                <a href="aboutus.html" tppabs="https://www.dankegongyu.com/about/aboutus.html">关于蛋壳</a>
+            </li>
+                    <li class="">
+                <a href="contact.html" tppabs="https://www.dankegongyu.com/about/contact.html">联系蛋壳</a>
+            </li>
+                    <li class="active">
+                <a href="join.html" tppabs="https://www.dankegongyu.com/about/join.html">蛋壳社招</a>
+            </li>
+                    <li class="">
+                <a href="javascript:if(confirm(%27https://www.dankegongyu.com/about/school.html  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.dankegongyu.com/about/school.html%27" tppabs="https://www.dankegongyu.com/about/school.html">蛋壳校招</a>
+            </li>
+            </ul>
+</div>
+    </div>
+    <div class="fr roomcenter">
+        <div class="hp_title">
+            <div class="hp_t_h">
+                <h1>加入蛋壳</h1>
+            </div>
+            <span class="hp_t_line"></span>
+        </div>
+        <div class="joinbox">
+            <div class="jointext">
+                应聘信息投递邮箱：<a href="mailto:xiaozhao@dankegongyu.com">xiaozhao@dankegongyu.com</a><br>
+                投递邮件主题注明 ：投递岗位+姓名(校园毕业生、实习生：投递岗位+姓名+学校+学历+专业)。<br>
+                <b>本招聘长期有效！</b>
+            </div>
+            <div class="joblist">
+                                                    <a href="javascript:void(0)">北京销售团队</a>
+                                    <a href="javascript:void(0)">技术团队</a>
+                                    <a href="javascript:void(0)">财务团队</a>
+                                    <a href="javascript:void(0)">BI数据部门</a>
+                                    <a href="javascript:void(0)">客服中心</a>
+                                    <a href="javascript:void(0)">供应商管理</a>
+                                    <a href="javascript:void(0)">天津公司</a>
+                                    <a href="javascript:void(0)">杭州公司</a>
+                                    <a href="javascript:void(0)">上海公司</a>
+                                    <a href="javascript:void(0)">武汉公司</a>
+                            </div>
+            <div class="jobcontent">
+                                    <div class="jobtitle"><em></em>北京销售团队</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>线下渠道 BD</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府商业入口212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责北京收房房源信息采集，在租房源量、日新增量、日认证房源量；<br> 2.制定项目的季度工作计划与分阶段的工作目标；<br> 3.监控房源制度中的各类指标情况,发现问题及时与相关负责人沟通并提出解决方案；<br> 4.与物业公司或相关房产机构洽谈房源合作事宜.合理分配客户并进行维护；<br> 5.完成上级交于的其他工作。</p>
+                                                                    <span>任职资格</span>
+                                    <p>1.大专及以上学历；<br> 2.房产行业经验优先；<br> 3.有高度的敬业精神、职业操守及有良好的团队协作意识；<br> 4.优秀的沟通表达能力、组织协调能力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:shuaihongwei@dankegongyu.com">shuaihongwei@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>收房销售</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府商业入口212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.对于电销采集信息跟进确认；<br> 2.收集房源信息，根据公司需求继续跟进，维护区域渠道；<br> 3.接待业主，进行谈判，促成收房；<br> 4.配合公司其他部门，维护老业主关系，对收房结果负责；</p>
+                                                                    <span>任职资格</span>
+                                    <p>1.本科及以上学历，熟悉房产租赁行业优先；<br> 2.对待工作认真负责、踏实认真，自觉维护公司利益；<br> 3.热爱产品，能深入掌握产品卖点，了解业主需求，谈判能力强，沟通能力强；<br> 4.心态积极，对于工作敢于接受挑战。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:shuaihongwei@dankegongyu.com">shuaihongwei@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>出房管家</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府商业入口212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.深入了解熟悉公司产品，合理利用公司分配的资源，向客户介绍产品，匹配房源，促成签约；<br> 2.定期回访已签约客户，增加新客户推荐量和续约量； <br> 3.及时跟进未签约客户，了解原因及意向，精准匹配房源信息，促成签约；<br> 4.根据公司要求进行业务处理。</p>
+                                                                    <span>任职资格</span>
+                                    <p>1.全日制统招本科或以上学历，不限专业，不唯经验；<br> 2.热爱产品，能深入掌握产品卖点，了解客户需求，高效匹配； <br> 3.具有较高的服务意识、良好的组织协调能力、分析和解决问题的能力； <br> 4.有团队精神，心态积极。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:shuaihongwei@dankegongyu.com">shuaihongwei@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>技术团队</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>iOS 高级工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责蛋壳公寓 iOS 客户端的设计研发；<br>2.参与 iOS 客户端基础框架的完善和优化；<br>3.学习和研究新技术以满足产品的需求，对现有产品进行功能扩展和性能优化；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大学本科及以上学历；<br>2.5年以上实际 iOS 开发经验，有中大型线上 App 开发经验者优先；<br>3.对计算机技术很痴迷，有高度热情和兴趣爱好，强大的自学能力；<br>4.对代码规范有一定追求，熟练使用 git 等工具；<br>5.扎实的计算机基础，熟悉常用数据结构和算法；<br>6.较强组织能力、团队合作精神、良好语言表达及沟通能力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>PHP 高级工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责蛋壳公寓官网以及内部系统的分析设计与开发工作； <br>2.负责蛋壳公寓运营支撑系统的分析设计与开发工作。<br>3.改进现有框架、基础构架，提高产品质量；<br>4.现有产品的优化、新产品的开发；<br>5.协助测试人员进行软件的功能及性能测试。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.5年及以上的PHP/LNMP开发经验,有扎实的编程功底；<br>2.有内部ERP开发经验，懂业务；<br>3.2-3年年以上php团队管理经验；<br>4.熟练掌握PHP+MYSQL编程，熟练掌握LAMP/LNMP开发，有数据库设计和调优经验；<br>5.熟练使用JQuery、Html、CSS、Javascript、AJAX、JSON等Web页面技术；<br>6.善于沟通，能快速学习新技术，工作认真细致，乐于分享。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>前端工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.为蛋壳公寓的用户提供更好的前端体验、更优的前端解决方案；<br>2.负责搭建前端框架、通用组件方案制定、性能优化相关工作；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大学本科及以上学历；<br>2.5年以上工作经验；<br>3.熟练掌握前端相关技术；<br>4.熟练使用至少一种JS框架，掌握其原理，能独立开发常用组件；<br>5.能够合理利用设计模式和模块化的组织方式对代码进行架构；<br>6.高效的团队协作能力，对各种前端新兴技术有敏锐的洞察力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>运维工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责处理办公环境IT类设备的软硬件故障和技术支持；<br>2.负责Call Center呼叫中心系统的日常维护及管理，以及终端话机的配置和故障支持；<br>3.负责IT系统的建设和运维管理，包括windows和Linux平台之上的各类IT系统和设施：VPN、安全等；<br>4.负责公司办公环境的计算机网络的安全规则的制定和执行，保障办公环境的信息安全；<br>5.负责公司办公环境IT类资产的资产管理；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历，计算机相关专业，2年以上相关工作经验，熟悉计算机系统、网络的基础知识；<br>2.熟悉各品牌PC电脑、打印机、电话等办公设备，熟练安装和使用各类操作系统和常用办公软件；<br>3.熟悉机房UPS、服务器、存储、网络设备、弱电网络、Wifi，能够进行基础的维护管理；<br>4.熟悉Windows Server、Linux基本常用操作和系统原理，熟悉DNS、DHCP、TCP/IP基本原理；<br>5.责任心强，有团队协作意识；能承受较强的工作压力，接受轮值制度；有良好的服务意识和沟通能力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>产品经理</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责产品的持续发展规划、设计和产品生命周期管理；<br>2.分析项目、用户需求、市场动态，规划产品路线图，提出产品需求或改进意见；<br>3.协调开发人员，跟踪产品开发进度，保证产品按时按质完成。<br>4.岗位方向：财务系统、BI系统、供应链系统、内部运营管理系统、房屋系统、客服系统等多条业务线；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科以上学历,3年以上产品经理工作经验；<br>2.熟悉互联网产品的完整开发周期，熟悉产品开发周期各环节主要工作内容；<br>3.对用户需求敏感，创新能力强，有较强的产品设计能力；<br>4.良好的沟通能力和执行力，高度的责任感和抗压能力，结果导向、注重细节；<br>5.有财务系统、BI系统、供应链系统、内部运营管理系统、房屋系统、客服系统等 相关经验优先考虑。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>Java 高级工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.参与公司业务系统开发；<br>2.参与底层服务架构开发；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，计算机或相关专业，5年以上互联网行业java开发经验，熟悉RPC原理，至少有一种RPC框架的使用经验；<br>2.精通J2EE架构，Java基础扎实，理解io、多线程、集合等基础框架，对JVM原理有一定的了解；<br>3.熟悉主流开源框架，如Spring、SpringMVC、MyBatis、Activity、SpringBoot等；熟悉Spring原理；<br>4.熟练使用MYSQL数据库，对SQL优化有经验；熟悉至少一种非关系型数据库和缓存工具；<br>5.熟悉Servlet容器（Tomcat、Jetty、Resin等）原理和使用；<br>6.熟悉RESTful API 规范，了解 Open API 标准；<br>7.熟悉持续集成和自动化测试工具，如Hudson、Jenkins；<br>8.有ERP项目开发经验的优先；</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>测试工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责公司后台服务的自动化测试、功能测试等；<br>2.可以提供自动化测试工具开发，也可以为整个研发过程中的痛点提出合理的技术解决方案，并推动落地；<br>3.深入理解系统内部的工作原理，从测试的角度提供优化意见；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.3年以上测试经验，有后端系统开发或测试设计经验，了解测试方法和自动化测试的思想；<br>2.良好的LINUX基础，熟练使用Python或者shell等一种脚本语言；<br>3.喜欢测试工作，较强的业务理解能力，能独立承担一个功能模块的测试工作；<br>4.工作认真细致，有良好的沟通协调能力，善于学习和分享，和团队一起成长；<br>5.有ERP软件系统测试经验者最佳。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>BI 工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.参与数据仓库、ETL流程设计与优化，为大数据的开发、分析、治理提供稳定、高效、便捷的工具和服务；<br>2.维护现有报表平台及分析系统的优化；<br>3.参与业务数据建模以及数据服务化的设计开发；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，数学或计算机相关专业优先，三年及以上ETL开发经验，理解数据治理的重要性；<br>2.具有很强的开发和动手能力，熟悉一种以上编程语言，如Java、Python等；<br>3.熟悉主流数据库系统，有数据仓库搭建经验优先；<br>4.丰富的大数据系统使用和开发经验，包括但不限于Hadoop/Spark/Hive/Hbase等。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>Python 工程师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门联合大厦601</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责大型数据爬虫系统的架构开发及策略迭代；<br>2.支持算法引擎的维护优化，基于R和python实现后端算法产品；<br>3.参与在线服务数据平台的开发与维护。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，数学或计算机相关专业优先，3年以上相关工作经验；<br>2.熟练掌握python及某一web开发框架（Django,Tornado优先）；<br>3.熟练掌握mysql/redis/mogodb等数据库的设计与开发；<br>4.拥有成熟爬虫系统开发经验或者APP爬虫经验者优先；<br>5.热爱数据，自我驱动型的伙伴。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lixiang1@dankegongyu.com">lixiang1@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>财务团队</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>总账主管</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责上市公司财务核算、税收筹划等财务管理工作；<br>2.根据公司要求，准确及时完成帐务，保证会计核算准确性；<br>3.负责完成的日常财务报表，为公司经营提供经营数据<br>4.负责制定并优化月结结账工作的流程；<br>5.负责协调、沟通本部门及业务相关部门的工作衔接；<br>6.负责年度的汇算清缴和外部审计工作；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.财务、会计专业全日制本科及以上学历，有中级会计师职称优先；<br>2.有5年以上会计工作经验及2年以上总账经验；<br>3.熟悉财务整体工作流程，能独立处理全盘财务帐目及相关财务事务，熟悉ORACLE财务软件；<br>4.熟悉国内会计准则及相关的财务、税务、审计法规与政策； <br>5.责任感强，工作认真、细致，有激情； <br>6.有地产行业从业经验的优先。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lihui@dankegongyu.com">lihui@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>高级财务经理</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.公司或业务线全部财务管理工作，资金统筹、会计核算、数据分析、业务支持、团队管理、部门内外工作协调；<br>2.组织、梳理、制定财务方面的工作流程，并监督执行；<br>3.统筹安排税务工作，税负合理，确保税务安全；<br>4.参与与财务相关的专项研究，重大经营项目的财务分析和决策。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.会计、财务全日制本科学历，5年以上财务工作经验<br>2.具有较全面的财会专业理论知识、熟悉会计准则以及相关的财务、税务、审计等法规、政策；<br>3.有较强财务管理经验和能力，精通会计核算、财务管理各模块工作，擅长企业内部流程规划、风险管控及成本管理工作；<br>4.有激情和活力，有较强学习能力和沟通协调能力，能承受较大工作压力，具有很强的计划性和实施执行的能力；<br>5.有房地产服务行业工作经验者优先。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:lihui@dankegongyu.com">lihui@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>BI数据部门</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>风控运营</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责与业务部门沟通并收集租赁产品相关资料，审核产品各项真实度，匹配价格方案；<br>2.严格遵循和执行公司的有关规定，按审批流程对租赁产品进行评估，形成风控建议；<br>3.从租赁产品资格、各项指标等方面进行审核，审核工作可以不局限于原有资料来源、分析角度和调查方式，应对可疑点、风险点等问题进行重点分析；<br>4.综合租赁产品的效益与风险，提出合理化建议，为业务部门提供参考；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，地产及经管类相关专业优先；<br>2.从事地产业务相关工作1年以上，有风险控制工作经验者优先；<br>3.具有较强的文字组织能力和语言表达能力，以及团队协作能力、沟通和谈判能力；<br>4.有较强的学习能力、执行力和创新力，逻辑思维和归纳能力强，善于发现和解决问题，能承受较强的工作压力；<br>5.熟练操作PPT、Word、Excel等各种办公软件。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:zuoting@dankegongyu.com">zuoting@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>客服中心</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>培训主管</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.基于公司内部呼叫中心的培训体系，开展培训工作。<br>2.负责对新进电话客服人员进行培训的实施和效果的统计与评估；<br>3.针对客户与公司内部的反馈，能够及时改进和优化培训教材和课程以提高客户服务质量；<br>4.定期组织员工开展一系列文化活动；<br>5.完成领导布置的其他工作。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历,师范背景优先;<br>2.三年以上Call Center工作经验；<br>3.熟悉呼叫中心的培训,对于呼叫中心培训有一定自己的观点和理解;<br>4.良有良好的沟通协调能力，工作踏实且认真负责，积极主动，能够承受较大工作压力，富有团队精神；<br>5.具备较强的数据分析能力，熟练操作Excel的各项功能;，可独立完成培训课件制作；<br>6.优秀的语言表达能力,普通话标准.擅长演讲,并能有效地激励员工。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songzhe@dankegongyu.com">songzhe@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>客服</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.接听用户的售后电话，并负责安排相关部门人员处理售后问题；<br>2.梳理总结客户需求，定期回访，及时将客户问题反映到前端各部门，提高用户体验；<br>3.组织活动，与客户互动，提高品牌附加价值；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.有良好的沟通能力，具有团队合作能力；<br>2.工作积极、主动，责任心强，充满正能量；<br>3.大专以上学历，有同行业经验或能力优秀可适当放宽。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songzhe@dankegongyu.com">songzhe@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>供应商管理</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>供应商管理</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>北京朝阳门朝阳首府212</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.确认维修责任及费用出处，及时准确给供应商派单；<br>2.应急、疑难问题协调处理；<br>3.跟踪供应商维修流程及服务品质监督，保证工单上门、交付地及时性；<br>4.供应商指标监控及培训；<br>5.供应商监察管理相关制度流程的编制，修订与完善；<br>6.对业务部门维修进行协调跟进，现场解决疑难维修办结跟进问题，负责对业务区管家助理行进培训；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.全日制统招本科及以上学历；<br>2. 两年以上供应商管理或采购工作者优先考虑；<br>3. 熟练使用office办公软件；<br>4.供应商管理及互联网行业相关，针对自身工作有极强的规划能力；<br>5.积极主动，认真负责，原则性强；<br>6.较强的应变能力，独立处理事务能力强，能够承受工作压力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songzhe@dankegongyu.com">songzhe@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>天津公司</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>设计师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>天津-南开区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.根据公司分配现有房源，按要求以及设计风格，对现有房屋进行测量，出图，格局规划，并进行报价。<br>2.监督和验收施工是否达标，在施工过程中，对工程进行中期验收，检查施工工艺是否符合公司标准；<br>3.高效完成部门间的工作衔接，管理并管控施工队伍，对施工品质的结果负责，施工完成后进行现场核算，并作结算；<br>4.服从并高效完成上级指派的其他工作任务，达成部门工作目标。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历，有过家装经验、室内设计专业优先；<br>2.1年以上室内设计公司、装饰工程公司或专业家装公司的室内设计师从业经历；<br>3.熟练使用各种制图软件和办公软件，如：AutoCAD、PhotoShop、Word、Excel、PowerPoint等；具有较强的施工图制作和表格制作能力；<br>4.熟悉装饰装修工程的施工工艺，具备施工现场管控经验；<br>5.热爱室内设计行业，对工作充满热情，有一定的专业素养和追求；<br>6.有团队合作精神和集体意识，肯坚持，有激情，可以承受一定的工作压力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songlianjie@dankegongyu.com">songlianjie@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>收房销售</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>天津-南开区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.对于电销采集信息跟进确认；<br>2.收集房源信息，根据公司需求继续跟进，维护区域渠道；<br>3.接待业主，进行谈判，促成收房；<br>4.配合公司其他部门，维护老业主关系，对收房结果负责；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，熟悉房产租赁行业优先；<br>2.对待工作认真负责、踏实认真，自觉维护公司利益；<br>3.热爱产品，能深入掌握产品卖点，了解业主需求，谈判能力强，沟通能力强；<br>4.心态积极，对于工作敢于接受挑战。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songlianjie@dankegongyu.com">songlianjie@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>出房管家</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>天津-南开区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.深入了解熟悉公司产品，合理利用公司分配的资源，向客户介绍产品，匹配房源，促成签约；<br>2.定期回访已签约客户，增加新客户推荐量和续约量； <br>3.及时跟进未签约客户，了解原因及意向，精准匹配房源信息，促成签约；<br>4.根据公司要求进行业务处理。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.全日制统招本科或以上学历，不限专业，不唯经验；<br>2.热爱产品，能深入掌握产品卖点，了解客户需求，高效匹配； <br>3.具有较高的服务意识、良好的组织协调能力、分析和解决问题的能力； <br>4.有团队精神，心态积极。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:songlianjie@dankegongyu.com">songlianjie@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>杭州公司</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>客户运营经理</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>杭州-西湖区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责公司供应链团队管理，确保供应链团队高效运作；<br>2.根据业务需求协调内部资源，并优化协作流程，确保良好的客户体验；<br>3.通过搭建并管理服务管家团队，提升服务质量。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历，有2-3年同等客户服务管理岗位工作经验；<br>2.具有责任心和团队意识，良好的沟通和协调能力；<br>3.具有亲和力，原则性强。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:yinyanchun@dankegongyu.com">yinyanchun@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>线上推广</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>杭州-西湖区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.制定有效的线上营销计划并跟踪实际效果，对来访量、转化率负责；<br>2.主导线上推广方案，并不断优化效果；<br>3.渠道、媒体合作的拓展，推进联合营销活动，拉动有效新客户；<br>4.线上营销内容的策划制作，包括促销方案设计、活动创意、文案等；<br>5.挖掘用户需求，关注用户口碑，对产品功能逻辑提出基于市场运营维度的优化建议，提升用户粘度；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科以上学历，3-5年企业服务行业线上推广或运营经验；<br>2.对于房产知识有一定理解<br>3.对数据敏感，较强数据分析能力以及成本控制意识，并将分析结果体现在营销策略改进上；<br>4.组织掌控、协作沟通、学习创新能力，对热点、流行与产品的结合有高敏感度和创造力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:yinyanchun@dankegongyu.com">yinyanchun@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>信息专员</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>杭州-西湖区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责北京收房房源信息采集，在租房源量、日新增量、日认证房源量；<br>2.制定项目的季度工作计划与分阶段的工作目标；<br>3.监控房源制度中的各类指标情况,发现问题及时与相关负责人沟通并提出解决方案；<br>4.与物业公司或相关房产机构洽谈房源合作事宜.合理分配客户并进行维护；<br>5.完成上级交于的其他工作。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历；<br>2.房产行业经验优先；<br>3.有高度的敬业精神、职业操守及有良好的团队协作意识；<br>4.优秀的沟通表达能力、组织协调能力</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:yinyanchun@dankegongyu.com">yinyanchun@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>收房销售</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>杭州-西湖区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.对于电销采集信息跟进确认；<br>2.收集房源信息，根据公司需求继续跟进，维护区域渠道；<br>3.接待业主，进行谈判，促成收房；<br>4.配合公司其他部门，维护老业主关系，对收房结果负责；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，熟悉房产租赁行业优先；<br>2.对待工作认真负责、踏实认真，自觉维护公司利益；<br>3.热爱产品，能深入掌握产品卖点，了解业主需求，谈判能力强，沟通能力强；<br>4.心态积极，对于工作敢于接受挑战。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:yinyanchun@dankegongyu.com">yinyanchun@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>出房管家</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>杭州-西湖区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.深入了解熟悉公司产品，合理利用公司分配的资源，向客户介绍产品，匹配房源，促成签约；<br>2.定期回访已签约客户，增加新客户推荐量和续约量； <br>3.及时跟进未签约客户，了解原因及意向，精准匹配房源信息，促成签约；<br>4.根据公司要求进行业务处理。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.全日制统招本科或以上学历，不限专业，不唯经验；<br>2.热爱产品，能深入掌握产品卖点，了解客户需求，高效匹配； <br>3.具有较高的服务意识、良好的组织协调能力、分析和解决问题的能力； <br>4.有团队精神，心态积极。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:yinyanchun@dankegongyu.com">yinyanchun@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>上海公司</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>收房销售</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>上海-徐汇区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.对于电销采集信息跟进确认；<br>2.收集房源信息，根据公司需求继续跟进，维护区域渠道；<br>3.接待业主，进行谈判，促成收房；<br>4.配合公司其他部门，维护老业主关系，对收房结果负责；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，熟悉房产租赁行业优先；<br>2.对待工作认真负责、踏实认真，自觉维护公司利益；<br>3.热爱产品，能深入掌握产品卖点，了解业主需求，谈判能力强，沟通能力强；<br>4.心态积极，对于工作敢于接受挑战。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:qiuwenwen@dankegongyu.com">qiuwenwen@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>出房管家</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>上海-徐汇区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.深入了解熟悉公司产品，合理利用公司分配的资源，向客户介绍产品，匹配房源，促成签约；<br>2.定期回访已签约客户，增加新客户推荐量和续约量； <br>3.及时跟进未签约客户，了解原因及意向，精准匹配房源信息，促成签约；<br>4.根据公司要求进行业务处理。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.全日制统招本科或以上学历，不限专业，不唯经验；<br>2.热爱产品，能深入掌握产品卖点，了解客户需求，高效匹配； <br>3.具有较高的服务意识、良好的组织协调能力、分析和解决问题的能力； <br>4.有团队精神，心态积极。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:qiuwenwen@dankegongyu.com">qiuwenwen@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>行政前台</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>上海-徐汇区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.办公室日常行政采购和供给,保管与发放，并依据实际使用情况进行增补；<br>2.协助组织会议及员工福利活动；<br>3.办公室资产维护管理，日常费用的统计与跟进；<br>4.协助维护办公环境及秩序；保证公司清洁卫生，展示良好形象；<br>5.负责员工的考勤记录汇总.外出登记，监督员工打卡；<br>6.负责来访客户及应聘者的登记.接待.引见等服务工作；做好工作信息的记录.整理.建档；<br>7.完成领导交办的其他事宜。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专以上学历；<br>2.具有较强的亲和力，形象气质佳，<br>3.具备良好的沟通及协调能力.工作认真、踏实、办事沉稳、细致、责任心强；<br>4.有相关行政经验为佳。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:qiuwenwen@dankegongyu.com">qiuwenwen@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>地推专员</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>上海-徐汇区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责所管辖地区所有合作意向客户资料的收集、整理，并建立客户资源库；<br>2.根据现有市场，不断开发新的、行之有效的客户群体和渠道；<br>3.根据分公司网络规划进行有序性客户开发，并按时完成既定指标；<br>4.负责个人引进客户后的前期维护工作，并与维护人员做好交接；<br>5.了解市场信息，结合实际工作提出合理建议，协助城市经理及片区经理作出决策；<br>6.完成上级领导交待的各项任务。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历，互联网行业工作经验2年以上；<br>2.市场营销等相关专业优先考虑；<br>3.沟通能力强，能吃苦耐劳，抗压能力强，形象佳；<br>4.积极乐观，执行力强，工作细致并富有激情；<br>5.有电话销售及地推经验者优先考虑。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:qiuwenwen@dankegongyu.com">qiuwenwen@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>售后客服</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>上海-徐汇区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.完成日常售后服务，细心、耐心解决服务过程中的各种问题；<br>2.协力部门成员提升自身专业度、敬业度、服务满意度；<br>3.及时反馈、解决客户的问题，定期回访，维护客户关系；<br>4.向公司反馈业务的合理优化建议，提高用户体验度；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专或以上学历，相关岗位经验优先；<br>2.熟练使用Office等办公软件；<br>3.优秀的沟通表达能力，细心、耐心、善于解决问题。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:qiuwenwen@dankegongyu.com">qiuwenwen@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                                    <div class="jobtitle"><em></em>武汉公司</div>
+                    <div class="box">
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>收房销售</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.对于电销采集信息跟进确认；<br>2.收集房源信息，根据公司需求继续跟进，维护区域渠道；<br>3.接待业主，进行谈判，促成收房；<br>4.配合公司其他部门，维护老业主关系，对收房结果负责；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科及以上学历，熟悉房产租赁行业优先；<br>2.对待工作认真负责、踏实认真，自觉维护公司利益；<br>3.热爱产品，能深入掌握产品卖点，了解业主需求，谈判能力强，沟通能力强；<br>4.心态积极，对于工作敢于接受挑战。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>出房管家</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.深入了解熟悉公司产品，合理利用公司分配的资源，向客户介绍产品，匹配房源，促成签约；<br>2.定期回访已签约客户，增加新客户推荐量和续约量； <br>3.及时跟进未签约客户，了解原因及意向，精准匹配房源信息，促成签约；<br>4.根据公司要求进行业务处理。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.全日制统招本科或以上学历，不限专业，不唯经验；<br>2.热爱产品，能深入掌握产品卖点，了解客户需求，高效匹配； <br>3.具有较高的服务意识、良好的组织协调能力、分析和解决问题的能力； <br>4.有团队精神，心态积极。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>设计师</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.根据公司分配现有房源，按要求以及设计风格，对现有房屋进行测量，出图，格局规划，并进行报价。<br>2.监督和验收施工是否达标，在施工过程中，对工程进行中期验收，检查施工工艺是否符合公司标准；<br>3.高效完成部门间的工作衔接，管理并管控施工队伍，对施工品质的结果负责，施工完成后进行现场核算，并作结算；<br>4.服从并高效完成上级指派的其他工作任务，达成部门工作目标。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专及以上学历，有过家装经验、室内设计专业优先； <br>2.1年以上室内设计公司、装饰工程公司或专业家装公司的室内设计师从业经历； <br>3.熟练使用各种制图软件和办公软件，如：AutoCAD、PhotoShop、Word、Excel、PowerPoint等；具有较强的施工图制作和表格制作能力； <br>4.熟悉装饰装修工程的施工工艺，具备施工现场管控经验； <br>5.热爱室内设计行业，对工作充满热情，有一定的专业素养和追求； <br>6.有团队合作精神和集体意识，肯坚持，有激情，可以承受一定的工作压力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>品控专员</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.负责施工现场工程、进度、产品的质量监管工作； <br>2.能按设计图及相关标准，对施工单位的工艺过程和施工工序进行检查和记录； <br>3.负责施工现场各项工程的验收及隐蔽工程的验收； <br>4.核查进场材料、设备的原始凭证、检测报告等质量证明文件及其质量情况； <br>5.负责公司房屋的配置工作和房屋装修、配置过程中的检验工作； <br>6.对检验出的问题进行识别及跟踪处理，进行有效的风险管理。</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.土木工程、工民建、装饰装修等相关专业优先，大专及以上学历；<br>2. 熟悉使用办公软件，具备较好的沟通协调能力，抗压能力强； <br>3.对工作充满热情，对自身职业具有一定规划；<br>4.具有1年以上家装或工装施工管理工作经验者优先。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>线上推广</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.制定有效的线上营销计划并跟踪实际效果，对来访量、转化率负责；<br>2.主导线上推广方案，并不断优化效果；<br>3.渠道、媒体合作的拓展，推进联合营销活动，拉动有效新客户；<br>4.线上营销内容的策划制作，包括促销方案设计、活动创意、文案等；<br>5.挖掘用户需求，关注用户口碑，对产品功能逻辑提出基于市场运营维度的优化建议，提升用户粘度；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.本科以上学历，3-5年企业服务行业线上推广或运营经验；<br>2.对于房产知识有一定理解；<br>3.对数据敏感，较强数据分析能力以及成本控制意识，并将分析结果体现在营销策略改进上；<br>4.组织掌控、协作沟通、学习创新能力，对热点、流行与产品的结合有高敏感度和创造力。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                                        <!--list-->
+                        <div class="boxlist">
+                            <div class="listtitle">
+                                <span>客户服务专员</span>
+                                <em>收起</em>
+                                <a href="javascript:void(0)">查看详情</a>
+                            </div>
+                            <div class="jobtext">
+                                                                    <span>工作地址</span>
+                                    <p>武汉-硚口区</p>
+                                                                    <span>岗位职责</span>
+                                    <p>1.完成日常售后服务，细心、耐心解决服务过程中的各种问题；<br>2.协力部门成员提升自身专业度、敬业度、服务满意度；<br>3.及时反馈、解决客户的问题，定期回访，维护客户关系；<br>4.向公司反馈业务的合理优化建议，提高用户体验度；</p>
+                                                                    <span>任职要求</span>
+                                    <p>1.大专或以上学历，相关岗位经验优先；<br>2.熟练使用Office等办公软件；<br>3.优秀的沟通表达能力，细心、耐心、善于解决问题。</p>
+                                                                    <span>简历投递邮箱</span>
+                                    <p><a href="mailto:wuhuahua@dankegongyu.com">wuhuahua@dankegongyu.com</a></p>
+                                                            </div>
+                        </div>
+                                            </div>
+                            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <div class="website-help">
+        <div class="wibsite-center">
+            <div class="website-f-list">
+                <span>用户帮助</span>
+                <p><a href="notice.html" tppabs="https://www.dankegongyu.com/about/notice.html" target="_blank">入住指南</a></p>
+                <p><a href="20180111lifeHacks.htm" tppabs="https://www.dankegongyu.com/zhuanti/20180111lifeHacks" target="_blank">生活常识</a></p>
+                <p><a href="problem.html" tppabs="https://www.dankegongyu.com/about/problem.html" target="_blank">租房问题</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>商务合作</span>
+                <p><a href="20171219Styleforum.htm" tppabs="https://www.dankegongyu.com/zhuanti/20171219Styleforum" target="_blank">商务合作</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>公司信息</span>
+                <p><a href="aboutus.html" tppabs="https://www.dankegongyu.com/about/aboutus.html" target="_blank">关于蛋壳</a></p>
+                <p><a href="contact.html" tppabs="https://www.dankegongyu.com/about/contact.html" target="_blank">联系蛋壳</a></p>
+                <p><a href="join.html" tppabs="https://www.dankegongyu.com/about/join.html" target="_blank">加入蛋壳</a></p>
+            </div>
+            <div class="website-f-list">
+                <span>客服热线</span>
+                <p>4001-551-551</p>
+                <p class="time">工作日 09:00-21:00</p>
+            </div>
+            <div class="website-f-right">
+                <div class="website-f-pic">
+                    <img src="img/public-20180702-FlfqqYRpjYyFKdRUiJMD8b6RO02m.png" tppabs="https://public.wutongwan.org/public-20180702-FlfqqYRpjYyFKdRUiJMD8b6RO02m" title="下载蛋壳公寓APP" alt="下载蛋壳公寓APP">
+                    <p>扫码小程序找房</p>
+                </div>
+                <div class="website-f-pic">
+                    <img src="img/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH.png" tppabs="https://public.wutongwan.org/public-20180724-FvFKon429iKW8-oJFhggv0NQk_cH" style="padding:0;" title="下载蛋壳公寓APP" alt="下载蛋壳公寓APP">
+                    <p>下载蛋壳公寓APP</p>
+                </div>
+                <div class="website-f-pic">
+                    <img src="img/public-20180104-FuHnSFKo71wRSuJSK4Z0pt6l76zh.png" tppabs="https://public.wutongwan.org/public-20180104-FuHnSFKo71wRSuJSK4Z0pt6l76zh" title="关注蛋壳公寓官方微信" alt="关注蛋壳公寓官方微信">
+                    <p>关注微信公众号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="crumbs">
+        <div class="crumbs-classify">
+            <a class="crumbs-sel" code="city" href="javascript:;">城市租房</a>
+            <a href="javascript:;" code="dirc" >城区租房</a>
+            <a href="javascript:;" code="block">商圈租房</a>
+            <a href="javascript:;" code="plot">小区租房</a>
+        </div>
+        <div>
+            <div class="crumbs-list city">
+                
+            </div>
+            <div class="crumbs-list dirc" style="display:none">
+            
+            </div>
+            <div class="crumbs-list block" style="display:none">
+                
+            </div>
+            <div class="crumbs-list plot" style="display:none">
+                
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="wibsite-center">
+            <div class="footer-logo">
+                <a href="index.htm" tppabs="https://www.dankegongyu.com/">
+                    <img src="img/public-20180702-FkLmdf41L0FSNAktybhKBxCs7ztn.png" tppabs="https://public.wutongwan.org/public-20180702-FkLmdf41L0FSNAktybhKBxCs7ztn" alt="蛋壳公寓">
+                </a>
+            </div>
+            <div class="copy-right-text">
+                <div>© 2018 蛋壳公寓 京ICP备15009197号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001946号</div>
+                <div>紫梧桐（北京）资产管理有限公司&nbsp;&nbsp;|&nbsp;&nbsp;地址：北京市东城区朝阳门内大街8号朝阳首府2层212 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	  /*退出登录*/
+	
+	$(".dklogout").on("click",function(){
+        $.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': 'FDJseVBN5iOes3XlWCXJkMTnDQAlIwgIpdiubDAR'
+    },
+    cache: false,
+    async: false,
+});;
+        $.ajax({
+            url:'/web-api/user/logout',
+            type:"POST",
+            success:function(data){
+                location.reload()
+            },
+            error:function(err){
+                console.log(err);
+            }
+        })
+    })
+    
+    $('.dklogined-wrapper').hover(function () {
+        $('.dklogined-center').show()
+        $('.dklogined').css('background', 'url(https://public.wutongwan.org/public-20180519-FqitD4IbypL6rbHSVa_yq4iSsaQE)')
+    }, function () {
+        $('.dklogined-center').hide()
+        $('.dklogined').css('background', 'url(https://public.wutongwan.org/public-20180519-FtfmOHVmUq7-6Tzol_cyQBE9yt3y)')
+    })
+
+    $('.scroll-to-phone').hover(function () {
+        $('.scroll-to-phone div').show()
+        $('.scroll-to-xcx div').hide()
+        $('.xcx-close').hide()
+    }, function () {
+        $('.scroll-to-phone div').hide()
+    })
+
+    $('.scroll-to-app').hover(function () {
+        $('.scroll-to-app div').show()
+        $('.scroll-to-xcx div').hide()
+        $('.scroll-to-app a').css('background-color', '#3dbcc6')
+        $('.xcx-close').hide()
+    }, function () {
+        $('.scroll-to-app div').hide()
+        $('.scroll-to-app a').css('background-color', '#333333')
+    })
+
+    $('.scroll-to-xcx').hover(function () {
+        $('.scroll-to-xcx div').show()
+        $('.scroll-to-xcx a').css('background-color', '#3dbcc6')
+    }, function () {
+        $('.scroll-to-xcx div').hide()
+        $('.scroll-to-xcx a').css('background-color', '#333333')
+        $('.xcx-close').hide()
+    })
+
+    $('.xcx-close').on('click', function () {
+        $('.scroll-to-xcx div').hide()
+        $('.xcx-close').hide()
+    })
+
+    $('.crumbs-classify a').on('click', function () {
+        $(this).addClass('crumbs-sel')
+        $(this).siblings().removeClass('crumbs-sel')
+
+        var code = '.crumbs-list.' + $(this).attr('code')
+        $(code).show()
+        $(code).siblings().hide()
+    })
+
+    
+    getCityList('北京', 'bj')
+    getDircList('北京', 'bj', '')
+    getBlockList('北京', 'bj', '')
+    getPlotList('北京', 'bj', '')              
+
+</script>
+<!--APP推广层 end-->
+    <script language="JavaScript">
+        $(function () {
+            $('.joblist a').each(function (i) {
+                $(this).click(function () {
+                    var sTop = $(' .jobtitle').eq(i).offset().top;
+                    $('.joblist a').removeClass('on');
+                    $(this).addClass('on');
+                    $('body,html').stop().animate({scrollTop: sTop - 55}, 300);
+                });
+            });
+            $('.listtitle a').click(function () {
+                $('.boxlist').removeClass('on');
+                $(this).parents(' .boxlist').addClass('on');
+            });
+            $('.listtitle em').click(function () {
+                $('.boxlist').removeClass('on');
+            });
+        });
+        
+        sa.quick('autoTrack', {
+                'page_type': '关于频道',
+                'source_type': '加入蛋壳模块',
+                'house_positiontype': '',
+                'house_position': '',
+                'house_scope': '',
+                'house_price': '',
+                'house_type': '',
+                'business_circle': '',
+                'house_rentway': '',
+                'house_area': '',
+                'house_id': '',
+                'housedel_id': '',
+                'resblock_name': '',
+        });
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+/**  
+* <p>Title: UserBiz.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月28日  
+* @version 1.0  
+*/
+package com.icss.dkgy.biz;
+
+import com.icss.dkgy.dao.UserDao;
+import com.icss.dkgy.entity.AdminEntity;
+import com.icss.dkgy.entity.UserEntity;
+
+/**  
+ * @Title: UserBiz
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月28日下午3:07:51
+ */
+public class UserBiz {
+    UserDao dao = new UserDao();
+	
+
+	/**
+	 * @param username
+	 * @return
+	 */
+	//修改资料
+	public boolean updateInfo(String username,String phone,String sex) {
+		boolean flag = false;
+		try {
+			flag = dao.updateInfo(username,phone,sex);		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+
+		
+		return flag;
+	}
+
+	/**
+	 * 登录
+	 */
+	public boolean login(String phone) {
+		UserEntity userEntity = null;
+		boolean flag = false;
+		try {
+			userEntity = dao.login(phone);
+			if(userEntity == null){
+				 dao.regist(phone);			
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		return flag;
+	}
+
+	/**
+	 * 管理员登录
+	 */
+	public AdminEntity adminLogin(String name, String pwd) {
+		AdminEntity admin = null;
+		try {
+			admin = dao.adminLogin(name,pwd);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		
+		return admin;
+	}
+
+}

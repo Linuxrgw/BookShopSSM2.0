@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>DanKeGongYuSystem1.0</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LogOutSvl</display-name>
+    <servlet-name>LogOutSvl</servlet-name>
+    <servlet-class>com.icss.dkgy.servlet.front.LogOutSvl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutSvl</servlet-name>
+    <url-pattern>/LogOutSvl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogInSvl</display-name>
+    <servlet-name>LogInSvl</servlet-name>
+    <servlet-class>com.icss.dkgy.servlet.front.LogInSvl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogInSvl</servlet-name>
+    <url-pattern>/LogInSvl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SendSmsSvl</display-name>
+    <servlet-name>SendSmsSvl</servlet-name>
+    <servlet-class>com.icss.dkgy.servlet.front.SendSmsSvl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SendSmsSvl</servlet-name>
+    <url-pattern>/SendSmsSvl</url-pattern>
+  </servlet-mapping>
+</web-app>

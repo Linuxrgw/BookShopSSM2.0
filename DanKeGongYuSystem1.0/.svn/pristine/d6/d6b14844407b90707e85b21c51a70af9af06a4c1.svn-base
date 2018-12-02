@@ -1,0 +1,124 @@
+/**  
+* <p>Title: RoomDao.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月29日  
+* @version 1.0  
+*/
+package com.icss.dkgy.dao;
+
+import java.security.Timestamp;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.icss.dkgy.entity.RoomEntity;
+
+
+
+/**  
+ * @Title: RoomDao
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月29日下午4:07:16
+ */
+public class RoomDao extends BaseDao{
+
+	/**  
+	 * @Title: searchText
+	 * @Description:
+	 * @author 任广伟
+	 * @param text
+	 * @return  
+	 * @date 2018年10月30日下午4:52:43
+	 */
+	public ArrayList<RoomEntity> searchText(String text)throws Exception {
+				//1打开连接
+				openConnection();
+				//2创建预编译对象
+				String sql = "select *from room where comment like ?";
+				
+				PreparedStatement pst =  this.conn.prepareStatement(sql);
+				pst.setString(1,"%"+text+"%");
+				
+				//3执行操作，并拿到结果集conn.prepareStatement(sql);
+				ResultSet rs = pst.executeQuery();
+				//4处理结果集
+				ArrayList<RoomEntity> rooms = new ArrayList<RoomEntity>();//创建集合对象，用来存储图书信息
+				RoomEntity room = null;
+				while (rs.next()) {
+					room =new RoomEntity();
+					room.setRoomnum(rs.getInt("roomnum"));
+					room.setAdress(rs.getString("address"));
+					room.setPrice(rs.getDouble("price"));
+					room.setArea(rs.getDouble("area"));
+					room.setTypeid(rs.getInt("typeid"));
+					room.setPaymethod(rs.getString("paymethod"));
+					room.setStatus(rs.getString("status"));
+					room.setSubway(rs.getString("subway"));
+					room.setImgpath(rs.getString("imgpath"));
+					room.setOwnerid(rs.getString("ownerid"));
+					//room.setRentdate(rs.getTimestamp("rentdate"));
+					room.setComment(rs.getString("comment"));
+					rooms.add(room);
+					 
+					
+					}
+				return rooms;
+	}
+
+	/**  
+	 * @Title: findRoomDetail
+	 * @Description:
+	 * @author 任广伟
+	 * @param roomid
+	 * @return  
+	 * @date 2018年11月3日上午9:13:02
+	 */
+	public RoomEntity findRoomDetail(int roomid)throws Exception{
+		//1打开连接
+		openConnection();
+		//2创建预编译对象
+		String sql = "select *from t_book where roomid =?";
+		PreparedStatement pst = conn.prepareStatement(sql);
+		pst.setInt(1, roomid);
+		//3执行操作，并拿到结果集
+		ResultSet rs = pst.executeQuery();
+		//4处理结果集
+		ArrayList<RoomEntity>rooms = new ArrayList<RoomEntity>();//创建集合对象，用来存储图书信息
+		RoomEntity room = null;
+		while (rs.next()) {
+			room = new RoomEntity();
+			room.setRoomnum(rs.getInt("roomnum"));
+			room.setAdress(rs.getString("address"));
+			room.setPrice(rs.getDouble("price"));
+			room.setArea(rs.getDouble("area"));
+			room.setTypeid(rs.getInt("typeid"));
+			room.setPaymethod(rs.getString("paymethod"));
+			room.setStatus(rs.getString("status"));
+			room.setSubway(rs.getString("subway"));
+			room.setImgpath(rs.getString("imgpath"));
+			room.setOwnerid(rs.getString("ownerid"));
+			//room.setRentdate(rs.getTimestamp("rentdate"));
+			room.setComment(rs.getString("comment"));
+			rooms.add(room);
+		}
+		
+		return room;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,438 @@
+body {
+	background: #f8f8f8
+}
+
+.footer {
+	margin-top: 0
+}
+
+.rel {
+	position: relative
+}
+
+.abs {
+	position: absolute
+}
+
+.in-bl {
+	display: inline-block
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.w920 {
+	width: 920px;
+	margin: 0 auto
+}
+
+.w1032 {
+	width: 1032px;
+	margin: 0 auto
+}
+
+.mtop20 {
+	margin-top: 20px
+}
+
+.mtop40 {
+	margin-top: 40px
+}
+
+.mtop50 {
+	margin-top: 50px
+}
+
+.bdr-btm {
+	border-bottom: 1px solid #ccc
+}
+
+.dk-blue {
+	color: #06bcc7
+}
+
+.ele-tit {
+	text-align: center;
+	padding: 10px 0 25px
+}
+
+.ele-tit .in-bl {
+	position: relative
+}
+
+.ele-tit .tit-img {
+	margin-top: 40px
+}
+
+.ele-tit .tit-h2 {
+	margin-top: 40px;
+	font-size: 38px;
+	color: #666
+}
+
+.ele-tit .tit-h2 span {
+	color: #000
+}
+
+.ele-tit .tit-sub {
+	margin-top: 5px;
+	font-size: 16px;
+	color: #666
+}
+
+.ele-tit .an-1-0 {
+	padding: 0 72px
+}
+
+.ele-tit .an-1-0 [class^=adorn-1-] {
+	position: relative;
+	position: absolute;
+	bottom: 0;
+	width: 72px;
+	height: 46px
+}
+
+.ele-tit .an-1-0 .adorn-1-0 {
+	left: 0
+}
+
+.ele-tit .an-1-0 .adorn-1-0:before, .ele-tit .an-1-0 .adorn-1-1:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 72px;
+	height: 1px;
+	background: #999
+}
+
+.ele-tit .an-1-0 .adorn-1-0:after, .ele-tit .an-1-0 .adorn-1-1:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 1px;
+	height: 46px;
+	background: #999
+}
+
+.ele-tit .an-1-0 .adorn-1-1 {
+	right: 0
+}
+
+.ele-btn a, .ele-btn button {
+	display: inline-block;
+	width: 240px;
+	height: 60px;
+	font-size: 24px;
+	line-height: 60px;
+	-ms-border-radius: 110px;
+	border-radius: 110px;
+	color: #06bcc7;
+	text-align: center
+}
+
+.ele-btn .gdt-lr-01 {
+	color: #fff;
+	background: -webkit-linear-gradient(left, #32c9ce, #18dbc6);
+	background: -o-linear-gradient(right, #32c9ce, #18dbc6);
+	background: -moz-linear-gradient(right, #32c9ce, #18dbc6);
+	background: -ms-linear-gradient(right, #32c9ce, #18dbc6);
+	background: linear-gradient(to right, #32c9ce, #18dbc6)
+}
+
+.ele-btn .h50 {
+	height: 50px;
+	line-height: 50px
+}
+
+.ele-btn.center {
+	text-align: center
+}
+
+.dis-n {
+	display: none
+}
+
+.scroll {
+	overflow: auto
+}
+
+.scroll::-webkit-scrollbar {
+	width: 8px;
+	height: 8px
+}
+
+.scroll::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background: #fff
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	border: 3px solid #fff;
+	border-left: none;
+	background: #eee
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+	background: #ccc
+}
+
+[class^=m-jr-] {
+	position: relative;
+	width: 100%;
+	max-width: 1850px;
+	margin: 0 auto
+}
+
+.m-jr-1 {
+	position: relative;
+	height: 639px;
+	background: url(../img/public-20180313-FjBjwyWZ2cAE_dsUTMRa3Li_8XMS.jpg)
+		/*tpa=https://public.wutongwan.org/public-20180313-FjBjwyWZ2cAE_dsUTMRa3Li_8XMS*/
+		 no-repeat center top;
+	text-align: center
+}
+
+.m-jr-1 img {
+	margin-top: 100px
+}
+
+.m-jr-1 p {
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	width: 900px;
+	margin-left: -450px;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: #bbb;
+	opacity: 1
+}
+
+.m-jr-2 {
+	height: 785px;
+	background: url(../img/public-20180313-Fo2pgq9D1rXmBkgromM2P8BHR0Wq.png)
+		/*tpa=https://public.wutongwan.org/public-20180313-Fo2pgq9D1rXmBkgromM2P8BHR0Wq*/
+		 no-repeat center top
+}
+
+.m-jr-2 .sea-text {
+	width: 573px;
+	padding-top: 190px
+}
+
+.m-jr-2 .sea-text p {
+	margin-top: 100px;
+	font-size: 24px;
+	line-height: 33px;
+	color: #333;
+	text-align: justify
+}
+
+.m-jr-2 .who-sea {
+	position: absolute;
+	right: 0;
+	top: 135px
+}
+
+.m-jr-3 {
+	height: 897px;
+	background: url(../img/public-20180313-FrLckTRkZr8Imv9OKw8gmF_ZEyG9.jpg)
+		/*tpa=https://public.wutongwan.org/public-20180313-FrLckTRkZr8Imv9OKw8gmF_ZEyG9*/
+		 no-repeat center top
+}
+
+.m-jr-4 {
+	height: 894px;
+	background: url(../img/public-20180313-FvZLUsn5K7FjAckMc2o-tqSNj6KQ.jpg)
+		/*tpa=https://public.wutongwan.org/public-20180313-FvZLUsn5K7FjAckMc2o-tqSNj6KQ*/
+		 no-repeat center top
+}
+
+.m-jr-sample {
+	overflow: hidden;
+	height: 566px
+}
+
+.m-jr-sample .w460 {
+	width: 460px
+}
+
+.m-jr-sample .w202 {
+	width: 202px
+}
+
+.sample-narrow {
+	float: left;
+	width: 332px
+}
+
+.sample-narrow img {
+	height: 271px
+}
+
+.narrow-text {
+	height: 295px;
+	padding-bottom: 20px;
+	background: #fff;
+	overflow: hidden
+}
+
+.narrow-text h2 {
+	margin-top: 30px;
+	padding: 0 22px;
+	font-size: 24px;
+	color: #000
+}
+
+.narrow-text h2 span {
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #94e3e5
+}
+
+.narrow-text .os {
+	max-height: 176px;
+	margin-top: 15px;
+	overflow: auto
+}
+
+.narrow-text p {
+	padding: 0 26px;
+	margin-top: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+	color: #000
+}
+
+.narrow-text p:first-child {
+	margin-top: 0
+}
+
+.sample-wide {
+	position: relative;
+	float: left;
+	width: 698px
+}
+
+.sample-wide>div {
+	height: 274px;
+	float: left
+}
+
+.sample-wide.right>div {
+	margin: 0 0 18px 18px
+}
+
+.sample-wide.left>div {
+	margin: 0 18px 18px 0
+}
+
+.room-box {
+	height: 1001px;
+	overflow: hidden
+}
+
+.notext_box {
+	padding: 80px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666
+}
+
+.notext_box strong {
+	font-size: 20px;
+	line-height: 70px;
+	display: inline-block
+}
+
+.newroom {
+	color: #f30;
+	font-weight: 700
+}
+
+.m-room .room-list:nth-child(3n-2) {
+	margin-left: 0
+}
+
+.room-list {
+	float: left;
+	width: 330px;
+	margin: 0 0 20px 20px
+}
+
+.room-list .pic {
+	position: relative;
+	display: block;
+	overflow: hidden
+}
+
+.room-list .pic img {
+	width: 330px;
+	height: 240px;
+	transition: .3s linear;
+	-webkit-transition: .3s linear
+}
+
+.room-list .pic img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transition: .3s linear;
+	-webkit-transition: .3s linear
+}
+
+.room-list .txt {
+	display: block;
+	padding: 10px;
+	background: #fff
+}
+
+.room-list .txt .price {
+	font-size: 24px;
+	color: #ff7966
+}
+
+.room-list .txt .price span {
+	padding-left: 5px;
+	font-size: 14px;
+	color: #999
+}
+
+.room-list .txt .tit {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.room-list .txt .ads {
+	color: #999;
+	margin-top: 3px;
+	height: 17px
+}
+
+.search-box a:active, .search-box a:hover, .search-box a:link,
+	.search-box a:visited {
+	color: #fff !important
+}
+
+@media \0screen\,screen\9 {
+	.m-room {
+		position: relative;
+		left: -10px;
+		width: 1050px
+	}
+}

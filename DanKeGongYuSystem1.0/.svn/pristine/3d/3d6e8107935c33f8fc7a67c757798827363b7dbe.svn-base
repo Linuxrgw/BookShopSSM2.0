@@ -1,0 +1,230 @@
+/**  
+* <p>Title: RoomBiz.java</p>  
+* <p>Description: </p>   
+* <p>Company: icss.205.class</p>  
+* @author 任广伟 
+* @date 2018年10月30日  
+* @version 1.0  
+*/
+package com.icss.dkgy.biz;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.icss.dkgy.dao.RoomDao;
+import com.icss.dkgy.entity.RoomEntity;
+import com.icss.dkgy.util.ResultPage;
+
+/**  
+ * @Title: RoomBiz
+ * @Description:
+ * @author 任广伟
+ * @createTime 2018年10月30日下午3:17:26
+ */
+public class RoomBiz {
+
+	
+	RoomDao dao = new RoomDao();
+	
+	
+   
+	/**  
+	 * @Title: searchText
+	 * @Description:
+	 * @author 任广伟
+	 * @param string
+	 * @return  
+	 * @date 2018年10月30日下午4:14:42
+	 */
+	//通过搜索框查询房源信息
+	public ArrayList<RoomEntity> searchText(String text) {
+		ArrayList<RoomEntity> rooms = null;
+		try {
+			rooms = dao.searchText(text); //调用dao层
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		
+		return rooms;
+	}
+
+
+
+	/**
+	 * 查看所有房源信息
+	 */
+	public ArrayList<RoomEntity> findAllRoom() {
+		ArrayList<RoomEntity> rooms = null;
+		try {
+			rooms = dao.findAllRoom();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		return rooms;
+	}
+
+
+
+
+	/**
+	 *分页后台查询所有房屋信息
+	 */
+	public void getPageInfo(ResultPage<RoomEntity> page) {
+		try {
+			 //1.获取每页展示的数据：每页展示的条数   起始条数   1-10    2  11-20
+			int pagesize = 3; //每页显示的条数
+			int startPage = (page.getCurrentPage()-1)*pagesize;   //起始条数的规律  （当前页-1）*每页显示条数
+			//查询分页数据,并且把数据set到page对象中
+			ArrayList<RoomEntity> rooms = dao.getRoomInfo(startPage,pagesize);
+			page.setList(rooms);
+			
+			//2.总条数，并且把数据set到page对象中
+			int totalCount = dao.selectCount(); 
+			page.setTotalCount(totalCount);
+			
+			//3.计算总页数：计算规律：总条数%每页显示条数==0？总条数/每页显示条数:总条数/每页显示条数+1
+			int totalPage =  totalCount%pagesize==0?totalCount/pagesize:totalCount/pagesize+1;
+			page.setTotalPage(totalPage);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			dao.closeConnection();
+		}
+		
+	}
+
+
+
+	/**  
+	 * @Title: collectroom
+	 * @Description:  收藏
+	 * @author 任广伟
+	 * @param parseInt
+	 * @return  
+	 * @date 2018年11月3日下午6:45:59
+	 */
+	public boolean collectroom(int roomid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+
+	/**  
+	 * @Title: findRoomDetail
+	 * @Description: 房屋详情
+	 * @author 任广伟
+	 * @param parseInt
+	 * @return  
+	 * @date 2018年11月3日下午6:54:17
+	 */
+	public ArrayList<RoomEntity> findRoomDetail(int parseInt) {
+		ArrayList<RoomEntity> rooms = null;
+		try {
+			rooms = dao.findRoomDetail();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		return rooms;
+		
+	}
+
+
+
+	/**
+	 * 管理员添加房源
+	 */
+	public int addRoom(RoomEntity room) {
+		int c = 0;
+		try {
+			c = dao.addRoom(room);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		
+		return c;
+	}
+
+
+
+	/**
+	 * 管理员删除房源信息
+	 */
+	public int delRooms(String[] roomnums) {
+		int flag = 0;
+		try {
+			//手动开启事务
+			dao.beginTransaction();
+			flag = dao.delRooms(roomnums);
+			//成功一起提交
+			dao.commit();
+		} catch (Exception e) {
+			try {
+				dao.rollback();  //失败一起回滚
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		}finally{
+			dao.closeConnection();
+		}
+		return flag;
+	}
+
+
+
+	/**
+	 * 管理员查询部分房源信息
+	 */
+	public void getPageInfo(ResultPage<RoomEntity> page, String address, int typeid, String status) {
+		try {
+			 //1.获取每页展示的数据：每页展示的条数   起始条数   1-3    2  4-6
+			int pagesize = 3; //每页显示的条数
+			int startPage = (page.getCurrentPage()-1)*pagesize;   //起始条数的规律  （当前页-1）*每页显示条数
+			//查询分页数据,并且把数据set到page对象中
+			ArrayList<RoomEntity> rooms = dao.getRoomInfo(startPage,pagesize,address,typeid,status);
+			page.setList(rooms);
+			
+			//2.总条数，并且把数据set到page对象中
+			int totalCount = dao.selectRoomCount(address,typeid,status); 
+			page.setTotalCount(totalCount);
+			
+			//3.计算总页数：计算规律：总条数%每页显示条数==0？总条数/每页显示条数:总条数/每页显示条数+1
+			int totalPage =  totalCount%pagesize==0?totalCount/pagesize:totalCount/pagesize+1;
+			page.setTotalPage(totalPage);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			dao.closeConnection();
+		}
+		
+		
+	}
+
+
+
+	/**
+	 * 删除单条房源信息
+	 */
+	public void delRooms(String roomnum) {
+		try {
+			dao.delRooms(roomnum);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			dao.closeConnection();
+		}
+		
+	}
+
+
+}
