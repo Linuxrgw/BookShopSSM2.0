@@ -1,0 +1,101 @@
+/*以下是详情页*/
+.div_detail{
+	width: 100%;
+	height: 480px;
+    background-color: #f2f2f2;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.detail{
+	margin: auto;
+	width: 80%;
+	height: 100%;
+	background: white;
+}
+.detail_left{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.detail_right{
+	float: left;
+	width: 60%;
+	height: 100%;
+	margin-left: 30px;
+}
+.right_one{
+	width: 100%;
+	height:22%;
+}
+.right_one a{
+	text-decoration:none ;
+	color: #e33942;
+}
+.right_one p{
+	font-size:12px;
+}
+.right_two{
+	width: 100%;
+	height: 28%;
+	background-color: #f7f7f7;
+}
+.right_two button{
+	background-color:#e33942;
+	color: white;
+	border: none;
+}
+.right_two a{
+	font-size:12px ;
+	text-decoration: none;
+	color: #e33942;
+}
+.right_three{
+	width:100% ;
+	height: 50%;
+}
+.right_three > table{
+	width:100% ;
+	height:100% ;
+}
+.right_three a{
+	color: #e33942;
+	text-decoration: none;
+}
+.right_three button{
+	background-color: #e33942;
+	width:150px ;
+	height: 30px;										          
+	color: white;										          
+	border: none;										           
+	font-size:20px ;										           
+	font-family: '微软雅黑';										           
+}
+.d{
+	color: white;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.e{
+	color:#656565 ;
+	font-size:13px ;
+	text-decoration: none;
+}
+.e:hover{
+	color: red;
+}
+.f{
+	color: #656565;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size:13px ;
+}
+.f:hover{
+	color: red;
+}	
+.td1 {
+	font-size:12px ;
+	width:70px ;
+	font-family: "微软雅黑";
+	color: #9d9d9d;
+}

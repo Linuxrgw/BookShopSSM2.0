@@ -1,0 +1,72 @@
+/*广告布局*/
+.div_banner img{
+	width: 100%;
+	height: 100%;
+}
+
+/*中间部分--图书列表布局样式*/
+.div_center .div01{
+	background-color: #EAA294;
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+.div_center .div01 div{
+	height: 50px;
+	width: 300px;
+	border: 2px;
+	border-color:white;
+	border-style:solid;
+	margin-top: 5px;
+	position: relative;
+}
+.div_center .div01 div span{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	left: 100px;
+	top: 8px;
+}
+.table01{
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table01 td{
+	text-align: center;
+	background-color: #373737;
+	color: white;
+}
+.td3:hover{
+	background-color: #ffd900;
+	color:#100E00 ;
+}
+.booklist div{
+	background-color: white;
+}
+.booklist img{
+	width: 100%;
+}
+.booklist div span{
+	padding: 20px;
+	color: #999999;
+	font-size: 12px;
+}
+.booklist button{
+	height: 30px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	border: none;
+	width: 83%;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+

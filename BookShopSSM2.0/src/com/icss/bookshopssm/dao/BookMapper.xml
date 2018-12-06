@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.icss.bookshopssm.dao.IBookDao">
+   	<!-- 查看所有上架图书 -->
+   	<select id="findAllBook" resultType="BookEntity">
+   		select *from t_book where bookstatus=0
+   	</select>
+   	
+   	<!-- 根据bookid查看图书详情 -->
+   	<select id="bookDetail" resultType="BookEntity">
+   		select *from t_book where bookid=#{bookid}
+   	</select>
+   	<!-- 去购物车查看该书有没有添加过 -->
+   	<select id="findCartShop" resultType="CartShop">
+   		select *from t_cartshop where bookid =#{0} and userid=#{1}
+   	</select>
+   	<!-- 添加购物车 -->
+   	<insert id="insertCarShop">
+   	insert into t_cartshop (bookid,userid,count,createtime)values(#{0},#{1},1,now())
+   	</insert>
+   	
+   		<!--修改购物车图书数量   -->
+   		<update id="updateCartShop" >
+   			update t_cartshop set count = count+1 where bookid=#{0} and userid=#{1}
+   		</update>
+   		<!-- 查看我的购物车-->
+   		<select id="myCarShop" resultType="CartShop">
+   			select *from t_cartshop c,t_book b WHERE b.bookid=c.bookid and c.userid =#{userid}
+   		</select>
+   		<!--查看要结算的图书信息  -->
+   		<select id="findCheckOut" resultType="CartShop">
+   			select *from t_cartshop c,t_book b where c.bookid = b.bookid and c.userid=#{uid} and c.bookid in 
+   			<foreach collection="bids" index="index" item="bookid" open="(" close=")" separator=",">
+   				#{bookid}
+   			</foreach>
+   		</select>
+   		
+   		<!--查看所有收货信息   -->
+   		<select id="findAllRecipent" resultType="Recipient">
+   			select * from t_recipient where userid = #{userid}
+   		</select>
+   	
+
+</mapper>

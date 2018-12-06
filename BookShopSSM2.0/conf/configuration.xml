@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias alias="Person" type="com.icss.ssm_study.vo.Person" /> -->
+		<package name="com.icss.bookshopssm.entity" />
+		
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/icss/bookshopssm/dao/UserMapper.xml" />
+		<mapper resource="com/icss/bookshopssm/dao/BookMapper.xml" />
+	</mappers>
+</configuration>

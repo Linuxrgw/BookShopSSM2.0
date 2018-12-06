@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.icss.bookshopssm.dao.IUserDao">
+   <select id="findAllUser"  resultType="UserEntity">
+       select * from t_user
+   </select>
+   
+   	 <!-- 登入 -->
+   <select id="login" resultType="UserEntity" >
+      select * from t_user where username=#{0} and password=#{1}
+   </select>
+   <!-- 检查用户名是否存在 -->
+   <select id="checkUserName" resultType="UserEntity">
+   		select *from t_user where username=#{username}
+   </select>
+   <!-- 注册用户 -->
+   <insert id="regist" useGeneratedKeys="true" keyProperty="userid">
+   		insert into t_user(username,password,phone,role,status)values(#{username},#{password},#{phone},'1','0');
+   </insert>
+
+</mapper>

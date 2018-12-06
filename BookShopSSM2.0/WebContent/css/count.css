@@ -1,0 +1,225 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.a1{
+ 	text-decoration: none;
+ 	margin-left: 50px;
+ }
+ .a1:link{color: gray;}
+ .a1:visited{color: gray;}
+ .a1:hover{color: pink;}
+ .a1:active{color: red;}
+
+.a2{
+	text-decoration: none;
+}
+.a2:link{color: blue;}
+.a2:visited{color: blue;}
+.a2:hover{color: deeppink;}
+.a2:active{color: blueviolet;}
+
+.div01{
+	width: 100%;
+	height: 800px;
+}
+
+.leftdiv{
+	width:18%;
+	height: 100%;
+	float: left;
+	background-color: #EEF3FA;
+}
+
+.middiv{
+	width: 64%;
+	height: 100%;
+	float: left;
+}
+.mid_01{
+	width: 100%;
+	height: 3%;
+	background-color: #E3E4E6;
+}
+.mid_01_1{
+	width: 40%;
+	height: 100%;
+	float: left; 
+}
+.mid_01_2{
+	width: 60%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+.mid_02{
+	width: 100%;
+	height: 15%;
+}
+.mid_02_1{
+	height: 100%;
+	width: 23%;
+	float: left;
+}
+.img1{
+	padding-top: 12px;
+}
+.mid_02_2{
+	width: 20%;
+	height: 50%;
+	float: left;
+	padding-top: 40px;
+}
+.linediv{
+	width: 100%;
+	height: 1px;
+	background-color: darkgray;
+}
+.mid_03{
+	width: 100%;
+	height: 12%;
+}
+.mid_03_1{
+	width: 100%;
+	height: 30%;
+	position: relative;
+}
+.font1{
+	position:absolute;
+	left: 10px;
+	top: 5px;
+	font-size: 13px;
+}
+.font2{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 13px;
+}
+.mid_03_2{
+	width: 100%;height: 40%;
+}
+.mid_03_2_1{
+	width: 190px;
+	height: 25px;
+	border: 1px solid darkred;
+	margin-left: 50px;
+	margin-top: 5px;
+	float: left;
+}
+.input1{
+	width: 100%;
+	height: 100%;
+	border-style: none;
+}
+.mid_03_2_2{
+	width: 60px;
+	height: 20px;
+	margin-left: 300px;
+	margin-top: 10px;
+	float: left;
+	text-align: center;
+}
+.input2{
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	background-color: gray;
+	font-size: 2; 
+	color: white;
+}
+.mid_03_3{
+	width: 100%;height: 30%;
+}
+.font3{
+	margin-left: 50px;
+	font-size: 13px;
+	color: gray;
+}
+.linediv1{
+	width: 100%;
+	height: 1px;
+	background-color: darkgray;
+}
+.font4{
+	font-size: 12px; 
+	color:gray;
+}
+.font5{
+	font-size: 16px;
+	color: gray;
+}
+.font6{
+	font-size: 16px;
+	font-family: "宋体";
+}
+.font7{
+	font-size: 16px;
+	color: blue;
+}
+.font8{
+	color: red;
+}
+.font9{
+	font-size: 16px;
+	position: absolute;
+	right: 70px;
+}
+.font10{
+	position: absolute;
+	right: 10px;
+	color: red;
+}
+.botdiv{
+    width: 100%;
+    height: 15%;
+}
+.botdiv_01{
+	width: 100%;
+	height: 50%;
+	border-bottom-style: solid;
+	border-bottom-color: darkgray;
+	border-bottom-width: 1px;
+	border-left-style: none;
+    border-right-style: none;
+	border-top-style: solid;
+	border-top-color: darkgray;
+	border-top-width: 1px;
+	position: relative;
+}
+.font11{
+	font-size: 15px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.input3{
+    width: 170px;
+    height: 20px;
+    border: 1px;
+}
+.botdiv_02{
+	width: 100%;
+	height: 49%;
+	position: relative;
+}
+.input4{
+	width: 100px;
+	height: 40px;
+	background-color: #E3383E;
+	color: white;
+	border-style: none;
+	position: absolute;
+	right: 5px;
+	top: 7px;
+}
+.rightdiv{
+	width: 18%;
+	height: 100%;
+	float: left;
+	background-color: #EEF3FA;
+	
+}
+
+
+
